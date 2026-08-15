@@ -132,9 +132,11 @@ def update(verbose=True):
                 if verbose:print(f"         -> {len(urls)} Match-Links")
                 for u in urls:
                     if not within_window(u):continue
-                    meta=url_meta.setdefault(u,{"clubs":[],"scopes":[]})
+                    meta=url_meta.setdefault(u,{"clubs":[],"scopes":[],"places":[]})
                     if club["name"] not in meta["clubs"]:meta["clubs"].append(club["name"])
                     meta["scopes"].append(club.get("scope","umfeld"))
+                    place=club.get("place","Umgebung")
+                    if place not in meta["places"]:meta["places"].append(place)
             except Exception as e:
                 errors.append(f"{club['name']}: {type(e).__name__}: {e}")
                 if verbose:print(f"         -> FEHLER: {e}")
@@ -148,6 +150,7 @@ def update(verbose=True):
             try:
                 g=f.result(); meta=url_meta[u]
                 g["tracked_clubs"]=meta["clubs"]
+                g["tracked_places"]=meta["places"]
                 g["scope"]="kern" if "kern" in meta["scopes"] else "umfeld"
                 fresh.append(g)
                 if verbose and (i%10==0 or i==len(futs)):print(f"          {i}/{len(futs)} gelesen")

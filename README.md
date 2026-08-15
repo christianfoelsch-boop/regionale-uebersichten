@@ -1,9 +1,9 @@
-# Regionale Übersichten – Wittenberge & Pritzwalk
+# Regionale Übersichten – Wittenberge, Perleberg & Pritzwalk
 
 Dieses Repository enthält zwei statische Webseiten:
 
 - 🍺 **Krombacher-Angebote für Wittenberge**
-- ⚽ **Fußballergebnisse für Pritzwalk und Umgebung**
+- ⚽ **Fußballergebnisse für Pritzwalk, Wittenberge, Perleberg und Umgebung**
 
 Die Daten werden automatisch mit GitHub Actions aktualisiert und anschließend
 über GitHub Pages veröffentlicht.

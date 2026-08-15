@@ -1,51 +1,80 @@
 {
-  "region": "Pritzwalk / nördliche Prignitz",
+  "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "clubs": [
     {
       "name": "Pritzwalker FHV 03",
+      "place": "Pritzwalk",
       "scope": "kern",
       "enabled": true,
       "source_url": "https://www.fupa.net/club/pritzwalker-fhv-03/matches"
     },
     {
       "name": "SG Einheit Pritzwalk 1952",
+      "place": "Pritzwalk",
       "scope": "kern",
       "enabled": true,
       "source_url": "https://www.fupa.net/club/sg-einheit-pritzwalk-1952/matches"
     },
     {
+      "name": "FSV Veritas Wittenberge/Breese",
+      "place": "Wittenberge",
+      "scope": "kern",
+      "enabled": true,
+      "source_url": "https://www.fupa.net/club/fsv-veritas-wittenbergebreese/matches"
+    },
+    {
+      "name": "ESV Wittenberge",
+      "place": "Wittenberge",
+      "scope": "kern",
+      "enabled": true,
+      "source_url": "https://www.fupa.net/club/esv-wittenberge/matches"
+    },
+    {
+      "name": "SSV Einheit Perleberg",
+      "place": "Perleberg",
+      "scope": "kern",
+      "enabled": true,
+      "source_url": "https://www.fupa.net/club/ssv-einheit-perleberg/matches"
+    },
+    {
       "name": "SV Rot-Weiß Gerdshagen",
+      "place": "Pritzwalk",
       "scope": "kern",
       "enabled": true,
       "source_url": "https://www.fupa.net/club/sv-rot-weiss-gerdshagen/matches"
     },
     {
       "name": "Meyenburger SV Wacker 1922",
+      "place": "Umgebung",
       "scope": "umfeld",
       "enabled": true,
       "source_url": "https://www.fupa.net/club/meyenburger-sv-wacker-1922/matches"
     },
     {
       "name": "Putlitzer SV 1921",
+      "place": "Umgebung",
       "scope": "umfeld",
       "enabled": true,
       "source_url": "https://www.fupa.net/club/putlitzer-sv-1921/matches"
     },
     {
       "name": "SG Aufbau Stepenitz",
+      "place": "Pritzwalk",
       "scope": "umfeld",
       "enabled": true,
       "source_url": "https://www.fupa.net/club/sg-aufbau-stepenitz/matches"
     },
     {
       "name": "SV Blumenthal-Grabow",
+      "place": "Umgebung",
       "scope": "umfeld",
       "enabled": true,
       "source_url": "https://www.fupa.net/club/sv-blumenthal-grabow/matches"
     },
     {
       "name": "FK Hansa Wittstock 1919",
+      "place": "Umgebung",
       "scope": "umfeld",
       "enabled": true,
       "source_url": "https://www.fupa.net/club/fk-hansa-wittstock-1919/matches"

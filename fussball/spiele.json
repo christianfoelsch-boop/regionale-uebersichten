@@ -1,9 +1,12 @@
 {
-  "updated": "2026-08-15T13:21:35+00:00",
-  "status": "Live-Abgleich erfolgreich: 56 Spiele neu gelesen",
-  "region": "Pritzwalk / nördliche Prignitz",
+  "updated": "2026-08-15T15:26:55+02:00",
+  "status": "Live-Abgleich erfolgreich: 97 Spiele neu gelesen",
+  "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
-  "errors": [],
+  "errors": [
+    "Match https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-osterburger-fc-m2-260816_2: ValueError: Datum nicht ermittelbar",
+    "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar"
+  ],
   "games": [
     {
       "date": "2026-07-25",
@@ -19,7 +22,86 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/fk-hansa-wittstock-1919-m1-sv-sukow-m1-260725"
+      "source_url": "https://www.fupa.net/match/fk-hansa-wittstock-1919-m1-sv-sukow-m1-260725",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-07-25",
+      "time": "12:20",
+      "competition": "Testspiele",
+      "home": "SSV 80 Gardelegen",
+      "away": "FSV Veritas Wittenberge/Breese",
+      "home_score": 6,
+      "away_score": 1,
+      "status": "finished",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/ssv-80-gardelegen-m1-fsv-veritas-wittenbergebreese-m1-260725",
+      "tracked_places": [
+        "Wittenberge"
+      ]
+    },
+    {
+      "date": "2026-07-26",
+      "time": "12:20",
+      "competition": "Testspiele",
+      "home": "Güstrower SC 09 II",
+      "away": "SSV Einheit Perleberg",
+      "home_score": 2,
+      "away_score": 0,
+      "status": "finished",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/guestrower-sc-09-m2-ssv-einheit-perleberg-m1-260726",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "time": "12:20",
+      "competition": "Testspiele",
+      "home": "FSV Veritas Wittenberge/Breese",
+      "away": "BSV Schwarz-Weiß Zaatzke 1949",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m1-bsv-schwarz-weiss-zaatzke-1949-m1-260801",
+      "tracked_places": [
+        "Wittenberge"
+      ]
+    },
+    {
+      "date": "2026-08-01",
+      "time": "12:20",
+      "competition": "Testspiele",
+      "home": "SSV Einheit Perleberg",
+      "away": "SpVgg Cambs-Leezen Traktor",
+      "home_score": 2,
+      "away_score": 4,
+      "status": "finished",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-m1-spvgg-cambs-leezen-traktor-m1-260801",
+      "tracked_places": [
+        "Perleberg"
+      ]
     },
     {
       "date": "2026-08-01",
@@ -35,7 +117,29 @@
       ],
       "scope": "kern",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-fortschritt-neustadt-glewe-m1-pritzwalker-fhv-03-m1-260801"
+      "source_url": "https://www.fupa.net/match/sv-fortschritt-neustadt-glewe-m1-pritzwalker-fhv-03-m1-260801",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-08-04",
+      "time": "12:20",
+      "competition": "Testspiele",
+      "home": "SSV Einheit Perleberg",
+      "away": "MSV 1919 Neuruppin",
+      "home_score": 0,
+      "away_score": 9,
+      "status": "finished",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-m1-msv-1919-neuruppin-m1-260804",
+      "tracked_places": [
+        "Perleberg"
+      ]
     },
     {
       "date": "2026-08-07",
@@ -51,7 +155,29 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/fk-hansa-wittstock-1919-m1-sv-rot-weiss-guelitz-m1-260807"
+      "source_url": "https://www.fupa.net/match/fk-hansa-wittstock-1919-m1-sv-rot-weiss-guelitz-m1-260807",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-08-07",
+      "time": "12:20",
+      "competition": "Testspiele",
+      "home": "FSV Veritas Wittenberge/Breese II",
+      "away": "Kickers Seehausen",
+      "home_score": 3,
+      "away_score": 2,
+      "status": "finished",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-kickers-seehausen-m1-260807",
+      "tracked_places": [
+        "Wittenberge"
+      ]
     },
     {
       "date": "2026-08-07",
@@ -67,7 +193,10 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/meyenburger-sv-wacker-1922-m1-sg-zepkow-m1-260807"
+      "source_url": "https://www.fupa.net/match/meyenburger-sv-wacker-1922-m1-sg-zepkow-m1-260807",
+      "tracked_places": [
+        "Umgebung"
+      ]
     },
     {
       "date": "2026-08-07",
@@ -83,7 +212,67 @@
       ],
       "scope": "kern",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sg-03-ludwigslustgrabow-m1-pritzwalker-fhv-03-m1-260807"
+      "source_url": "https://www.fupa.net/match/sg-03-ludwigslustgrabow-m1-pritzwalker-fhv-03-m1-260807",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "time": "12:20",
+      "competition": "Testspiele",
+      "home": "1. FC Lok Stendal",
+      "away": "SSV Einheit Perleberg",
+      "home_score": 4,
+      "away_score": 2,
+      "status": "finished",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/1-fc-lok-stendal-m1-ssv-einheit-perleberg-m1-260808",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-08-08",
+      "time": "12:20",
+      "competition": "Testspiele",
+      "home": "Kreveser SV",
+      "away": "FSV Veritas Wittenberge/Breese",
+      "home_score": 2,
+      "away_score": 1,
+      "status": "finished",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/kreveser-sv-m1-fsv-veritas-wittenbergebreese-m1-260808",
+      "tracked_places": [
+        "Wittenberge"
+      ]
+    },
+    {
+      "date": "2026-08-11",
+      "time": "12:20",
+      "competition": "Testspiele",
+      "home": "SG 03 Ludwigslust/Grabow",
+      "away": "FSV Veritas Wittenberge/Breese",
+      "home_score": 1,
+      "away_score": 5,
+      "status": "finished",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sg-03-ludwigslustgrabow-m1-fsv-veritas-wittenbergebreese-m1-260811",
+      "tracked_places": [
+        "Wittenberge"
+      ]
     },
     {
       "date": "2026-08-12",
@@ -100,7 +289,11 @@
       ],
       "scope": "kern",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/putlitzer-sv-1921-m1-pritzwalker-fhv-03-m1-260812"
+      "source_url": "https://www.fupa.net/match/putlitzer-sv-1921-m1-pritzwalker-fhv-03-m1-260812",
+      "tracked_places": [
+        "Pritzwalk",
+        "Umgebung"
+      ]
     },
     {
       "date": "2026-08-14",
@@ -116,7 +309,48 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/psv-roebelmueritz-m1-fk-hansa-wittstock-1919-m1-260814"
+      "source_url": "https://www.fupa.net/match/psv-roebelmueritz-m1-fk-hansa-wittstock-1919-m1-260814",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-08-14",
+      "time": "12:20",
+      "competition": "Testspiele",
+      "home": "SSV Einheit Perleberg",
+      "away": "1. FC Lok Stendal II",
+      "home_score": 6,
+      "away_score": 2,
+      "status": "finished",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-u15-1-1-fc-lok-stendal-u15-2-260814",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "time": "12:20",
+      "competition": "Landespokal Brandenburg, Vorrunde",
+      "home": "FSV Veritas Wittenberge/Breese",
+      "away": "SV Schwarz-Rot Neustadt/Dosse",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m1-sv-schwarz-rot-neustadtdosse-m1-260815",
+      "tracked_places": [
+        "Wittenberge"
+      ]
     },
     {
       "date": "2026-08-15",
@@ -132,7 +366,10 @@
       ],
       "scope": "kern",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/pritzwalker-fhv-03-m1-sg-bornim-m1-260815"
+      "source_url": "https://www.fupa.net/match/pritzwalker-fhv-03-m1-sg-bornim-m1-260815",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
     },
     {
       "date": "2026-08-15",
@@ -148,7 +385,48 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-rogeez-u17-1-fk-hansa-wittstock-1919-u17-1-260815"
+      "source_url": "https://www.fupa.net/match/sv-rogeez-u17-1-fk-hansa-wittstock-1919-u17-1-260815",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "time": "12:20",
+      "competition": "Landespokal Brandenburg, Vorrunde",
+      "home": "SSV Einheit Perleberg",
+      "away": "Oranienburger FC Eintracht 1901",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-m1-oranienburger-fc-eintracht-1901-m1-260815",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "time": "12:20",
+      "competition": "Testspiele",
+      "home": "SSV Einheit Perleberg",
+      "away": "SV Arendsee B Jugend",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-u17-1-sv-arendsee-b-jugend-1486661-260815",
+      "tracked_places": [
+        "Perleberg"
+      ]
     },
     {
       "date": "2026-08-16",
@@ -164,7 +442,10 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sg-marnitzsuckow-m1-sv-blumenthal-grabow-m1-260816"
+      "source_url": "https://www.fupa.net/match/sg-marnitzsuckow-m1-sv-blumenthal-grabow-m1-260816",
+      "tracked_places": [
+        "Umgebung"
+      ]
     },
     {
       "date": "2026-08-16",
@@ -177,11 +458,16 @@
       "status": "scheduled",
       "tracked_clubs": [
         "Pritzwalker FHV 03",
-        "SG Einheit Pritzwalk 1952"
+        "SG Einheit Pritzwalk 1952",
+        "SSV Einheit Perleberg"
       ],
       "scope": "kern",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-u15-1-pritzwalker-fhv-03-u15-1-260816"
+      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-u15-1-pritzwalker-fhv-03-u15-1-260816",
+      "tracked_places": [
+        "Pritzwalk",
+        "Perleberg"
+      ]
     },
     {
       "date": "2026-08-16",
@@ -198,7 +484,10 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-1949-protzen-m1-fk-hansa-wittstock-1919-u19-1-260816"
+      "source_url": "https://www.fupa.net/match/sv-1949-protzen-m1-fk-hansa-wittstock-1919-u19-1-260816",
+      "tracked_places": [
+        "Umgebung"
+      ]
     },
     {
       "date": "2026-08-16",
@@ -215,7 +504,10 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-hanse-neubrandenburg-u17-2-fk-hansa-wittstock-1919-u19-1-260816"
+      "source_url": "https://www.fupa.net/match/sv-hanse-neubrandenburg-u17-2-fk-hansa-wittstock-1919-u19-1-260816",
+      "tracked_places": [
+        "Umgebung"
+      ]
     },
     {
       "date": "2026-08-16",
@@ -248,7 +540,10 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/oranienburger-fc-eintracht-1901-u19-1-fk-hansa-wittstock-1919-u19-1-260819"
+      "source_url": "https://www.fupa.net/match/oranienburger-fc-eintracht-1901-u19-1-fk-hansa-wittstock-1919-u19-1-260819",
+      "tracked_places": [
+        "Umgebung"
+      ]
     },
     {
       "date": "2026-08-19",
@@ -265,7 +560,10 @@
       ],
       "scope": "kern",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/pritzwalker-fhv-03-o35-1-sv-rot-weiss-gerdshagen-m1-260819"
+      "source_url": "https://www.fupa.net/match/pritzwalker-fhv-03-o35-1-sv-rot-weiss-gerdshagen-m1-260819",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
     },
     {
       "date": "2026-08-19",
@@ -285,6 +583,63 @@
       "source_url": "https://www.fussball.de/verein/pritzwalker-fhv-03-brandenburg/-/id/00IT28APT0000000VTVG0001VU7TQLV5"
     },
     {
+      "date": "2026-08-20",
+      "time": "12:20",
+      "competition": "Kreisturnier Perleberg, Gruppe A",
+      "home": "Delay Sports Berlin",
+      "away": "SSV Einheit Perleberg",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/delay-sports-berlin-u17-1-ssv-einheit-perleberg-u17-1-260820",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "time": "12:20",
+      "competition": "Testspiele",
+      "home": "FC Mecklenburg Schwerin U14",
+      "away": "SSV Einheit Perleberg",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fc-mecklenburg-schwerin-u14-1-ssv-einheit-perleberg-u15-1-260820",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-08-20",
+      "time": "12:20",
+      "competition": "Kreisturnier Perleberg, Gruppe A",
+      "home": "SSV Einheit Perleberg",
+      "away": "FC Mecklenburg Schwerin",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-u17-1-fc-mecklenburg-schwerin-u17-1-260820",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
       "date": "2026-08-23",
       "time": "12:20",
       "competition": "Unterer Kreispokal Prignitz/Ruppin, Qualifikation",
@@ -298,7 +653,10 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/berger-sv-m1-meyenburger-sv-wacker-1922-m2-260823"
+      "source_url": "https://www.fupa.net/match/berger-sv-m1-meyenburger-sv-wacker-1922-m2-260823",
+      "tracked_places": [
+        "Umgebung"
+      ]
     },
     {
       "date": "2026-08-23",
@@ -314,7 +672,29 @@
       ],
       "scope": "kern",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/psv-roebelmueritz-u13-1-pritzwalker-fhv-03-u13-2-260823"
+      "source_url": "https://www.fupa.net/match/psv-roebelmueritz-u13-1-pritzwalker-fhv-03-u13-2-260823",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "time": "12:20",
+      "competition": "Testspiele",
+      "home": "Pankower SV Rot-Weiß 1921 II",
+      "away": "SSV Einheit Perleberg II",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/pankower-sv-rot-weiss-1921-m2-ssv-einheit-perleberg-m2-260823",
+      "tracked_places": [
+        "Perleberg"
+      ]
     },
     {
       "date": "2026-08-23",
@@ -326,11 +706,35 @@
       "away_score": null,
       "status": "scheduled",
       "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese",
         "Putlitzer SV 1921"
       ],
-      "scope": "umfeld",
+      "scope": "kern",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/putlitzer-sv-1921-m1-fsv-veritas-wittenbergebreese-m2-260823"
+      "source_url": "https://www.fupa.net/match/putlitzer-sv-1921-m1-fsv-veritas-wittenbergebreese-m2-260823",
+      "tracked_places": [
+        "Wittenberge",
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "time": "12:20",
+      "competition": "Testspiele",
+      "home": "SSV Einheit Perleberg",
+      "away": "SG 03 Ludwigslust/Grabow",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-w1-sg-03-ludwigslustgrabow-w1-260823",
+      "tracked_places": [
+        "Perleberg"
+      ]
     },
     {
       "date": "2026-08-23",
@@ -346,7 +750,10 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-04-gross-laasch-m1-sv-blumenthal-grabow-m1-260823"
+      "source_url": "https://www.fupa.net/match/sv-04-gross-laasch-m1-sv-blumenthal-grabow-m1-260823",
+      "tracked_places": [
+        "Umgebung"
+      ]
     },
     {
       "date": "2026-08-23",
@@ -362,7 +769,10 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-blumenthal-grabow-m2-mtv-1863-freyenstein-m1-260823"
+      "source_url": "https://www.fupa.net/match/sv-blumenthal-grabow-m2-mtv-1863-freyenstein-m1-260823",
+      "tracked_places": [
+        "Umgebung"
+      ]
     },
     {
       "date": "2026-08-23",
@@ -378,7 +788,29 @@
       ],
       "scope": "kern",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-rot-weiss-gerdshagen-m1-sv-garzhoppenrade-m1-260823"
+      "source_url": "https://www.fupa.net/match/sv-rot-weiss-gerdshagen-m1-sv-garzhoppenrade-m1-260823",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-08-23",
+      "time": "12:20",
+      "competition": "Frauen Landespokal Brandenburg, Qualifikation",
+      "home": "SpG Veritas/Prignitz",
+      "away": "MSV Zossen 07",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-w1-msv-zossen-07-w1-260823",
+      "tracked_places": [
+        "Wittenberge"
+      ]
     },
     {
       "date": "2026-08-23",
@@ -395,7 +827,10 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/fk-hansa-wittstock-1919-u19-1-bsg-stahl-brandenburg-u19-1-260823"
+      "source_url": "https://www.fupa.net/match/fk-hansa-wittstock-1919-u19-1-bsg-stahl-brandenburg-u19-1-260823",
+      "tracked_places": [
+        "Umgebung"
+      ]
     },
     {
       "date": "2026-08-28",
@@ -411,7 +846,29 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-warsow-m1-sv-blumenthal-grabow-m1-260828"
+      "source_url": "https://www.fupa.net/match/sv-warsow-m1-sv-blumenthal-grabow-m1-260828",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "time": "12:20",
+      "competition": "Testspiele",
+      "home": "FSV Veritas Wittenberge/Breese",
+      "away": "SC Hertha Karstädt 1923",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-u13-1-sc-hertha-karstaedt-1923-u13-1-260829",
+      "tracked_places": [
+        "Wittenberge"
+      ]
     },
     {
       "date": "2026-08-29",
@@ -427,7 +884,50 @@
       ],
       "scope": "kern",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/pritzwalker-fhv-03-m1-sv-empor-schenkenberg-1928-m1-260829"
+      "source_url": "https://www.fupa.net/match/pritzwalker-fhv-03-m1-sv-empor-schenkenberg-1928-m1-260829",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "time": "12:20",
+      "competition": "Landesklasse West Brandenburg, 1. Spieltag",
+      "home": "SSV Einheit Perleberg",
+      "away": "FSV Veritas Wittenberge/Breese",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese",
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-m1-fsv-veritas-wittenbergebreese-m1-260829",
+      "tracked_places": [
+        "Wittenberge",
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-08-29",
+      "time": "12:20",
+      "competition": "C-Junioren Landesklasse Nord/West Brandenburg, 1. Spieltag",
+      "home": "SSV Einheit Perleberg",
+      "away": "SV Grün-Weiß Brieselang",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-u15-1-sv-gruen-weiss-brieselang-u15-1-260829",
+      "tracked_places": [
+        "Perleberg"
+      ]
     },
     {
       "date": "2026-08-30",
@@ -443,7 +943,48 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/fk-hansa-wittstock-1919-m2-fc-blau-weiss-wusterhausen-1919-m2-260830"
+      "source_url": "https://www.fupa.net/match/fk-hansa-wittstock-1919-m2-fc-blau-weiss-wusterhausen-1919-m2-260830",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "time": "12:20",
+      "competition": "Oberer Kreispokal Prignitz/Ruppin, 1. Runde",
+      "home": "FSV Blau-Weiß 90 Rheinsberg",
+      "away": "FSV Veritas Wittenberge/Breese II",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-blau-weiss-90-rheinsberg-m1-fsv-veritas-wittenbergebreese-m2-260830",
+      "tracked_places": [
+        "Wittenberge"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "time": "12:20",
+      "competition": "B-Junioren Landesklasse Nord Brandenburg, 1. Spieltag",
+      "home": "Oranienburger FC Eintracht 1901 II",
+      "away": "SSV Einheit Perleberg",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/oranienburger-fc-eintracht-1901-u17-2-ssv-einheit-perleberg-u17-1-260830",
+      "tracked_places": [
+        "Perleberg"
+      ]
     },
     {
       "date": "2026-08-30",
@@ -459,7 +1000,10 @@
       ],
       "scope": "kern",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/pritzwalker-fhv-03-m2-sv-rot-weiss-guelitz-m1-260830"
+      "source_url": "https://www.fupa.net/match/pritzwalker-fhv-03-m2-sv-rot-weiss-guelitz-m1-260830",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
     },
     {
       "date": "2026-08-30",
@@ -476,7 +1020,10 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sg-bornim-u19-1-fk-hansa-wittstock-1919-u19-1-260830"
+      "source_url": "https://www.fupa.net/match/sg-bornim-u19-1-fk-hansa-wittstock-1919-u19-1-260830",
+      "tracked_places": [
+        "Umgebung"
+      ]
     },
     {
       "date": "2026-08-30",
@@ -492,7 +1039,10 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sg-stahl-wittstock-m1-putlitzer-sv-1921-m1-260830"
+      "source_url": "https://www.fupa.net/match/sg-stahl-wittstock-m1-putlitzer-sv-1921-m1-260830",
+      "tracked_places": [
+        "Umgebung"
+      ]
     },
     {
       "date": "2026-08-30",
@@ -504,11 +1054,16 @@
       "away_score": null,
       "status": "scheduled",
       "tracked_clubs": [
+        "SSV Einheit Perleberg",
         "SV Blumenthal-Grabow"
       ],
-      "scope": "umfeld",
+      "scope": "kern",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-m2-sv-blumenthal-grabow-m1-260830"
+      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-m2-sv-blumenthal-grabow-m1-260830",
+      "tracked_places": [
+        "Perleberg",
+        "Umgebung"
+      ]
     },
     {
       "date": "2026-08-30",
@@ -524,7 +1079,10 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-90-fehrbellin-m1-fk-hansa-wittstock-1919-m1-260830"
+      "source_url": "https://www.fupa.net/match/sv-90-fehrbellin-m1-fk-hansa-wittstock-1919-m1-260830",
+      "tracked_places": [
+        "Umgebung"
+      ]
     },
     {
       "date": "2026-08-30",
@@ -540,7 +1098,10 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-blau-weiss-1921-dannenwalde-m1-sg-aufbau-stepenitz-m1-260830"
+      "source_url": "https://www.fupa.net/match/sv-blau-weiss-1921-dannenwalde-m1-sg-aufbau-stepenitz-m1-260830",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
     },
     {
       "date": "2026-08-30",
@@ -556,7 +1117,10 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-blumenthal-grabow-m2-sv-blau-weiss-1924-nackel-m1-260830"
+      "source_url": "https://www.fupa.net/match/sv-blumenthal-grabow-m2-sv-blau-weiss-1924-nackel-m1-260830",
+      "tracked_places": [
+        "Umgebung"
+      ]
     },
     {
       "date": "2026-08-30",
@@ -572,7 +1136,10 @@
       ],
       "scope": "kern",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-rot-weiss-gerdshagen-m1-sg-eintracht-friesack-m2-260830"
+      "source_url": "https://www.fupa.net/match/sv-rot-weiss-gerdshagen-m1-sg-eintracht-friesack-m2-260830",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
     },
     {
       "date": "2026-08-30",
@@ -588,7 +1155,10 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-rot-weiss-kyritz-m1-meyenburger-sv-wacker-1922-m1-260830"
+      "source_url": "https://www.fupa.net/match/sv-rot-weiss-kyritz-m1-meyenburger-sv-wacker-1922-m1-260830",
+      "tracked_places": [
+        "Umgebung"
+      ]
     },
     {
       "date": "2026-08-30",
@@ -604,7 +1174,105 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-stuedenitz-1912-m1-putlitzer-sv-1921-m2-260830"
+      "source_url": "https://www.fupa.net/match/sv-stuedenitz-1912-m1-putlitzer-sv-1921-m2-260830",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-09-04",
+      "time": "12:20",
+      "competition": "Frauen Landesklasse West Brandenburg, 1. Spieltag",
+      "home": "FSV Forst Borgsdorf",
+      "away": "SpG Veritas/Prignitz",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-forst-borgsdorf-w1-fsv-veritas-wittenbergebreese-w1-260904",
+      "tracked_places": [
+        "Wittenberge"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "time": "12:20",
+      "competition": "Landesklasse West Brandenburg, 15. Spieltag",
+      "home": "FSV Veritas Wittenberge/Breese",
+      "away": "SV Blau-Gelb Falkensee",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m1-sv-blau-gelb-falkensee-m1-260905",
+      "tracked_places": [
+        "Wittenberge"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "time": "12:20",
+      "competition": "C-Junioren Landesklasse Nord/West Brandenburg, 2. Spieltag",
+      "home": "SG Bornim II",
+      "away": "SSV Einheit Perleberg",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sg-bornim-u15-2-ssv-einheit-perleberg-u15-1-260905",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "time": "12:20",
+      "competition": "B-Junioren Landesklasse Nord Brandenburg, 2. Spieltag",
+      "home": "SSV Einheit Perleberg",
+      "away": "Potsdamer Kickers 94 II",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-u17-1-potsdamer-kickers-94-u17-2-260905",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "time": "12:20",
+      "competition": "Landesklasse West Brandenburg, 15. Spieltag",
+      "home": "SV Empor Schenkenberg 1928",
+      "away": "SSV Einheit Perleberg",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-empor-schenkenberg-1928-m1-ssv-einheit-perleberg-m1-260905",
+      "tracked_places": [
+        "Perleberg"
+      ]
     },
     {
       "date": "2026-09-05",
@@ -620,7 +1288,10 @@
       ],
       "scope": "kern",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/tsv-chemie-premnitz-m1-pritzwalker-fhv-03-m1-260905"
+      "source_url": "https://www.fupa.net/match/tsv-chemie-premnitz-m1-pritzwalker-fhv-03-m1-260905",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
     },
     {
       "date": "2026-09-06",
@@ -636,7 +1307,10 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/bsv-schwarz-weiss-zaatzke-1949-m1-fk-hansa-wittstock-1919-m1-260906"
+      "source_url": "https://www.fupa.net/match/bsv-schwarz-weiss-zaatzke-1949-m1-fk-hansa-wittstock-1919-m1-260906",
+      "tracked_places": [
+        "Umgebung"
+      ]
     },
     {
       "date": "2026-09-06",
@@ -652,7 +1326,10 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/bsv-schwarz-weiss-zaatzke-1949-m2-fk-hansa-wittstock-1919-m2-260906"
+      "source_url": "https://www.fupa.net/match/bsv-schwarz-weiss-zaatzke-1949-m2-fk-hansa-wittstock-1919-m2-260906",
+      "tracked_places": [
+        "Umgebung"
+      ]
     },
     {
       "date": "2026-09-06",
@@ -668,7 +1345,10 @@
       ],
       "scope": "kern",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/pritzwalker-fhv-03-m2-sv-gross-buchholz-85-m1-260906"
+      "source_url": "https://www.fupa.net/match/pritzwalker-fhv-03-m2-sv-gross-buchholz-85-m1-260906",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
     },
     {
       "date": "2026-09-06",
@@ -684,7 +1364,10 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/putlitzer-sv-1921-m1-sv-prignitz-maulbeerwalde-m1-260906"
+      "source_url": "https://www.fupa.net/match/putlitzer-sv-1921-m1-sv-prignitz-maulbeerwalde-m1-260906",
+      "tracked_places": [
+        "Umgebung"
+      ]
     },
     {
       "date": "2026-09-06",
@@ -701,7 +1384,11 @@
       ],
       "scope": "kern",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/putlitzer-sv-1921-m2-sv-rot-weiss-gerdshagen-m1-260906"
+      "source_url": "https://www.fupa.net/match/putlitzer-sv-1921-m2-sv-rot-weiss-gerdshagen-m1-260906",
+      "tracked_places": [
+        "Pritzwalk",
+        "Umgebung"
+      ]
     },
     {
       "date": "2026-09-06",
@@ -717,7 +1404,10 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sg-aufbau-stepenitz-m1-fc-dossow-01-m1-260906"
+      "source_url": "https://www.fupa.net/match/sg-aufbau-stepenitz-m1-fc-dossow-01-m1-260906",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
     },
     {
       "date": "2026-09-06",
@@ -733,7 +1423,29 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/skv-jaennersdorf-1992-m1-meyenburger-sv-wacker-1922-m2-260906"
+      "source_url": "https://www.fupa.net/match/skv-jaennersdorf-1992-m1-meyenburger-sv-wacker-1922-m2-260906",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "time": "12:20",
+      "competition": "Kreisliga West Prignitz/Ruppin, 1. Spieltag",
+      "home": "SSV Einheit Perleberg II",
+      "away": "SG Stahl Wittstock",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-m2-sg-stahl-wittstock-m1-260906",
+      "tracked_places": [
+        "Perleberg"
+      ]
     },
     {
       "date": "2026-09-06",
@@ -749,7 +1461,10 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-90-fehrbellin-m1-meyenburger-sv-wacker-1922-m1-260906"
+      "source_url": "https://www.fupa.net/match/sv-90-fehrbellin-m1-meyenburger-sv-wacker-1922-m1-260906",
+      "tracked_places": [
+        "Umgebung"
+      ]
     },
     {
       "date": "2026-09-06",
@@ -765,7 +1480,29 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-blumenthal-grabow-m1-sv-schwarz-rot-neustadtdosse-m2-260906"
+      "source_url": "https://www.fupa.net/match/sv-blumenthal-grabow-m1-sv-schwarz-rot-neustadtdosse-m2-260906",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "time": "12:20",
+      "competition": "Kreisoberliga Prignitz/Ruppin, 1. Spieltag",
+      "home": "SV Eiche 05 Weisen",
+      "away": "FSV Veritas Wittenberge/Breese II",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-eiche-05-weisen-m1-fsv-veritas-wittenbergebreese-m2-260906",
+      "tracked_places": [
+        "Wittenberge"
+      ]
     },
     {
       "date": "2026-09-06",
@@ -782,7 +1519,10 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/fk-hansa-wittstock-1919-u19-1-sv-1908-gruen-weiss-ahrensfelde-u19-1-260906"
+      "source_url": "https://www.fupa.net/match/fk-hansa-wittstock-1919-u19-1-sv-1908-gruen-weiss-ahrensfelde-u19-1-260906",
+      "tracked_places": [
+        "Umgebung"
+      ]
     },
     {
       "date": "2026-09-12",
@@ -794,11 +1534,73 @@
       "away_score": null,
       "status": "scheduled",
       "tracked_clubs": [
-        "Pritzwalker FHV 03"
+        "Pritzwalker FHV 03",
+        "FSV Veritas Wittenberge/Breese"
       ],
       "scope": "kern",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m1-pritzwalker-fhv-03-m1-260912"
+      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m1-pritzwalker-fhv-03-m1-260912",
+      "tracked_places": [
+        "Pritzwalk",
+        "Wittenberge"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "time": "12:20",
+      "competition": "Landesklasse West Brandenburg, 2. Spieltag",
+      "home": "Pankower SV Rot-Weiß 1921",
+      "away": "SSV Einheit Perleberg",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/pankower-sv-rot-weiss-1921-m1-ssv-einheit-perleberg-m1-260912",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "time": "12:20",
+      "competition": "B-Junioren Landesklasse Nord Brandenburg, 3. Spieltag",
+      "home": "SSV Einheit Perleberg",
+      "away": "SV Grün-Weiß Brieselang",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-u17-1-sv-gruen-weiss-brieselang-u17-1-260912",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "time": "12:20",
+      "competition": "Frauen Landesklasse West Brandenburg, 2. Spieltag",
+      "home": "SpG Veritas/Prignitz",
+      "away": "SV Babelsberg 03 II",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-w1-sv-babelsberg-03-w2-260912",
+      "tracked_places": [
+        "Wittenberge"
+      ]
     },
     {
       "date": "2026-09-13",
@@ -815,7 +1617,10 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/fk-hansa-wittstock-1919-m1-putlitzer-sv-1921-m1-260913"
+      "source_url": "https://www.fupa.net/match/fk-hansa-wittstock-1919-m1-putlitzer-sv-1921-m1-260913",
+      "tracked_places": [
+        "Umgebung"
+      ]
     },
     {
       "date": "2026-09-13",
@@ -832,7 +1637,48 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/fk-hansa-wittstock-1919-m2-putlitzer-sv-1921-m2-260913"
+      "source_url": "https://www.fupa.net/match/fk-hansa-wittstock-1919-m2-putlitzer-sv-1921-m2-260913",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-09-13",
+      "time": "12:20",
+      "competition": "Kreisoberliga Prignitz/Ruppin, 2. Spieltag",
+      "home": "FSV Veritas Wittenberge/Breese II",
+      "away": "SV 90 Fehrbellin",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-sv-90-fehrbellin-m1-260913",
+      "tracked_places": [
+        "Wittenberge"
+      ]
+    },
+    {
+      "date": "2026-09-13",
+      "time": "12:20",
+      "competition": "Kreisliga West Prignitz/Ruppin, 2. Spieltag",
+      "home": "KSV Prignitz",
+      "away": "SSV Einheit Perleberg II",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/ksv-prignitz-m1-ssv-einheit-perleberg-m2-260913",
+      "tracked_places": [
+        "Perleberg"
+      ]
     },
     {
       "date": "2026-09-13",
@@ -848,7 +1694,10 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/meyenburger-sv-wacker-1922-m1-msv-1919-neuruppin-m2-260913"
+      "source_url": "https://www.fupa.net/match/meyenburger-sv-wacker-1922-m1-msv-1919-neuruppin-m2-260913",
+      "tracked_places": [
+        "Umgebung"
+      ]
     },
     {
       "date": "2026-09-13",
@@ -865,7 +1714,11 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/meyenburger-sv-wacker-1922-m2-sg-aufbau-stepenitz-m1-260913"
+      "source_url": "https://www.fupa.net/match/meyenburger-sv-wacker-1922-m2-sg-aufbau-stepenitz-m1-260913",
+      "tracked_places": [
+        "Umgebung",
+        "Pritzwalk"
+      ]
     },
     {
       "date": "2026-09-13",
@@ -881,7 +1734,10 @@
       ],
       "scope": "kern",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sc-hertha-karstaedt-1923-m1-pritzwalker-fhv-03-m2-260913"
+      "source_url": "https://www.fupa.net/match/sc-hertha-karstaedt-1923-m1-pritzwalker-fhv-03-m2-260913",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
     },
     {
       "date": "2026-09-13",
@@ -897,7 +1753,10 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-prignitz-maulbeerwalde-m1-sv-blumenthal-grabow-m1-260913"
+      "source_url": "https://www.fupa.net/match/sv-prignitz-maulbeerwalde-m1-sv-blumenthal-grabow-m1-260913",
+      "tracked_places": [
+        "Umgebung"
+      ]
     },
     {
       "date": "2026-09-13",
@@ -914,7 +1773,30 @@
       ],
       "scope": "kern",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-rot-weiss-gerdshagen-m1-sv-blumenthal-grabow-m2-260913"
+      "source_url": "https://www.fupa.net/match/sv-rot-weiss-gerdshagen-m1-sv-blumenthal-grabow-m2-260913",
+      "tracked_places": [
+        "Pritzwalk",
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-09-13",
+      "time": "12:20",
+      "competition": "C-Junioren Landesklasse Nord/West Brandenburg, 3. Spieltag",
+      "home": "SpG Optik Rathenow/Premnitz/Mögelin",
+      "away": "SSV Einheit Perleberg",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-optik-rathenow-u15-1-ssv-einheit-perleberg-u15-1-260913",
+      "tracked_places": [
+        "Perleberg"
+      ]
     },
     {
       "date": "2026-09-13",
@@ -931,7 +1813,10 @@
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/fk-hansa-wittstock-1919-u19-1-werderaner-fc-viktoria-1920-u19-1-260913"
+      "source_url": "https://www.fupa.net/match/fk-hansa-wittstock-1919-u19-1-werderaner-fc-viktoria-1920-u19-1-260913",
+      "tracked_places": [
+        "Umgebung"
+      ]
     },
     {
       "date": "2026-09-19",
@@ -947,7 +1832,86 @@
       ],
       "scope": "kern",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/pritzwalker-fhv-03-m1-pankower-sv-rot-weiss-1921-m1-260919"
+      "source_url": "https://www.fupa.net/match/pritzwalker-fhv-03-m1-pankower-sv-rot-weiss-1921-m1-260919",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "time": "12:20",
+      "competition": "C-Junioren Landesklasse Nord/West Brandenburg, 4. Spieltag",
+      "home": "SSV Einheit Perleberg",
+      "away": "Akademie Teamgeist",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-u15-1-akademie-teamgeist-u15-1-260919",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "time": "12:20",
+      "competition": "Landesklasse West Brandenburg, 3. Spieltag",
+      "home": "SSV Einheit Perleberg",
+      "away": "VfL Nauen",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-m1-vfl-nauen-m1-260919",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "time": "12:20",
+      "competition": "Landesklasse West Brandenburg, 3. Spieltag",
+      "home": "SV Germania 90 Berge",
+      "away": "FSV Veritas Wittenberge/Breese",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-germania-90-berge-m1-fsv-veritas-wittenbergebreese-m1-260919",
+      "tracked_places": [
+        "Wittenberge"
+      ]
+    },
+    {
+      "date": "2026-09-19",
+      "time": "12:20",
+      "competition": "B-Junioren Landesklasse Nord Brandenburg, 4. Spieltag",
+      "home": "VfL Nauen",
+      "away": "SSV Einheit Perleberg",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/vfl-nauen-u17-1-ssv-einheit-perleberg-u17-1-260919",
+      "tracked_places": [
+        "Perleberg"
+      ]
     }
   ]
 }

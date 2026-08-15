@@ -11,10 +11,11 @@ Dieses Repository stellt zwei kleine regionale Informationsseiten bereit:
    - Angebotslaufzeit
    - Quelle
 
-2. **Fußball für Pritzwalk und Umgebung**
+2. **Fußball für Pritzwalk, Wittenberge, Perleberg und Umgebung**
    - vergangene Ergebnisse
    - heutige Spiele
    - kommende Spiele
+   - Filter nach Ort
    - Filter nach Verein
    - Quelle
 
@@ -165,10 +166,16 @@ Vereinsauswahl:
 
 `scripts/vereine.json`
 
+Die Vereinskonfiguration enthält zusätzlich einen `place`-Wert für den Ortsfilter
+der Fußballseite.
+
 ### Aktueller regionaler Schwerpunkt
 
 - Pritzwalker FHV 03
 - SG Einheit Pritzwalk 1952
+- FSV Veritas Wittenberge/Breese
+- ESV Wittenberge
+- SSV Einheit Perleberg
 - SV Rot-Weiß Gerdshagen
 - Meyenburger SV Wacker 1922
 - Putlitzer SV 1921
