@@ -1,0 +1,54 @@
+{
+  "region": "Pritzwalk / nördliche Prignitz",
+  "season": "2026/2027",
+  "clubs": [
+    {
+      "name": "Pritzwalker FHV 03",
+      "scope": "kern",
+      "enabled": true,
+      "source_url": "https://www.fupa.net/club/pritzwalker-fhv-03/matches"
+    },
+    {
+      "name": "SG Einheit Pritzwalk 1952",
+      "scope": "kern",
+      "enabled": true,
+      "source_url": "https://www.fupa.net/club/sg-einheit-pritzwalk-1952/matches"
+    },
+    {
+      "name": "SV Rot-Weiß Gerdshagen",
+      "scope": "kern",
+      "enabled": true,
+      "source_url": "https://www.fupa.net/club/sv-rot-weiss-gerdshagen/matches"
+    },
+    {
+      "name": "Meyenburger SV Wacker 1922",
+      "scope": "umfeld",
+      "enabled": true,
+      "source_url": "https://www.fupa.net/club/meyenburger-sv-wacker-1922/matches"
+    },
+    {
+      "name": "Putlitzer SV 1921",
+      "scope": "umfeld",
+      "enabled": true,
+      "source_url": "https://www.fupa.net/club/putlitzer-sv-1921/matches"
+    },
+    {
+      "name": "SG Aufbau Stepenitz",
+      "scope": "umfeld",
+      "enabled": true,
+      "source_url": "https://www.fupa.net/club/sg-aufbau-stepenitz/matches"
+    },
+    {
+      "name": "SV Blumenthal-Grabow",
+      "scope": "umfeld",
+      "enabled": true,
+      "source_url": "https://www.fupa.net/club/sv-blumenthal-grabow/matches"
+    },
+    {
+      "name": "FK Hansa Wittstock 1919",
+      "scope": "umfeld",
+      "enabled": true,
+      "source_url": "https://www.fupa.net/club/fk-hansa-wittstock-1919/matches"
+    }
+  ]
+}

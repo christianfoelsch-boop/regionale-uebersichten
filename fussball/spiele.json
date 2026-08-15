@@ -1,0 +1,107 @@
+{
+  "updated": "2026-08-15T11:47:00+02:00",
+  "status": "Startdaten – Live-Aktualisierung wird beim Start versucht",
+  "region": "Pritzwalk / nördliche Prignitz",
+  "season": "2026/2027",
+  "errors": [],
+  "games": [
+    {
+      "date": "2026-08-01",
+      "time": "",
+      "competition": "Testspiele",
+      "home": "SV Fortschritt Neustadt-Glewe",
+      "away": "Pritzwalker FHV 03",
+      "home_score": 2,
+      "away_score": 2,
+      "status": "finished",
+      "tracked_clubs": [
+        "Pritzwalker FHV 03"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/club/pritzwalker-fhv-03/matches?pointer=prev"
+    },
+    {
+      "date": "2026-08-07",
+      "time": "",
+      "competition": "Testspiele",
+      "home": "SG 03 Ludwigslust/Grabow",
+      "away": "Pritzwalker FHV 03",
+      "home_score": 3,
+      "away_score": 1,
+      "status": "finished",
+      "tracked_clubs": [
+        "Pritzwalker FHV 03"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/club/pritzwalker-fhv-03/matches?pointer=prev"
+    },
+    {
+      "date": "2026-08-12",
+      "time": "",
+      "competition": "Testspiele",
+      "home": "Putlitzer SV 1921",
+      "away": "Pritzwalker FHV 03",
+      "home_score": 0,
+      "away_score": 2,
+      "status": "finished",
+      "tracked_clubs": [
+        "Pritzwalker FHV 03",
+        "Putlitzer SV 1921"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/putlitzer-sv-1921-m1-pritzwalker-fhv-03-m1-260812"
+    },
+    {
+      "date": "2026-08-15",
+      "time": "15:00",
+      "competition": "Landespokal Brandenburg – Vorrunde",
+      "home": "Pritzwalker FHV 03",
+      "away": "SG Bornim",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "Pritzwalker FHV 03"
+      ],
+      "scope": "kern",
+      "source": "FuPa / FUSSBALL.DE",
+      "source_url": "https://www.fupa.net/match/pritzwalker-fhv-03-m1-sg-bornim-m1-260815"
+    },
+    {
+      "date": "2026-08-16",
+      "time": "14:00",
+      "competition": "Kreisfreundschaftsspiele",
+      "home": "BSV Schwarz-Weiß Zaatzke II",
+      "away": "Pritzwalker FHV II",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "Pritzwalker FHV 03"
+      ],
+      "scope": "kern",
+      "source": "FUSSBALL.DE",
+      "source_url": "https://www.fussball.de/verein/pritzwalker-fhv-03-brandenburg/-/id/00IT28APT0000000VTVG0001VU7TQLV5"
+    },
+    {
+      "date": "2026-08-19",
+      "time": "18:30",
+      "competition": "Kreisfreundschaftsspiele Ü35",
+      "home": "Pritzwalker FHV",
+      "away": "SV Rot-Weiß Gerdshagen",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "Pritzwalker FHV 03",
+        "SV Rot-Weiß Gerdshagen"
+      ],
+      "scope": "kern",
+      "source": "FUSSBALL.DE",
+      "source_url": "https://www.fussball.de/verein/pritzwalker-fhv-03-brandenburg/-/id/00IT28APT0000000VTVG0001VU7TQLV5"
+    }
+  ]
+}

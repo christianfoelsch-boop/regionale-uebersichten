@@ -1,0 +1,33 @@
+{
+  "updated": "2026-08-15T11:41:00+02:00",
+  "region": "19322 Wittenberge",
+  "status": "Startdaten – beim Start wird ein Live-Abgleich versucht",
+  "offers": [
+    {
+      "retailer": "Netto Marken-Discount",
+      "product": "Krombacher Pils / alkoholfrei",
+      "pack": "20 × 0,5 l",
+      "price": 10.49,
+      "liter_price": 1.05,
+      "start": "2026-08-09",
+      "end": "2026-08-15",
+      "scope": "Netto-Angebot; Filialgültigkeit lokal prüfen",
+      "source": "Marktguru",
+      "source_url": "https://www.marktguru.de/b/krombacher",
+      "note": "zzgl. 3,10 € Pfand"
+    },
+    {
+      "retailer": "Netto Marken-Discount",
+      "product": "Krombacher Biere, verschiedene Sorten",
+      "pack": "20 × 0,5 l",
+      "price": 11.99,
+      "liter_price": 1.2,
+      "start": "2026-08-17",
+      "end": "2026-08-22",
+      "scope": "Netto-Wochenangebot; Wittenberger Prospekt 17.–22.08. ist veröffentlicht",
+      "source": "Netto Marken-Discount",
+      "source_url": "https://www.netto-online.de/filialen/wittenberge/perleberger-str-117/5192",
+      "note": "zzgl. 3,10 € Pfand; Startwert wird beim Live-Abgleich ersetzt/bestätigt"
+    }
+  ]
+}
