@@ -15,7 +15,7 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -47,6 +47,7 @@ jobs:
             echo "Keine Datenänderungen."
           else
             git commit -m "Daten automatisch aktualisiert"
+            git pull --rebase origin main
             git push
           fi
 
