@@ -1,9 +1,11 @@
 {
-  "updated": "2026-08-15T13:30:01+00:00",
-  "region": "19322 Wittenberge",
-  "status": "Live-Abgleich: 1 Treffer",
+  "updated": "2026-08-15T15:37:05+02:00",
+  "region": "Wittenberge / Perleberg / Pritzwalk",
+  "status": "Live-Abgleich: 3 Treffer",
   "errors": [
-    "netto: HTTPError: HTTP Error 403: Forbidden"
+    "netto-wittenberge: HTTPError: HTTP Error 403: Forbidden",
+    "netto-perleberg: HTTPError: HTTP Error 403: Forbidden",
+    "netto-pritzwalk: HTTPError: HTTP Error 403: Forbidden"
   ],
   "offers": [
     {
@@ -14,10 +16,39 @@
       "liter_price": 1.05,
       "start": "2026-08-09",
       "end": "2026-08-15",
-      "scope": "Kontrollquelle; Filialgültigkeit für Wittenberge prüfen",
+      "scope": "Kontrollquelle; Filialgültigkeit regional prüfen",
       "source": "Marktguru",
       "source_url": "https://www.marktguru.de/b/krombacher",
-      "note": "Automatisch aus der Angebotsseite gelesen."
+      "note": "Automatisch aus der Angebotsseite gelesen.",
+      "place": "Perleberg"
+    },
+    {
+      "retailer": "Netto Marken-Discount",
+      "product": "Krombacher Pils / alkoholfrei",
+      "pack": "20 × 0.5 Liter",
+      "price": 10.49,
+      "liter_price": 1.05,
+      "start": "2026-08-09",
+      "end": "2026-08-15",
+      "scope": "Kontrollquelle; Filialgültigkeit regional prüfen",
+      "source": "Marktguru",
+      "source_url": "https://www.marktguru.de/b/krombacher",
+      "note": "Automatisch aus der Angebotsseite gelesen.",
+      "place": "Pritzwalk"
+    },
+    {
+      "retailer": "Netto Marken-Discount",
+      "product": "Krombacher Pils / alkoholfrei",
+      "pack": "20 × 0.5 Liter",
+      "price": 10.49,
+      "liter_price": 1.05,
+      "start": "2026-08-09",
+      "end": "2026-08-15",
+      "scope": "Kontrollquelle; Filialgültigkeit regional prüfen",
+      "source": "Marktguru",
+      "source_url": "https://www.marktguru.de/b/krombacher",
+      "note": "Automatisch aus der Angebotsseite gelesen.",
+      "place": "Wittenberge"
     },
     {
       "retailer": "Netto Marken-Discount",
@@ -30,7 +61,8 @@
       "scope": "Netto-Wochenangebot; Wittenberger Prospekt 17.–22.08. ist veröffentlicht",
       "source": "Netto Marken-Discount",
       "source_url": "https://www.netto-online.de/filialen/wittenberge/perleberger-str-117/5192",
-      "note": "zzgl. 3,10 € Pfand; Startwert wird beim Live-Abgleich ersetzt/bestätigt"
+      "note": "zzgl. 3,10 € Pfand; Startwert wird beim Live-Abgleich ersetzt/bestätigt",
+      "place": "Wittenberge"
     }
   ]
 }

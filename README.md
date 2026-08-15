@@ -2,7 +2,7 @@
 
 Dieses Repository enthält zwei statische Webseiten:
 
-- 🍺 **Krombacher-Angebote für Wittenberge**
+- 🍺 **Krombacher-Angebote für Wittenberge, Perleberg und Pritzwalk**
 - ⚽ **Fußballergebnisse für Pritzwalk, Wittenberge, Perleberg und Umgebung**
 
 Die Daten werden automatisch mit GitHub Actions aktualisiert und anschließend

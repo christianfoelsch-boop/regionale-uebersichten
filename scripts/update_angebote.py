@@ -1,29 +1,34 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Krombacher-Angebote für Wittenberge aktualisieren.
+Krombacher-Angebote für Wittenberge, Perleberg und Pritzwalk aktualisieren.
 Nur Python-Standardbibliothek erforderlich.
 
 Die Quellen können ihr HTML ändern. Deshalb:
-- lokale Hauptquelle: kaufDA Wittenberge / Bier
-- offizielle Filialquelle: Netto Wittenberge
+- lokale Hauptquelle: kaufDA / Bier für die überwachten Orte
+- offizielle Filialquelle: Netto für die überwachten Orte
 - Kontrollquelle: Marktguru Krombacher
 - bei Fehlschlag bleiben die letzten funktionierenden Daten erhalten
 """
 from __future__ import annotations
-import json, re, sys, html, urllib.request, urllib.error
+import json, re, html, urllib.request
 from pathlib import Path
 from datetime import datetime, date, timedelta
 
 BASE = Path(__file__).resolve().parent
 ROOT = BASE.parent
 OUT = ROOT / "angebote" / "angebote.json"
+REGION_PLACES = ["Wittenberge", "Perleberg", "Pritzwalk"]
 
-SOURCES = {
-    "kaufda": "https://www.kaufda.de/Wittenberge/Angebote/Bier",
-    "netto": "https://www.netto-online.de/filialen/wittenberge/perleberger-str-117/5192",
-    "marktguru": "https://www.marktguru.de/b/krombacher",
-}
+SOURCES = [
+    {"name": "kaufda-wittenberge", "parser": "kaufda", "place": "Wittenberge", "url": "https://www.kaufda.de/Wittenberge/Angebote/Bier"},
+    {"name": "kaufda-perleberg", "parser": "kaufda", "place": "Perleberg", "url": "https://www.kaufda.de/Perleberg/aktuelle-Prospekte"},
+    {"name": "kaufda-pritzwalk", "parser": "kaufda", "place": "Pritzwalk", "url": "https://www.kaufda.de/Pritzwalk/aktuelle-Prospekte"},
+    {"name": "netto-wittenberge", "parser": "netto", "place": "Wittenberge", "url": "https://www.netto-online.de/filialen/wittenberge/perleberger-str-117/5192"},
+    {"name": "netto-perleberg", "parser": "netto", "place": "Perleberg", "url": "https://www.netto-online.de/filialen/perleberg/hamburger-strasse-17/7465"},
+    {"name": "netto-pritzwalk", "parser": "netto", "place": "Pritzwalk", "url": "https://www.netto-online.de/filialen/pritzwalk/havelberger-str-35/7607/"},
+    {"name": "marktguru", "parser": "marktguru", "place": "Region", "url": "https://www.marktguru.de/b/krombacher"},
+]
 
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/151 Safari/537.36"
 
@@ -80,7 +85,7 @@ def parse_date_range(text: str):
 def euro_number(s):
     return float(s.replace(".", "").replace(",", "."))
 
-def parse_marktguru(raw: str):
+def parse_marktguru(raw: str, place: str, url: str):
     txt = to_text(raw)
     offers = []
     # In überschaubare Blöcke um jedes "Pils" zerlegen
@@ -99,7 +104,7 @@ def parse_marktguru(raw: str):
             continue
         lp = re.search(r"€\s*(\d[,.]\d{2})\s*/\s*l", block, re.I)
         pack = re.search(r"(20\s*x\s*0[,.]5\s*(?:Liter|l))", block, re.I)
-        offers.append({
+        base = {
             "retailer": "Netto Marken-Discount",
             "product": "Krombacher Pils / alkoholfrei",
             "pack": (pack.group(1).replace("x","×").replace(",",".") if pack else "20 × 0,5 l"),
@@ -107,14 +112,18 @@ def parse_marktguru(raw: str):
             "liter_price": euro_number(lp.group(1)) if lp else None,
             "start": iso_from_dm(dm.group(1), dm.group(2)),
             "end": iso_from_dm(dm.group(3), dm.group(4)),
-            "scope": "Kontrollquelle; Filialgültigkeit für Wittenberge prüfen",
+            "scope": "Kontrollquelle; Filialgültigkeit regional prüfen",
             "source": "Marktguru",
-            "source_url": SOURCES["marktguru"],
+            "source_url": url,
             "note": "Automatisch aus der Angebotsseite gelesen."
-        })
+        }
+        for p in REGION_PLACES if place == "Region" else [place]:
+            item = dict(base)
+            item["place"] = p
+            offers.append(item)
     return offers
 
-def parse_netto(raw: str):
+def parse_netto(raw: str, place: str, url: str):
     txt = to_text(raw)
     offers = []
     for m in re.finditer(r"Krombacher\s+Biere", txt, re.I):
@@ -152,14 +161,15 @@ def parse_netto(raw: str):
             "liter_price": euro_number(lpm.group(1)) if lpm else None,
             "start": start.isoformat(),
             "end": end.isoformat(),
-            "scope": "Offizielle Netto-Filialseite Wittenberge",
+            "place": place,
+            "scope": f"Offizielle Netto-Filialseite {place}",
             "source": "Netto Marken-Discount",
-            "source_url": SOURCES["netto"],
-            "note": "Automatisch aus der offiziellen Wittenberger Filialseite gelesen."
+            "source_url": url,
+            "note": f"Automatisch aus der offiziellen Netto-Filialseite {place} gelesen."
         })
     return offers
 
-def parse_kaufda(raw: str):
+def parse_kaufda(raw: str, place: str, url: str):
     # Lokale Quelle. Der Parser ist absichtlich konservativ:
     # Nur Blöcke mit Krombacher + Preis + Händler werden übernommen.
     txt = to_text(raw)
@@ -196,10 +206,11 @@ def parse_kaufda(raw: str):
             "liter_price": euro_number(lp.group(1)) if lp else None,
             "start": dr[0],
             "end": dr[1],
-            "scope": "Lokale Quelle: Wittenberge",
-            "source": "kaufDA Wittenberge",
-            "source_url": SOURCES["kaufda"],
-            "note": "Automatisch aus der lokalen Wittenberger Angebotsseite gelesen."
+            "place": place,
+            "scope": f"Lokale Quelle: {place}",
+            "source": f"kaufDA {place}",
+            "source_url": url,
+            "note": f"Automatisch aus der lokalen Angebotsseite {place} gelesen."
         })
     return offers
 
@@ -207,6 +218,7 @@ def key(o):
     return (
         str(o.get("retailer","")).lower(),
         str(o.get("product","")).lower(),
+        str(o.get("place","")).lower(),
         str(o.get("start","")),
         str(o.get("end","")),
         round(float(o.get("price",0)),2),
@@ -216,7 +228,8 @@ def unique(items):
     out=[]; seen=set()
     # lokale/offizielle Treffer zuerst behalten
     items=sorted(items, key=lambda o: (
-        0 if "Wittenberge" in o.get("scope","") else 1,
+        0 if o.get("place") in {"Wittenberge", "Perleberg", "Pritzwalk"} else 1,
+        o.get("place",""),
         o.get("start","9999")
     ))
     for o in items:
@@ -231,11 +244,12 @@ def update(verbose=True):
     errors=[]
     parsers={"kaufda":parse_kaufda, "netto":parse_netto, "marktguru":parse_marktguru}
 
-    for name,url in SOURCES.items():
+    for src in SOURCES:
+        name, url, place = src["name"], src["url"], src["place"]
         try:
             if verbose: print(f"[Abruf] {name}: {url}")
             raw=fetch(url)
-            found=parsers[name](raw)
+            found=parsers[src["parser"]](raw, place, url)
             fresh.extend(found)
             if verbose: print(f"        -> {len(found)} Krombacher-Treffer")
         except Exception as e:
@@ -248,14 +262,16 @@ def update(verbose=True):
     for o in old.get("offers",[]):
         try:
             if date.fromisoformat(o["end"]) >= cutoff:
-                old_valid.append(o)
+                o.setdefault("place", "Wittenberge")
+                if o.get("place") != "Region":
+                    old_valid.append(o)
         except Exception:
             pass
 
     merged=unique(fresh + old_valid)
     payload={
         "updated": datetime.now().astimezone().isoformat(timespec="seconds"),
-        "region": "19322 Wittenberge",
+        "region": "Wittenberge / Perleberg / Pritzwalk",
         "status": (
             f"Live-Abgleich: {len(fresh)} Treffer"
             if fresh else

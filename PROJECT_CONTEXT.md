@@ -4,10 +4,11 @@
 
 Dieses Repository stellt zwei kleine regionale Informationsseiten bereit:
 
-1. **Krombacher-Angebote für Wittenberge**
+1. **Krombacher-Angebote für Wittenberge, Perleberg und Pritzwalk**
    - Händler
    - Produkt/Gebinde
    - Preis und ggf. Literpreis
+   - Ort
    - Angebotslaufzeit
    - Quelle
 
