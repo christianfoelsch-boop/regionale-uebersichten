@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T14:37:06+00:00",
+  "updated": "2026-08-15T18:46:06+00:00",
   "status": "Live-Abgleich erfolgreich: 97 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -339,8 +339,8 @@
       "competition": "Landespokal Brandenburg, Vorrunde",
       "home": "FSV Veritas Wittenberge/Breese",
       "away": "SV Schwarz-Rot Neustadt/Dosse",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": 2,
+      "away_score": 5,
       "status": "finished",
       "tracked_clubs": [
         "FSV Veritas Wittenberge/Breese"
@@ -358,8 +358,8 @@
       "competition": "Landespokal Brandenburg, Vorrunde",
       "home": "Pritzwalker FHV 03",
       "away": "SG Bornim",
-      "home_score": 1,
-      "away_score": 1,
+      "home_score": 2,
+      "away_score": 4,
       "status": "finished",
       "tracked_clubs": [
         "Pritzwalker FHV 03"
@@ -397,7 +397,7 @@
       "home": "SSV Einheit Perleberg",
       "away": "Oranienburger FC Eintracht 1901",
       "home_score": 1,
-      "away_score": 0,
+      "away_score": 3,
       "status": "finished",
       "tracked_clubs": [
         "SSV Einheit Perleberg"
@@ -1196,6 +1196,25 @@
       "source_url": "https://www.fupa.net/match/fsv-forst-borgsdorf-w1-fsv-veritas-wittenbergebreese-w1-260904",
       "tracked_places": [
         "Wittenberge"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "time": "12:20",
+      "competition": "Kreisoberliga Prignitz/Ruppin, 1. Spieltag",
+      "home": "BSV Schwarz-Weiß Zaatzke 1949",
+      "away": "FK Hansa Wittstock 1919",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FK Hansa Wittstock 1919"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/bsv-schwarz-weiss-zaatzke-1949-m1-fk-hansa-wittstock-1919-m1-260905",
+      "tracked_places": [
+        "Umgebung"
       ]
     },
     {
