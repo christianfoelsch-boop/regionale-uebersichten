@@ -1,20 +1,23 @@
 {
-  "updated": "2026-08-15T11:41:00+02:00",
+  "updated": "2026-08-15T13:06:13+00:00",
   "region": "19322 Wittenberge",
-  "status": "Startdaten – beim Start wird ein Live-Abgleich versucht",
+  "status": "Live-Abgleich: 1 Treffer",
+  "errors": [
+    "netto: HTTPError: HTTP Error 403: Forbidden"
+  ],
   "offers": [
     {
       "retailer": "Netto Marken-Discount",
       "product": "Krombacher Pils / alkoholfrei",
-      "pack": "20 × 0,5 l",
+      "pack": "20 × 0.5 Liter",
       "price": 10.49,
       "liter_price": 1.05,
       "start": "2026-08-09",
       "end": "2026-08-15",
-      "scope": "Netto-Angebot; Filialgültigkeit lokal prüfen",
+      "scope": "Kontrollquelle; Filialgültigkeit für Wittenberge prüfen",
       "source": "Marktguru",
       "source_url": "https://www.marktguru.de/b/krombacher",
-      "note": "zzgl. 3,10 € Pfand"
+      "note": "Automatisch aus der Angebotsseite gelesen."
     },
     {
       "retailer": "Netto Marken-Discount",
