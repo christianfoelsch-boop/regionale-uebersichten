@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-16T14:36:55+00:00",
-  "status": "Live-Abgleich erfolgreich: 107 Spiele neu gelesen",
+  "updated": "2026-08-16T16:25:59+02:00",
+  "status": "Live-Abgleich erfolgreich: 111 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
@@ -388,6 +388,25 @@
       "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-u17-1-sv-arendsee-b-jugend-1486661-260815",
       "tracked_places": [
         "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-08-16",
+      "time": "12:20",
+      "competition": "Testspiele",
+      "home": "FSV Havelberg",
+      "away": "SC Hertha Karstädt 1923",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SC Hertha Karstädt 1923"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-havelberg-m1-sc-hertha-karstaedt-1923-m1-260816",
+      "tracked_places": [
+        "Umgebung"
       ]
     },
     {
@@ -823,13 +842,15 @@
       "away_score": null,
       "status": "scheduled",
       "tracked_clubs": [
-        "FSV Veritas Wittenberge/Breese"
+        "FSV Veritas Wittenberge/Breese",
+        "SC Hertha Karstädt 1923"
       ],
       "scope": "kern",
       "source": "FuPa",
       "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-u13-1-sc-hertha-karstaedt-1923-u13-1-260829",
       "tracked_places": [
-        "Wittenberge"
+        "Wittenberge",
+        "Umgebung"
       ]
     },
     {
@@ -965,6 +986,25 @@
       "source_url": "https://www.fupa.net/match/pritzwalker-fhv-03-m2-sv-rot-weiss-guelitz-m1-260830",
       "tracked_places": [
         "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "time": "12:20",
+      "competition": "Oberer Kreispokal Prignitz/Ruppin, 1. Runde",
+      "home": "SC Hertha Karstädt 1923",
+      "away": "Langener SV 02",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SC Hertha Karstädt 1923"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sc-hertha-karstaedt-1923-m1-langener-sv-02-m1-260830",
+      "tracked_places": [
+        "Umgebung"
       ]
     },
     {
@@ -1488,6 +1528,25 @@
     {
       "date": "2026-09-06",
       "time": "12:20",
+      "competition": "Kreisliga West Prignitz/Ruppin, 1. Spieltag",
+      "home": "SV Rot-Weiß Gülitz",
+      "away": "SC Hertha Karstädt 1923",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SC Hertha Karstädt 1923"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-rot-weiss-guelitz-m1-sc-hertha-karstaedt-1923-m1-260906",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "time": "12:20",
       "competition": "A-Junioren Brandenburgliga, 3. Spieltag",
       "home": "SpG Wittstock/Meyenburg",
       "away": "SV 1908 Grün-Weiss Ahrensfelde",
@@ -1711,13 +1770,15 @@
       "away_score": null,
       "status": "scheduled",
       "tracked_clubs": [
-        "Pritzwalker FHV 03"
+        "Pritzwalker FHV 03",
+        "SC Hertha Karstädt 1923"
       ],
       "scope": "kern",
       "source": "FuPa",
       "source_url": "https://www.fupa.net/match/sc-hertha-karstaedt-1923-m1-pritzwalker-fhv-03-m2-260913",
       "tracked_places": [
-        "Pritzwalk"
+        "Pritzwalk",
+        "Umgebung"
       ]
     },
     {
@@ -2102,6 +2163,25 @@
       "scope": "umfeld",
       "source": "FuPa",
       "source_url": "https://www.fupa.net/match/sv-blumenthal-grabow-m2-fk-hansa-wittstock-1919-m2-260920",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-09-20",
+      "time": "12:20",
+      "competition": "Kreisliga West Prignitz/Ruppin, 3. Spieltag",
+      "home": "SV Demerthin",
+      "away": "SC Hertha Karstädt 1923",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SC Hertha Karstädt 1923"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-demerthin-m1-sc-hertha-karstaedt-1923-m1-260920",
       "tracked_places": [
         "Umgebung"
       ]

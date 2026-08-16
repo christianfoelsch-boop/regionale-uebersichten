@@ -177,6 +177,7 @@ der Fußballseite.
 - FSV Veritas Wittenberge/Breese
 - ESV Wittenberge
 - SSV Einheit Perleberg
+- SC Hertha Karstädt 1923
 - SV Rot-Weiß Gerdshagen
 - Meyenburger SV Wacker 1922
 - Putlitzer SV 1921

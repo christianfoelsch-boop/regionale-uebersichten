@@ -38,6 +38,13 @@
       "source_url": "https://www.fupa.net/club/ssv-einheit-perleberg/matches"
     },
     {
+      "name": "SC Hertha Karstädt 1923",
+      "place": "Umgebung",
+      "scope": "umfeld",
+      "enabled": true,
+      "source_url": "https://www.fupa.net/club/sc-hertha-karstaedt-1923/matches"
+    },
+    {
       "name": "SV Rot-Weiß Gerdshagen",
       "place": "Pritzwalk",
       "scope": "kern",
