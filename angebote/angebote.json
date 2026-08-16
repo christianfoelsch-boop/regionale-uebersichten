@@ -1,8 +1,9 @@
 {
-  "updated": "2026-08-16T14:36:42+00:00",
+  "updated": "2026-08-16T14:58:02+00:00",
   "region": "Wittenberge / Perleberg / Pritzwalk",
   "status": "Keine neuen Live-Treffer – letzte gespeicherte Daten bleiben sichtbar",
   "errors": [
+    "kaufda-perleberg: HTTPError: HTTP Error 504: Gateway Timeout",
     "netto-wittenberge: HTTPError: HTTP Error 403: Forbidden",
     "netto-perleberg: HTTPError: HTTP Error 403: Forbidden",
     "netto-pritzwalk: HTTPError: HTTP Error 403: Forbidden"
