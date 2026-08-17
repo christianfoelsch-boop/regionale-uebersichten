@@ -70,6 +70,7 @@ Aktuell soll zuerst die normale `github.io`-Adresse getestet werden.
 │   ├── index.html
 │   └── spiele.json
 ├── ue50/
+│   ├── druck.html
 │   ├── index.html
 │   ├── ue50-spiele.json
 │   └── CODEX_PROJECT.md
@@ -217,6 +218,7 @@ Projektbeschreibung:
 Die Seite zeigt die Altsenioren Ü50 Staffel A für die SpG Veritas/ESV
 Wittenberge mit Kreuztabelle, Wittenberger Spielplan, Gesamtspielplan und
 Drucklisten. Die Daten bleiben statisch und getrennt von der Darstellung.
+Die Drucklisten nutzen eine eigene A4-optimierte Ansicht unter `ue50/druck.html`.
 
 ---
 

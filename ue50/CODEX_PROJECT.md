@@ -7,6 +7,7 @@ Dieser Bereich enthält eine statische GitHub-Pages-Seite für die
 ## Dateien
 
 - `index.html`: Darstellung, Kreuztabelle, Spielpläne, Druckansichten, Quellenlink und Fallback-Daten
+- `druck.html`: A4-optimierte Druckansicht für Wittenberge oder die gesamte Staffel
 - `ue50-spiele.json`: getrennte Spielplandaten
 
 ## Datenformat
@@ -48,3 +49,4 @@ Optional:
 - 20 Staffelspiele
 - 8 Wittenberge-Spiele
 - konkrete FUSSBALL.DE-Links in `source.leagueUrl` und `source.teamUrl`
+- eigene A4-Druckansicht über `druck.html?typ=wittenberge` und `druck.html?typ=staffel`
