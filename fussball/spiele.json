@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-17T09:55:36+00:00",
-  "status": "Live-Abgleich erfolgreich: 109 Spiele neu gelesen",
+  "updated": "2026-08-17T14:42:00+00:00",
+  "status": "Live-Abgleich erfolgreich: 110 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
@@ -274,6 +274,25 @@
       "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-u15-1-1-fc-lok-stendal-u15-2-260814",
       "tracked_places": [
         "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-08-15",
+      "time": "04:56",
+      "competition": "Testspiele",
+      "home": "FSV Mirow/Rechlin",
+      "away": "SV Blumenthal-Grabow",
+      "home_score": 3,
+      "away_score": 4,
+      "status": "finished",
+      "tracked_clubs": [
+        "SV Blumenthal-Grabow"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-mirowrechlin-m1-sv-blumenthal-grabow-m1-260815",
+      "tracked_places": [
+        "Umgebung"
       ]
     },
     {
