@@ -56,7 +56,7 @@ jobs:
           rm -rf _site
           mkdir -p _site
           cp index.html impressum.html datenschutz.html quellen.html robots.txt .nojekyll _site/
-          cp -r assets angebote fussball _site/
+          cp -r assets angebote fussball ue50 _site/
 
       - name: GitHub Pages konfigurieren
         uses: actions/configure-pages@v5

@@ -42,7 +42,7 @@ a{color:var(--green)}
 .placeholder{background:#fff1f0;border:1px solid #e4aaa5;color:#722d28;padding:2px 5px;border-radius:5px;font-weight:800}
 footer{margin-top:24px;border-top:1px solid var(--line);padding:18px 2px 28px;color:var(--muted);font-size:13px}
 footer a{margin-right:12px}
-.kacheln{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:18px}
+.kacheln{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:18px}
 .kachel{background:#fff;border:1px solid var(--line);border-radius:22px;padding:23px;text-decoration:none;color:var(--dark);box-shadow:var(--shadow)}
 .kachel strong{display:block;font-size:25px;margin-bottom:7px}.kachel span{color:var(--muted)}
 .empty{padding:35px;text-align:center;background:#fff;border-radius:17px;color:var(--muted)}

@@ -4,6 +4,7 @@ Dieses Repository enthält zwei statische Webseiten:
 
 - 🍺 **Krombacher-Angebote für Wittenberge, Perleberg und Pritzwalk**
 - ⚽ **Fußballergebnisse für Pritzwalk, Wittenberge, Perleberg und Umgebung**
+- 📋 **Ü50-Spielserie SpG Veritas/ESV Wittenberge**
 
 Die Daten werden automatisch mit GitHub Actions aktualisiert und anschließend
 über GitHub Pages veröffentlicht.

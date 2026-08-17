@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="de"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<title>Ü50 Spielplan Wittenberge</title>
+<link rel="stylesheet" href="../assets/style.css">
+<style>
+.ue50-hero{background:linear-gradient(135deg,#8f1d1d,#c7372f)}
+.tools{display:flex;gap:8px;flex-wrap:wrap;margin:15px 0}
+.tools button{font:inherit;border:0;border-radius:10px;padding:10px 12px;background:#fff;color:#8f1d1d;font-weight:800;box-shadow:var(--shadow);cursor:pointer}
+.table-wrap{overflow:auto;background:#fff;border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow)}
+.cross{border-collapse:collapse;width:100%;min-width:760px}
+.cross th,.cross td{border:1px solid var(--line);padding:10px;text-align:center;vertical-align:middle}
+.cross th{background:#f8eeee;color:#4b1717;font-size:13px}
+.cross td{height:76px;background:#fff}
+.cross .focus-head{background:#8f1d1d;color:#fff}
+.cross .focus-cell{background:#fff4ef}
+.cross .empty-cell{color:#9b9b9b;background:#f7f7f7}
+.cell-date{font-weight:900}.cell-time,.cell-meta{font-size:12px;color:var(--muted);margin-top:3px}
+.next{border-left:5px solid #8f1d1d}
+.list{display:grid;gap:10px}
+.game-row{display:grid;grid-template-columns:120px 1fr auto;gap:12px;align-items:center}
+.game-row .date{font-weight:900;color:#8f1d1d}
+.game-row .teams-line{font-weight:850}
+.tag{display:inline-block;border-radius:999px;padding:4px 8px;background:#f8eeee;color:#8f1d1d;font-size:12px;font-weight:800}
+.source-note{margin-top:8px}
+@media(max-width:780px){.game-row{grid-template-columns:1fr}.tools button{width:100%}}
+@media print{
+  body{background:#fff;color:#000}
+  .hero,.nav,.tools,footer,.notice.screen-only{display:none!important}
+  .wrap{max-width:none;padding:0}
+  .panel,.table-wrap,.card{box-shadow:none;border-color:#999}
+  .print-focus-mode .print-all-only{display:none!important}
+  .print-all-mode .print-focus-only{display:none!important}
+  a{color:#000;text-decoration:none}
+}
+</style>
+</head><body><div class="wrap">
+<section class="hero ue50-hero"><h1>Ü50 Spielplan</h1><p>SpG Veritas/ESV Wittenberge · Altsenioren Ü50 Staffel A · Saison 2026/2027</p>
+<div class="bar"><span class="badge" id="status">Daten werden geladen …</span><span class="badge" id="updated">Stand: –</span><button class="btn" id="reload">↻ Daten neu laden</button></div>
+</section>
+<nav class="nav" aria-label="Hauptnavigation"><a href="../">Startseite</a><a href="../angebote/">Angebote</a><a href="../fussball/">Fußball</a><a class="current" href="./">Ü50</a><a href="../quellen.html#ue50">Quellen</a></nav>
+
+<section class="stats"><div class="stat"><div class="n" id="gamesN">–</div><div class="l">Spiele im Datensatz</div></div><div class="stat"><div class="n" id="teamsN">–</div><div class="l">Mannschaften</div></div><div class="stat"><div class="n" id="focusN">–</div><div class="l">Wittenberge-Spiele</div></div></section>
+
+<div class="tools"><button id="printAll">Druckliste: gesamte Staffel</button><button id="printFocus">Druckliste: Wittenberge</button></div>
+
+<section class="card next" id="nextBox"></section>
+
+<section class="panel">
+<h2>Kreuztabelle</h2>
+<div class="table-wrap"><table class="cross" id="cross"></table></div>
+</section>
+
+<section class="panel print-focus-only">
+<h2>Wittenberger Spielplan</h2>
+<div class="list" id="focusList"></div>
+</section>
+
+<section class="panel print-all-only">
+<h2>Gesamter Spielplan</h2>
+<div class="list" id="allList"></div>
+</section>
+
+<section class="panel screen-only">
+<h2>Quelle</h2>
+<p class="source-note"><a id="sourceLink" target="_blank" rel="noopener noreferrer" href="https://www.fussball.de/">FUSSBALL.DE öffnen</a></p>
+</section>
+
+<div class="notice screen-only">Der Spielplan ist als vorläufig markiert, solange die Datenquelle Änderungen erwarten lässt. Maßgeblich bleibt die verlinkte Originalquelle.</div>
+
+<footer>
+  <a href="../impressum.html">Impressum</a>
+  <a href="../datenschutz.html">Datenschutz</a>
+  <a href="../quellen.html">Quellen & Hinweise</a>
+  <div class="small" style="margin-top:8px">Private Informationsseite · keine Verbindung zu den genannten Händlern, Marken, Vereinen oder Datenanbietern.</div>
+</footer>
+</div>
+<script>
+const fallbackData={"competition":"Altsenioren Ü50 Staffel A","league":"Herren Ü50 Kreisliga","season":"2026/2027","staffelId":"610639","focusTeam":"wittenberge","provisional":true,"updated":"2026-08-17","source":{"label":"FUSSBALL.DE","leagueUrl":"https://www.fussball.de/spielplan/altsenioren-ue50-staffel-a-kreis-prignitz-ruppin-herren-ue50-kreisliga-herren-ue50-saison2627-brandenburg/-/staffel/031NO685S4000007VS5489BUVT2M8LCU-G","teamUrl":"https://www.fussball.de/mannschaft/spg-veritas-esv-wittenberge-fsv-veritas-wittenberge-breese-brandenburg/-/saison/2627/team-id/02PGHIM4A4000000VS5489B1VSCT0UPQ"},"teams":[{"id":"wittenberge","name":"SpG Veritas/ESV Wittenberge","short":"Wittenberge"},{"id":"pritzwalk","name":"Pritzwalker FHV","short":"Pritzwalk"},{"id":"karstaedt","name":"SC Hertha Karstädt","short":"Karstädt"},{"id":"perleberg","name":"SSV Einheit Perleberg","short":"Perleberg"},{"id":"blumenthal","name":"SV Blumenthal-Grabow (Ü50)","short":"Blumenthal"}],"games":[{"nr":"610639001","date":"2026-09-02","time":"19:00","home":"pritzwalk","away":"karstaedt"},{"nr":"610639002","date":"2026-09-02","time":"18:30","home":"wittenberge","away":"perleberg"},{"nr":"610639005","date":"2026-09-09","time":"19:00","home":"blumenthal","away":"pritzwalk"},{"nr":"610639006","date":"2026-09-09","time":"18:30","home":"karstaedt","away":"wittenberge"},{"nr":"610639007","date":"2026-09-16","time":"19:00","home":"pritzwalk","away":"wittenberge"},{"nr":"610639008","date":"2026-09-16","time":"19:00","home":"blumenthal","away":"perleberg"},{"nr":"610639010","date":"2026-09-30","time":"19:00","home":"pritzwalk","away":"perleberg"},{"nr":"610639012","date":"2026-09-30","time":"18:30","home":"karstaedt","away":"blumenthal"},{"nr":"610639013","date":"2026-10-07","time":"19:00","home":"perleberg","away":"karstaedt"},{"nr":"610639014","date":"2026-10-07","time":"19:00","home":"blumenthal","away":"wittenberge"},{"nr":"610639016","date":"2027-04-21","time":"18:30","home":"karstaedt","away":"pritzwalk"},{"nr":"610639017","date":"2027-04-21","time":"19:00","home":"perleberg","away":"wittenberge"},{"nr":"610639020","date":"2027-04-28","time":"19:00","home":"pritzwalk","away":"blumenthal"},{"nr":"610639021","date":"2027-04-28","time":"18:30","home":"wittenberge","away":"karstaedt"},{"nr":"610639022","date":"2027-05-19","time":"18:30","home":"wittenberge","away":"pritzwalk"},{"nr":"610639023","date":"2027-05-19","time":"19:00","home":"perleberg","away":"blumenthal"},{"nr":"610639025","date":"2027-05-26","time":"19:00","home":"perleberg","away":"pritzwalk"},{"nr":"610639027","date":"2027-05-26","time":"19:00","home":"blumenthal","away":"karstaedt"},{"nr":"610639028","date":"2027-06-02","time":"18:30","home":"karstaedt","away":"perleberg"},{"nr":"610639029","date":"2027-06-02","time":"18:30","home":"wittenberge","away":"blumenthal"}]};
+let data=fallbackData;const $=s=>document.querySelector(s);
+function E(s){return String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]))}
+function D(s){return new Date(s+"T00:00:00")}function today(){let d=new Date;return new Date(d.getFullYear(),d.getMonth(),d.getDate())}
+function fmt(s){return D(s).toLocaleDateString("de-DE",{weekday:"short",day:"2-digit",month:"2-digit",year:"numeric"})}
+function team(id){return (data.teams||[]).find(t=>t.id==id)||{id,name:id,short:id}}
+function sortedGames(){return [...(data.games||[])].sort((a,b)=>(a.date+a.time).localeCompare(b.date+b.time))}
+function isFocus(g){return g.home==data.focusTeam||g.away==data.focusTeam}
+function gameText(g){return `${team(g.home).short} - ${team(g.away).short}`}
+function cellGame(home,away){return (data.games||[]).find(g=>g.home==home&&g.away==away)}
+function statusText(g){return g.result||({"postponed":"verlegt","cancelled":"abgesagt","finished":"beendet"}[g.status]||"angesetzt")}
+function renderMeta(loaded){$("#gamesN").textContent=(data.games||[]).length;$("#teamsN").textContent=(data.teams||[]).length;$("#focusN").textContent=(data.games||[]).filter(isFocus).length;$("#status").textContent=(data.provisional?"Spielplan vorläufig":"Spielplan bestätigt")+(loaded?"":" · Fallback");$("#updated").textContent=data.updated?"Stand: "+D(data.updated).toLocaleDateString("de-DE"):"Stand: –";$("#sourceLink").href=data.source?.leagueUrl||data.source?.teamUrl||"https://www.fussball.de/";$("#sourceLink").textContent=(data.source?.label||"Quelle")+" öffnen"}
+function renderNext(){let n=sortedGames().filter(g=>D(g.date)>=today()).find(isFocus);$("#nextBox").innerHTML=n?`<h2>Nächstes Wittenberge-Spiel</h2><div class="game-row"><div class="date">${fmt(n.date)}<div class="small">${E(n.time)} Uhr</div></div><div><div class="teams-line">${E(gameText(n))}</div><div class="small">${E(data.competition)} · ${E(data.season)}</div></div><div><span class="tag">${E(statusText(n))}</span></div></div>`:`<h2>Nächstes Wittenberge-Spiel</h2><div class="empty">Kein kommendes Spiel im Datensatz.</div>`}
+function renderCross(){let rows=data.teams||[],html="<thead><tr><th>Heim \\ Gast</th>"+rows.map(t=>`<th class="${t.id==data.focusTeam?"focus-head":""}">${E(t.short)}</th>`).join("")+"</tr></thead><tbody>";for(const h of rows){html+=`<tr><th class="${h.id==data.focusTeam?"focus-head":""}">${E(h.short)}</th>`;for(const a of rows){let g=cellGame(h.id,a.id),focus=h.id==data.focusTeam||a.id==data.focusTeam;if(h.id==a.id)html+='<td class="empty-cell">—</td>';else if(g)html+=`<td class="${focus?"focus-cell":""}"><div class="cell-date">${E(g.result||fmt(g.date))}</div><div class="cell-time">${E(g.result?fmt(g.date):g.time+" Uhr")}</div><div class="cell-meta">${E(statusText(g))}</div></td>`;else html+=`<td class="${focus?"focus-cell":""} empty-cell">offen</td>`}html+="</tr>"}$("#cross").innerHTML=html+"</tbody>"}
+function renderList(sel,games){let box=$(sel);box.innerHTML="";for(const g of games){box.insertAdjacentHTML("beforeend",`<article class="card game-row"><div class="date">${fmt(g.date)}<div class="small">${E(g.time)} Uhr</div></div><div><div class="teams-line">${E(gameText(g))}</div><div class="small">${E(team(g.home).name)} gegen ${E(team(g.away).name)}</div></div><div><span class="tag">${E(statusText(g))}</span></div></article>`)}if(!games.length)box.innerHTML='<div class="empty">Keine Spiele im Datensatz.</div>'}
+function render(loaded=true){renderMeta(loaded);renderNext();renderCross();renderList("#focusList",sortedGames().filter(isFocus));renderList("#allList",sortedGames())}
+async function load(){try{let r=await fetch("ue50-spiele.json?"+Date.now(),{cache:"no-store"});data=await r.json();render(true)}catch(e){data=fallbackData;render(false)}}
+function printMode(cls){document.body.classList.remove("print-all-mode","print-focus-mode");document.body.classList.add(cls);window.print();setTimeout(()=>document.body.classList.remove(cls),500)}
+$("#reload").onclick=load;$("#printAll").onclick=()=>printMode("print-all-mode");$("#printFocus").onclick=()=>printMode("print-focus-mode");load();
+</script></body></html>

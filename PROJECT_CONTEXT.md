@@ -20,6 +20,13 @@ Dieses Repository stellt zwei kleine regionale Informationsseiten bereit:
    - Filter nach Verein
    - Quelle
 
+3. **Ü50-Spielserie SpG Veritas/ESV Wittenberge**
+   - Kreuztabelle
+   - gesamter Spielplan
+   - Wittenberger Spielplan
+   - Drucklisten
+   - eingebetteter Fallback-Datensatz
+
 Die Seiten sollen übersichtlich, wartungsarm und auch auf kleineren Displays bzw.
 einem TV-Browser gut lesbar sein.
 
@@ -62,6 +69,10 @@ Aktuell soll zuerst die normale `github.io`-Adresse getestet werden.
 ├── fussball/
 │   ├── index.html
 │   └── spiele.json
+├── ue50/
+│   ├── index.html
+│   ├── ue50-spiele.json
+│   └── CODEX_PROJECT.md
 ├── scripts/
 │   ├── update_angebote.py
 │   ├── update_fussball.py
@@ -186,6 +197,26 @@ der Fußballseite.
 - FK Hansa Wittstock 1919
 
 Die Liste darf später angepasst werden.
+
+---
+
+## Ü50-Seite
+
+Datei:
+
+`ue50/index.html`
+
+Daten:
+
+`ue50/ue50-spiele.json`
+
+Projektbeschreibung:
+
+`ue50/CODEX_PROJECT.md`
+
+Die Seite zeigt die Altsenioren Ü50 Staffel A für die SpG Veritas/ESV
+Wittenberge mit Kreuztabelle, Wittenberger Spielplan, Gesamtspielplan und
+Drucklisten. Die Daten bleiben statisch und getrennt von der Darstellung.
 
 ---
 
