@@ -12,7 +12,7 @@ Dieses Repository stellt zwei kleine regionale Informationsseiten bereit:
    - Angebotslaufzeit
    - Quelle
 
-2. **Fußball für Pritzwalk, Wittenberge, Perleberg und Umgebung**
+2. **Regionalfußball für Pritzwalk, Wittenberge, Perleberg und Umgebung**
    - vergangene Ergebnisse
    - heutige Spiele
    - kommende Spiele
@@ -42,6 +42,11 @@ Die Daten liegen als JSON direkt im Repository:
 
 - `angebote/angebote.json`
 - `fussball/spiele.json`
+- `ue50/ue50-spiele.json`
+
+`fussball/spiele.json` bleibt als stabiler Datensatz für die
+Regionalfußballseite und externe Verbraucher wie TV-/Enigma2-Addons erhalten.
+Die Ü50-Spielserie nutzt bewusst eine getrennte JSON-Datei.
 
 GitHub Actions aktualisiert diese Dateien automatisch und veröffentlicht danach
 GitHub Pages neu.
@@ -161,7 +166,7 @@ deshalb vorsichtig umgesetzt und getestet werden.
 
 ---
 
-## Fußballseite
+## Regionalfußballseite
 
 Datei:
 
@@ -180,7 +185,7 @@ Vereinsauswahl:
 `scripts/vereine.json`
 
 Die Vereinskonfiguration enthält zusätzlich einen `place`-Wert für den Ortsfilter
-der Fußballseite.
+der Regionalfußballseite.
 
 ### Aktueller regionaler Schwerpunkt
 

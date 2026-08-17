@@ -3,8 +3,8 @@
 Dieses Repository enthält zwei statische Webseiten:
 
 - 🍺 **Krombacher-Angebote für Wittenberge, Perleberg und Pritzwalk**
-- ⚽ **Fußballergebnisse für Pritzwalk, Wittenberge, Perleberg und Umgebung**
-- 📋 **Ü50-Spielserie SpG Veritas/ESV Wittenberge**
+- ⚽ **Regionalfußball für Pritzwalk, Wittenberge, Perleberg und Umgebung**
+- 📋 **Ü50-Spielserie SpG Veritas/ESV Wittenberge** als eigener Bereich
 
 Die Daten werden automatisch mit GitHub Actions aktualisiert und anschließend
 über GitHub Pages veröffentlicht.
@@ -73,6 +73,10 @@ Dabei werden:
 2. Fußballdaten aktualisiert,
 3. geänderte JSON-Dateien committed,
 4. GitHub Pages veröffentlicht.
+
+Die Datei `fussball/spiele.json` bleibt der stabile Datensatz für die
+Regionalfußballseite und externe Verbraucher wie TV-/Enigma2-Addons. Die
+Ü50-Spielserie nutzt getrennt davon `ue50/ue50-spiele.json`.
 
 ## Lokale Prüfung
 
