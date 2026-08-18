@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-17T21:37:54+00:00",
-  "status": "Live-Abgleich erfolgreich: 110 Spiele neu gelesen",
+  "updated": "2026-08-18T04:49:31+00:00",
+  "status": "Live-Abgleich erfolgreich: 112 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
@@ -1279,6 +1279,27 @@
     {
       "date": "2026-09-05",
       "time": "04:56",
+      "competition": "Frauen Kreisliga Prignitz/Ruppin, 1. Spieltag",
+      "home": "SV Blumenthal-Grabow",
+      "away": "SpG Veritas/Prignitz II",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese",
+        "SV Blumenthal-Grabow"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-blumenthal-grabow-w1-fsv-veritas-wittenbergebreese-w2-260905",
+      "tracked_places": [
+        "Wittenberge",
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-09-05",
+      "time": "04:56",
       "competition": "Landesklasse West Brandenburg, 15. Spieltag",
       "home": "SV Empor Schenkenberg 1928",
       "away": "SSV Einheit Perleberg",
@@ -1407,6 +1428,25 @@
       "scope": "umfeld",
       "source": "FuPa",
       "source_url": "https://www.fupa.net/match/sg-aufbau-stepenitz-m1-fc-dossow-01-m1-260906",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-09-06",
+      "time": "04:56",
+      "competition": "Frauen Kreisliga Prignitz/Ruppin, 1. Spieltag",
+      "home": "SG Aufbau Stepenitz",
+      "away": "SV Union Neuruppin 1990",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SG Aufbau Stepenitz"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sg-aufbau-stepenitz-w1-sv-union-neuruppin-1990-w1-260906",
       "tracked_places": [
         "Pritzwalk"
       ]
