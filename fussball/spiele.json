@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T18:51:37+00:00",
+  "updated": "2026-08-19T21:38:01+00:00",
   "status": "Live-Abgleich erfolgreich: 137 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -552,9 +552,9 @@
       "competition": "Testspiele",
       "home": "Oranienburger FC Eintracht 1901",
       "away": "SpG Wittstock/Meyenburg",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 4,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "Meyenburger SV Wacker 1922",
         "FK Hansa Wittstock 1919"
@@ -572,9 +572,9 @@
       "competition": "Testspiele",
       "home": "Pritzwalker FHV 03",
       "away": "SV Rot-Weiß Gerdshagen",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 7,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "Pritzwalker FHV 03",
         "SV Rot-Weiß Gerdshagen"
