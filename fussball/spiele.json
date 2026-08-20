@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19T21:38:01+00:00",
+  "updated": "2026-08-20T04:50:33+00:00",
   "status": "Live-Abgleich erfolgreich: 137 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -1927,13 +1927,15 @@
       "status": "scheduled",
       "tracked_clubs": [
         "Pritzwalker FHV 03",
-        "SG Einheit Pritzwalk 1952"
+        "SG Einheit Pritzwalk 1952",
+        "FSV Veritas Wittenberge/Breese"
       ],
       "scope": "kern",
       "source": "FuPa",
       "source_url": "https://www.fupa.net/match/pritzwalker-fhv-03-u17-1-fsv-veritas-wittenbergebreese-u17-1-260912",
       "tracked_places": [
-        "Pritzwalk"
+        "Pritzwalk",
+        "Wittenberge"
       ]
     },
     {
@@ -2278,12 +2280,14 @@
       "away_score": null,
       "status": "scheduled",
       "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese",
         "Meyenburger SV Wacker 1922"
       ],
-      "scope": "umfeld",
+      "scope": "kern",
       "source": "FuPa",
       "source_url": "https://www.fupa.net/match/meyenburger-sv-wacker-1922-u17-1-fsv-veritas-wittenbergebreese-u17-1-260918",
       "tracked_places": [
+        "Wittenberge",
         "Umgebung"
       ]
     },
