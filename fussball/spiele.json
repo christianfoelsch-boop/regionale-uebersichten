@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-21T21:36:49+00:00",
-  "status": "Live-Abgleich erfolgreich: 137 Spiele neu gelesen",
+  "updated": "2026-08-22T04:47:17+00:00",
+  "status": "Live-Abgleich erfolgreich: 140 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
@@ -2769,6 +2769,63 @@
       "scope": "kern",
       "source": "FuPa",
       "source_url": "https://www.fupa.net/match/sv-rot-weiss-guelitz-m1-pritzwalker-fhv-03-m2-260920",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "time": "04:56",
+      "competition": "Landesklasse West Brandenburg, 4. Spieltag",
+      "home": "FSV Veritas Wittenberge/Breese",
+      "away": "SG Michendorf",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m1-sg-michendorf-m1-260926",
+      "tracked_places": [
+        "Wittenberge"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "time": "04:56",
+      "competition": "Landesklasse West Brandenburg, 4. Spieltag",
+      "home": "SV Grün-Weiß Brieselang",
+      "away": "SSV Einheit Perleberg",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-gruen-weiss-brieselang-m1-ssv-einheit-perleberg-m1-260926",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "time": "04:56",
+      "competition": "Landesklasse West Brandenburg, 4. Spieltag",
+      "home": "VfL Nauen",
+      "away": "Pritzwalker FHV 03",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "Pritzwalker FHV 03"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/vfl-nauen-m1-pritzwalker-fhv-03-m1-260926",
       "tracked_places": [
         "Pritzwalk"
       ]
