@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T09:40:16+00:00",
+  "updated": "2026-08-23T14:36:58+00:00",
   "status": "Live-Abgleich erfolgreich: 149 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -782,9 +782,9 @@
       "competition": "A-Junioren Brandenburgliga, 1. Spieltag",
       "home": "SpG Wittstock/Meyenburg",
       "away": "BSG Stahl Brandenburg",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 1,
+      "away_score": 1,
+      "status": "finished",
       "tracked_clubs": [
         "Meyenburger SV Wacker 1922",
         "FK Hansa Wittstock 1919"
