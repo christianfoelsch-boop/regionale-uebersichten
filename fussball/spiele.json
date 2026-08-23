@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-22T21:34:00+00:00",
-  "status": "Live-Abgleich erfolgreich: 140 Spiele neu gelesen",
+  "updated": "2026-08-23T04:50:28+00:00",
+  "status": "Live-Abgleich erfolgreich: 149 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
@@ -8,63 +8,6 @@
     "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar"
   ],
   "games": [
-    {
-      "date": "2026-08-01",
-      "time": "04:56",
-      "competition": "Testspiele",
-      "home": "FSV Veritas Wittenberge/Breese",
-      "away": "BSV Schwarz-Weiß Zaatzke 1949",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "tracked_clubs": [
-        "FSV Veritas Wittenberge/Breese"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m1-bsv-schwarz-weiss-zaatzke-1949-m1-260801",
-      "tracked_places": [
-        "Wittenberge"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "time": "04:56",
-      "competition": "Testspiele",
-      "home": "SSV Einheit Perleberg",
-      "away": "SpVgg Cambs-Leezen Traktor",
-      "home_score": 2,
-      "away_score": 4,
-      "status": "finished",
-      "tracked_clubs": [
-        "SSV Einheit Perleberg"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-m1-spvgg-cambs-leezen-traktor-m1-260801",
-      "tracked_places": [
-        "Perleberg"
-      ]
-    },
-    {
-      "date": "2026-08-01",
-      "time": "04:56",
-      "competition": "Testspiele",
-      "home": "SV Fortschritt Neustadt-Glewe",
-      "away": "Pritzwalker FHV 03",
-      "home_score": 2,
-      "away_score": 2,
-      "status": "finished",
-      "tracked_clubs": [
-        "Pritzwalker FHV 03"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-fortschritt-neustadt-glewe-m1-pritzwalker-fhv-03-m1-260801",
-      "tracked_places": [
-        "Pritzwalk"
-      ]
-    },
     {
       "date": "2026-08-04",
       "time": "04:56",
@@ -2826,6 +2769,236 @@
       "scope": "kern",
       "source": "FuPa",
       "source_url": "https://www.fupa.net/match/vfl-nauen-m1-pritzwalker-fhv-03-m1-260926",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "time": "04:56",
+      "competition": "Kreisklasse 2 Prignitz/Ruppin, 4. Spieltag",
+      "home": "FC Dossow 01",
+      "away": "SV Blumenthal-Grabow II",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SV Blumenthal-Grabow"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fc-dossow-01-m1-sv-blumenthal-grabow-m2-260927",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "time": "04:56",
+      "competition": "Kreisoberliga Prignitz/Ruppin, 4. Spieltag",
+      "home": "FK Hansa Wittstock 1919",
+      "away": "SV Union Neuruppin 1990",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FK Hansa Wittstock 1919"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fk-hansa-wittstock-1919-m1-sv-union-neuruppin-1990-m1-260927",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "time": "04:56",
+      "competition": "Frauen Landesklasse West Brandenburg, 4. Spieltag",
+      "home": "FSV Babelsberg 74 II",
+      "away": "SpG Veritas/Prignitz",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-babelsberg-74-w2-fsv-veritas-wittenbergebreese-w1-260927",
+      "tracked_places": [
+        "Wittenberge"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "time": "04:56",
+      "competition": "Kreisoberliga Prignitz/Ruppin, 4. Spieltag",
+      "home": "FSV Veritas Wittenberge/Breese II",
+      "away": "BSV Schwarz-Weiß Zaatzke 1949",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-bsv-schwarz-weiss-zaatzke-1949-m1-260927",
+      "tracked_places": [
+        "Wittenberge"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "time": "04:56",
+      "competition": "Kreisoberliga Prignitz/Ruppin, 4. Spieltag",
+      "home": "Meyenburger SV Wacker 1922",
+      "away": "Putlitzer SV 1921",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "Meyenburger SV Wacker 1922",
+        "Putlitzer SV 1921"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/meyenburger-sv-wacker-1922-m1-putlitzer-sv-1921-m1-260927",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "time": "04:56",
+      "competition": "Kreisklasse 2 Prignitz/Ruppin, 4. Spieltag",
+      "home": "Meyenburger SV Wacker 1922 II",
+      "away": "Putlitzer SV 1921 II",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "Meyenburger SV Wacker 1922",
+        "Putlitzer SV 1921"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/meyenburger-sv-wacker-1922-m2-putlitzer-sv-1921-m2-260927",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "time": "04:56",
+      "competition": "Kreisliga West Prignitz/Ruppin, 4. Spieltag",
+      "home": "Pritzwalker FHV 03 II",
+      "away": "SV Demerthin",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "Pritzwalker FHV 03"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/pritzwalker-fhv-03-m2-sv-demerthin-m1-260927",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "time": "04:56",
+      "competition": "Kreisliga West Prignitz/Ruppin, 4. Spieltag",
+      "home": "SC Hertha Karstädt 1923",
+      "away": "SpG Lenzen/Lanz",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SC Hertha Karstädt 1923"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sc-hertha-karstaedt-1923-m1-sv-blau-weiss-lenzen-m1-260927",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "time": "04:56",
+      "competition": "Kreisklasse 2 Prignitz/Ruppin, 4. Spieltag",
+      "home": "SG Aufbau Stepenitz",
+      "away": "BSV Schwarz-Weiß Zaatzke 1949 II",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SG Aufbau Stepenitz"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sg-aufbau-stepenitz-m1-bsv-schwarz-weiss-zaatzke-1949-m2-260927",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "time": "04:56",
+      "competition": "Kreisoberliga Prignitz/Ruppin, 4. Spieltag",
+      "home": "SV Eintracht Alt Ruppin",
+      "away": "SV Blumenthal-Grabow",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SV Blumenthal-Grabow"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-eintracht-alt-ruppin-m1-sv-blumenthal-grabow-m1-260927",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "time": "04:56",
+      "competition": "Kreisliga West Prignitz/Ruppin, 4. Spieltag",
+      "home": "SV Garz/Hoppenrade",
+      "away": "SSV Einheit Perleberg II",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-garzhoppenrade-m1-ssv-einheit-perleberg-m2-260927",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "time": "04:56",
+      "competition": "Kreisklasse 2 Prignitz/Ruppin, 4. Spieltag",
+      "home": "SV Rot-Weiß Gerdshagen",
+      "away": "SKV Jännersdorf 1992",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SV Rot-Weiß Gerdshagen"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-rot-weiss-gerdshagen-m1-skv-jaennersdorf-1992-m1-260927",
       "tracked_places": [
         "Pritzwalk"
       ]
