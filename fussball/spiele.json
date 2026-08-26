@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-25T21:41:34+00:00",
-  "status": "Live-Abgleich erfolgreich: 149 Spiele neu gelesen",
+  "updated": "2026-08-26T04:54:05+00:00",
+  "status": "Live-Abgleich erfolgreich: 148 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
@@ -8,25 +8,6 @@
     "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar"
   ],
   "games": [
-    {
-      "date": "2026-08-04",
-      "time": "09:27",
-      "competition": "Testspiele",
-      "home": "SSV Einheit Perleberg",
-      "away": "MSV 1919 Neuruppin",
-      "home_score": 0,
-      "away_score": 9,
-      "status": "finished",
-      "tracked_clubs": [
-        "SSV Einheit Perleberg"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-m1-msv-1919-neuruppin-m1-260804",
-      "tracked_places": [
-        "Perleberg"
-      ]
-    },
     {
       "date": "2026-08-07",
       "time": "09:27",
