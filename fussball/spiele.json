@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-27T15:13:08+00:00",
-  "status": "Live-Abgleich erfolgreich: 148 Spiele neu gelesen",
+  "updated": "2026-08-28T02:09:54+00:00",
+  "status": "Live-Abgleich erfolgreich: 149 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
@@ -2982,6 +2982,25 @@
       "source_url": "https://www.fupa.net/match/sv-rot-weiss-gerdshagen-m1-skv-jaennersdorf-1992-m1-260927",
       "tracked_places": [
         "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "time": "09:27",
+      "competition": "Landesklasse West Brandenburg, 5. Spieltag",
+      "home": "SV Babelsberg 03 II",
+      "away": "FSV Veritas Wittenberge/Breese",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-babelsberg-03-m2-fsv-veritas-wittenbergebreese-m1-261002",
+      "tracked_places": [
+        "Wittenberge"
       ]
     }
   ]
