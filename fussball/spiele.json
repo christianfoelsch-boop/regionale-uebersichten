@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T02:09:54+00:00",
+  "updated": "2026-08-28T16:36:05+00:00",
   "status": "Live-Abgleich erfolgreich: 149 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -2153,6 +2153,25 @@
       "source_url": "https://www.fupa.net/match/fsv-optik-rathenow-u15-1-ssv-einheit-perleberg-u15-1-260913",
       "tracked_places": [
         "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-09-13",
+      "time": "09:27",
+      "competition": "Frauen Landesklasse West Brandenburg, 2. Spieltag",
+      "home": "SpG Veritas/Prignitz",
+      "away": "SV Babelsberg 03 II",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-w1-sv-babelsberg-03-w2-260913",
+      "tracked_places": [
+        "Wittenberge"
       ]
     },
     {
