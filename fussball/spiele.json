@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T11:02:25+00:00",
+  "updated": "2026-08-29T17:43:09+00:00",
   "status": "Live-Abgleich erfolgreich: 157 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -747,9 +747,9 @@
       "competition": "Landesklasse West Brandenburg, 1. Spieltag",
       "home": "Pritzwalker FHV 03",
       "away": "SV Empor Schenkenberg 1928",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 0,
+      "away_score": 1,
+      "status": "finished",
       "tracked_clubs": [
         "Pritzwalker FHV 03"
       ],
@@ -766,9 +766,9 @@
       "competition": "Landesklasse West Brandenburg, 1. Spieltag",
       "home": "SSV Einheit Perleberg",
       "away": "FSV Veritas Wittenberge/Breese",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 0,
+      "away_score": 1,
+      "status": "finished",
       "tracked_clubs": [
         "FSV Veritas Wittenberge/Breese",
         "SSV Einheit Perleberg"
@@ -787,9 +787,9 @@
       "competition": "C-Junioren Landesklasse Nord/West Brandenburg, 1. Spieltag",
       "home": "SSV Einheit Perleberg",
       "away": "SV Grün-Weiß Brieselang",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 9,
+      "away_score": 1,
+      "status": "finished",
       "tracked_clubs": [
         "SSV Einheit Perleberg"
       ],
