@@ -1,29 +1,11 @@
 {
-  "updated": "2026-08-29T01:44:20+00:00",
-  "status": "Live-Abgleich erfolgreich: 140 Spiele neu gelesen",
+  "updated": "2026-08-29T11:02:25+00:00",
+  "status": "Live-Abgleich erfolgreich: 157 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
-    "SG Aufbau Stepenitz: URLError: <urlopen error [Errno 104] Connection reset by peer>",
-    "Match https://www.fupa.net/match/sc-hertha-karstaedt-1923-m1-pritzwalker-fhv-03-m2-260913: URLError: <urlopen error [Errno 104] Connection reset by peer>",
-    "Match https://www.fupa.net/match/sv-babelsberg-03-m2-fsv-veritas-wittenbergebreese-m1-261002: URLError: <urlopen error [Errno 104] Connection reset by peer>",
     "Match https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-osterburger-fc-m2-260816_2: ValueError: Datum nicht ermittelbar",
-    "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar",
-    "Match https://www.fupa.net/match/ssv-einheit-perleberg-m2-sv-blumenthal-grabow-m1-260830: URLError: <urlopen error [Errno 104] Connection reset by peer>",
-    "Match https://www.fupa.net/match/sv-empor-schenkenberg-1928-m1-ssv-einheit-perleberg-m1-260905: URLError: <urlopen error [Errno 104] Connection reset by peer>",
-    "Match https://www.fupa.net/match/sv-falkensee-finkenkrug-u17-1-ssv-einheit-perleberg-u17-1-261003: URLError: <urlopen error [Errno 104] Connection reset by peer>",
-    "Match https://www.fupa.net/match/ssv-einheit-perleberg-w1-sg-03-ludwigslustgrabow-w1-260823: URLError: <urlopen error [Errno 104] Connection reset by peer>",
-    "Match https://www.fupa.net/match/delay-sports-berlin-u17-1-ssv-einheit-perleberg-u17-1-260820: URLError: <urlopen error [Errno 104] Connection reset by peer>",
-    "Match https://www.fupa.net/match/sv-rot-weiss-kyritz-u19-1-sc-hertha-karstaedt-1923-u19-1-260905: URLError: <urlopen error [Errno 104] Connection reset by peer>",
-    "Match https://www.fupa.net/match/sv-rot-weiss-guelitz-m1-sc-hertha-karstaedt-1923-m1-260906: URLError: <urlopen error [Errno 104] Connection reset by peer>",
-    "Match https://www.fupa.net/match/meyenburger-sv-wacker-1922-u19-2-sc-hertha-karstaedt-1923-u19-1-260919: URLError: <urlopen error [Errno 104] Connection reset by peer>",
-    "Match https://www.fupa.net/match/sv-rot-weiss-gerdshagen-m1-skv-jaennersdorf-1992-m1-260927: URLError: <urlopen error [Errno 104] Connection reset by peer>",
-    "Match https://www.fupa.net/match/oranienburger-fc-eintracht-1901-u19-1-fk-hansa-wittstock-1919-u19-1-260819: URLError: <urlopen error [Errno 104] Connection reset by peer>",
-    "Match https://www.fupa.net/match/boxsportverein-veritas-wittenberge-u15-1-sv-blumenthal-grabow-u15-1-260912: URLError: <urlopen error [Errno 104] Connection reset by peer>",
-    "Match https://www.fupa.net/match/sv-blumenthal-grabow-u15-1-fk-hansa-wittstock-1919-u15-1-261003: URLError: <urlopen error [Errno 104] Connection reset by peer>",
-    "Match https://www.fupa.net/match/sv-warsow-m1-sv-blumenthal-grabow-m1-260828: URLError: <urlopen error [Errno 104] Connection reset by peer>",
-    "Match https://www.fupa.net/match/sv-90-fehrbellin-m1-fk-hansa-wittstock-1919-m1-260830: URLError: <urlopen error [Errno 104] Connection reset by peer>",
-    "Match https://www.fupa.net/match/fk-hansa-wittstock-1919-u17-1-sg-sieversdorf-1950-u17-1-260913: URLError: <urlopen error [Errno 104] Connection reset by peer>"
+    "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar"
   ],
   "games": [
     {
@@ -725,9 +707,9 @@
       "competition": "Testspiele",
       "home": "SV Warsow",
       "away": "SV Blumenthal-Grabow",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 2,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "SV Blumenthal-Grabow"
       ],
@@ -3102,6 +3084,25 @@
     {
       "date": "2026-10-03",
       "time": "09:27",
+      "competition": "B-Junioren Landesklasse Nord Brandenburg, 5. Spieltag",
+      "home": "SV Falkensee-Finkenkrug",
+      "away": "SSV Einheit Perleberg",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-falkensee-finkenkrug-u17-1-ssv-einheit-perleberg-u17-1-261003",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "time": "09:27",
       "competition": "A-Junioren Brandenburgliga, 6. Spieltag",
       "home": "SV Wacker 09 Ströbitz",
       "away": "SpG Wittstock/Meyenburg",
@@ -3115,6 +3116,26 @@
       "scope": "umfeld",
       "source": "FuPa",
       "source_url": "https://www.fupa.net/match/sv-wacker-09-stroebitz-u19-1-fk-hansa-wittstock-1919-u19-1-261003",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "time": "09:27",
+      "competition": "C-Junioren Kreisliga Prignitz/Ruppin, 4. Spieltag",
+      "home": "SpG Blumenthal-Grabow/Dannenwalde",
+      "away": "FK Hansa Wittstock 1919",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SV Blumenthal-Grabow",
+        "FK Hansa Wittstock 1919"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-blumenthal-grabow-u15-1-fk-hansa-wittstock-1919-u15-1-261003",
       "tracked_places": [
         "Umgebung"
       ]
