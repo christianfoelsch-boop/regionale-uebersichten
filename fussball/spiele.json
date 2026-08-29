@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-29T20:53:27+00:00",
-  "status": "Live-Abgleich erfolgreich: 167 Spiele neu gelesen",
+  "updated": "2026-08-29T23:16:32+00:00",
+  "status": "Live-Abgleich erfolgreich: 168 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
@@ -2011,12 +2011,14 @@
       "away_score": null,
       "status": "scheduled",
       "tracked_clubs": [
+        "SSV Einheit Perleberg",
         "SG Aufbau Stepenitz"
       ],
-      "scope": "umfeld",
+      "scope": "kern",
       "source": "FuPa",
       "source_url": "https://www.fupa.net/match/sg-aufbau-stepenitz-w1-ssv-einheit-perleberg-w1-260913",
       "tracked_places": [
+        "Perleberg",
         "Pritzwalk"
       ]
     },
@@ -2752,6 +2754,25 @@
       "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m1-sg-michendorf-m1-260926",
       "tracked_places": [
         "Wittenberge"
+      ]
+    },
+    {
+      "date": "2026-09-26",
+      "time": "09:27",
+      "competition": "Frauen Kreisliga Prignitz/Ruppin, 4. Spieltag",
+      "home": "SSV Einheit Perleberg",
+      "away": "TSV Wustrau",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-w1-tsv-wustrau-w1-260926",
+      "tracked_places": [
+        "Perleberg"
       ]
     },
     {
