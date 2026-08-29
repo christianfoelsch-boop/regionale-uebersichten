@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-29T17:43:09+00:00",
-  "status": "Live-Abgleich erfolgreich: 157 Spiele neu gelesen",
+  "updated": "2026-08-29T20:53:27+00:00",
+  "status": "Live-Abgleich erfolgreich: 167 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
@@ -726,9 +726,9 @@
       "competition": "Testspiele",
       "home": "FSV Veritas Wittenberge/Breese",
       "away": "SC Hertha Karstädt 1923",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 13,
+      "away_score": 0,
+      "status": "finished",
       "tracked_clubs": [
         "FSV Veritas Wittenberge/Breese",
         "SC Hertha Karstädt 1923"
@@ -1649,6 +1649,25 @@
       ]
     },
     {
+      "date": "2026-09-11",
+      "time": "09:27",
+      "competition": "Frauen Kreisliga Prignitz/Ruppin, 2. Spieltag",
+      "home": "SV Garz/Hoppenrade",
+      "away": "SV Blumenthal-Grabow",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SV Blumenthal-Grabow"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-garzhoppenrade-w1-sv-blumenthal-grabow-w1-260911",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
       "date": "2026-09-12",
       "time": "09:27",
       "competition": "C-Junioren Kreisliga Prignitz/Ruppin, 2. Spieltag",
@@ -1985,6 +2004,25 @@
     {
       "date": "2026-09-13",
       "time": "09:27",
+      "competition": "Frauen Kreisliga Prignitz/Ruppin, 2. Spieltag",
+      "home": "SG Aufbau Stepenitz",
+      "away": "SSV Einheit Perleberg",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SG Aufbau Stepenitz"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sg-aufbau-stepenitz-w1-ssv-einheit-perleberg-w1-260913",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-09-13",
+      "time": "09:27",
       "competition": "B-Junioren Kreisliga Staffel A Prignitz/Ruppin, 2. Spieltag",
       "home": "SV Eiche 05 Weisen",
       "away": "Meyenburger SV Wacker 1922",
@@ -2058,6 +2096,25 @@
       "source_url": "https://www.fupa.net/match/sv-union-neuruppin-1990-u15-1-sc-hertha-karstaedt-1923-u15-1-260913",
       "tracked_places": [
         "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-09-13",
+      "time": "09:27",
+      "competition": "Frauen Kreisliga Prignitz/Ruppin, 2. Spieltag",
+      "home": "SV Union Neuruppin 1990",
+      "away": "SpG Veritas/Prignitz II",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-union-neuruppin-1990-w1-fsv-veritas-wittenbergebreese-w2-260913",
+      "tracked_places": [
+        "Wittenberge"
       ]
     },
     {
@@ -2156,6 +2213,25 @@
       "tracked_places": [
         "Wittenberge",
         "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "time": "09:27",
+      "competition": "Frauen Kreisliga Prignitz/Ruppin, 3. Spieltag",
+      "home": "SpG Veritas/Prignitz II",
+      "away": "SV Garz/Hoppenrade",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-w2-sv-garzhoppenrade-w1-260918",
+      "tracked_places": [
+        "Wittenberge"
       ]
     },
     {
@@ -2641,6 +2717,25 @@
       ]
     },
     {
+      "date": "2026-09-20",
+      "time": "09:27",
+      "competition": "Frauen Kreisliga Prignitz/Ruppin, 3. Spieltag",
+      "home": "TSV Wustrau",
+      "away": "SG Aufbau Stepenitz",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SG Aufbau Stepenitz"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/tsv-wustrau-w1-sg-aufbau-stepenitz-w1-260920",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
+    },
+    {
       "date": "2026-09-26",
       "time": "09:27",
       "competition": "Landesklasse West Brandenburg, 4. Spieltag",
@@ -2873,6 +2968,44 @@
     {
       "date": "2026-09-27",
       "time": "09:27",
+      "competition": "Frauen Kreisliga Prignitz/Ruppin, 4. Spieltag",
+      "home": "SG Aufbau Stepenitz",
+      "away": "Pankower SV Rot-Weiß 1921",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SG Aufbau Stepenitz"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sg-aufbau-stepenitz-w1-pankower-sv-rot-weiss-1921-w1-260927",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "time": "09:27",
+      "competition": "Frauen Kreisliga Prignitz/Ruppin, 4. Spieltag",
+      "home": "SG Sieversdorf 1950",
+      "away": "SpG Veritas/Prignitz II",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sg-sieversdorf-1950-w1-fsv-veritas-wittenbergebreese-w2-260927",
+      "tracked_places": [
+        "Wittenberge"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "time": "09:27",
       "competition": "Kreisoberliga Prignitz/Ruppin, 4. Spieltag",
       "home": "SV Eintracht Alt Ruppin",
       "away": "SV Blumenthal-Grabow",
@@ -2942,6 +3075,25 @@
       "scope": "kern",
       "source": "FuPa",
       "source_url": "https://www.fupa.net/match/sv-babelsberg-03-m2-fsv-veritas-wittenbergebreese-m1-261002",
+      "tracked_places": [
+        "Wittenberge"
+      ]
+    },
+    {
+      "date": "2026-10-02",
+      "time": "09:27",
+      "competition": "Frauen Kreisliga Prignitz/Ruppin, 5. Spieltag",
+      "home": "SpG Veritas/Prignitz II",
+      "away": "SV Eintracht Alt Ruppin",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-w2-sv-eintracht-alt-ruppin-w1-261002",
       "tracked_places": [
         "Wittenberge"
       ]
@@ -3079,6 +3231,27 @@
       "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-m1-sg-saarmund-m1-261003",
       "tracked_places": [
         "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "time": "09:27",
+      "competition": "Frauen Kreisliga Prignitz/Ruppin, 5. Spieltag",
+      "home": "SV Blumenthal-Grabow",
+      "away": "SG Aufbau Stepenitz",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SG Aufbau Stepenitz",
+        "SV Blumenthal-Grabow"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-blumenthal-grabow-w1-sg-aufbau-stepenitz-w1-261003",
+      "tracked_places": [
+        "Pritzwalk",
+        "Umgebung"
       ]
     },
     {
