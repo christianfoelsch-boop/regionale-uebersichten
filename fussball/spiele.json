@@ -1,89 +1,31 @@
 {
-  "updated": "2026-08-28T16:36:05+00:00",
-  "status": "Live-Abgleich erfolgreich: 149 Spiele neu gelesen",
+  "updated": "2026-08-29T01:44:20+00:00",
+  "status": "Live-Abgleich erfolgreich: 140 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
+    "SG Aufbau Stepenitz: URLError: <urlopen error [Errno 104] Connection reset by peer>",
+    "Match https://www.fupa.net/match/sc-hertha-karstaedt-1923-m1-pritzwalker-fhv-03-m2-260913: URLError: <urlopen error [Errno 104] Connection reset by peer>",
+    "Match https://www.fupa.net/match/sv-babelsberg-03-m2-fsv-veritas-wittenbergebreese-m1-261002: URLError: <urlopen error [Errno 104] Connection reset by peer>",
     "Match https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-osterburger-fc-m2-260816_2: ValueError: Datum nicht ermittelbar",
-    "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar"
+    "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar",
+    "Match https://www.fupa.net/match/ssv-einheit-perleberg-m2-sv-blumenthal-grabow-m1-260830: URLError: <urlopen error [Errno 104] Connection reset by peer>",
+    "Match https://www.fupa.net/match/sv-empor-schenkenberg-1928-m1-ssv-einheit-perleberg-m1-260905: URLError: <urlopen error [Errno 104] Connection reset by peer>",
+    "Match https://www.fupa.net/match/sv-falkensee-finkenkrug-u17-1-ssv-einheit-perleberg-u17-1-261003: URLError: <urlopen error [Errno 104] Connection reset by peer>",
+    "Match https://www.fupa.net/match/ssv-einheit-perleberg-w1-sg-03-ludwigslustgrabow-w1-260823: URLError: <urlopen error [Errno 104] Connection reset by peer>",
+    "Match https://www.fupa.net/match/delay-sports-berlin-u17-1-ssv-einheit-perleberg-u17-1-260820: URLError: <urlopen error [Errno 104] Connection reset by peer>",
+    "Match https://www.fupa.net/match/sv-rot-weiss-kyritz-u19-1-sc-hertha-karstaedt-1923-u19-1-260905: URLError: <urlopen error [Errno 104] Connection reset by peer>",
+    "Match https://www.fupa.net/match/sv-rot-weiss-guelitz-m1-sc-hertha-karstaedt-1923-m1-260906: URLError: <urlopen error [Errno 104] Connection reset by peer>",
+    "Match https://www.fupa.net/match/meyenburger-sv-wacker-1922-u19-2-sc-hertha-karstaedt-1923-u19-1-260919: URLError: <urlopen error [Errno 104] Connection reset by peer>",
+    "Match https://www.fupa.net/match/sv-rot-weiss-gerdshagen-m1-skv-jaennersdorf-1992-m1-260927: URLError: <urlopen error [Errno 104] Connection reset by peer>",
+    "Match https://www.fupa.net/match/oranienburger-fc-eintracht-1901-u19-1-fk-hansa-wittstock-1919-u19-1-260819: URLError: <urlopen error [Errno 104] Connection reset by peer>",
+    "Match https://www.fupa.net/match/boxsportverein-veritas-wittenberge-u15-1-sv-blumenthal-grabow-u15-1-260912: URLError: <urlopen error [Errno 104] Connection reset by peer>",
+    "Match https://www.fupa.net/match/sv-blumenthal-grabow-u15-1-fk-hansa-wittstock-1919-u15-1-261003: URLError: <urlopen error [Errno 104] Connection reset by peer>",
+    "Match https://www.fupa.net/match/sv-warsow-m1-sv-blumenthal-grabow-m1-260828: URLError: <urlopen error [Errno 104] Connection reset by peer>",
+    "Match https://www.fupa.net/match/sv-90-fehrbellin-m1-fk-hansa-wittstock-1919-m1-260830: URLError: <urlopen error [Errno 104] Connection reset by peer>",
+    "Match https://www.fupa.net/match/fk-hansa-wittstock-1919-u17-1-sg-sieversdorf-1950-u17-1-260913: URLError: <urlopen error [Errno 104] Connection reset by peer>"
   ],
   "games": [
-    {
-      "date": "2026-08-07",
-      "time": "09:27",
-      "competition": "Testspiele",
-      "home": "FK Hansa Wittstock 1919",
-      "away": "SV Rot-Weiß Gülitz",
-      "home_score": 20,
-      "away_score": 0,
-      "status": "finished",
-      "tracked_clubs": [
-        "FK Hansa Wittstock 1919"
-      ],
-      "scope": "umfeld",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/fk-hansa-wittstock-1919-m1-sv-rot-weiss-guelitz-m1-260807",
-      "tracked_places": [
-        "Umgebung"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "time": "09:27",
-      "competition": "Testspiele",
-      "home": "FSV Veritas Wittenberge/Breese II",
-      "away": "Kickers Seehausen",
-      "home_score": 3,
-      "away_score": 2,
-      "status": "finished",
-      "tracked_clubs": [
-        "FSV Veritas Wittenberge/Breese"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-kickers-seehausen-m1-260807",
-      "tracked_places": [
-        "Wittenberge"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "time": "09:27",
-      "competition": "Testspiele",
-      "home": "Meyenburger SV Wacker 1922",
-      "away": "SG Zepkow",
-      "home_score": 7,
-      "away_score": 0,
-      "status": "finished",
-      "tracked_clubs": [
-        "Meyenburger SV Wacker 1922"
-      ],
-      "scope": "umfeld",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/meyenburger-sv-wacker-1922-m1-sg-zepkow-m1-260807",
-      "tracked_places": [
-        "Umgebung"
-      ]
-    },
-    {
-      "date": "2026-08-07",
-      "time": "09:27",
-      "competition": "Testspiele",
-      "home": "SG 03 Ludwigslust/Grabow",
-      "away": "Pritzwalker FHV 03",
-      "home_score": 3,
-      "away_score": 1,
-      "status": "finished",
-      "tracked_clubs": [
-        "Pritzwalker FHV 03"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sg-03-ludwigslustgrabow-m1-pritzwalker-fhv-03-m1-260807",
-      "tracked_places": [
-        "Pritzwalk"
-      ]
-    },
     {
       "date": "2026-08-08",
       "time": "09:27",
@@ -3020,6 +2962,200 @@
       "source_url": "https://www.fupa.net/match/sv-babelsberg-03-m2-fsv-veritas-wittenbergebreese-m1-261002",
       "tracked_places": [
         "Wittenberge"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "time": "09:27",
+      "competition": "C-Junioren Kreisliga Prignitz/Ruppin, 4. Spieltag",
+      "home": "BSV Schwarz-Weiß Zaatzke 1949",
+      "away": "SC Hertha Karstädt 1923",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SC Hertha Karstädt 1923"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/bsv-schwarz-weiss-zaatzke-1949-u15-1-sc-hertha-karstaedt-1923-u15-1-261003",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "time": "09:27",
+      "competition": "C-Junioren Kreisliga Prignitz/Ruppin, 4. Spieltag",
+      "home": "Boxsportverein Veritas Wittenberge",
+      "away": "Pritzwalker FHV 03",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "Pritzwalker FHV 03"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/boxsportverein-veritas-wittenberge-u15-1-pritzwalker-fhv-03-u15-1-261003",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "time": "09:27",
+      "competition": "B-Junioren Kreisliga Staffel A Prignitz/Ruppin, 4. Spieltag",
+      "home": "FSV Veritas Wittenberge/Breese",
+      "away": "SC Hertha Karstädt 1923",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese",
+        "SC Hertha Karstädt 1923"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-u17-1-sc-hertha-karstaedt-1923-u17-1-261003",
+      "tracked_places": [
+        "Wittenberge",
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "time": "09:27",
+      "competition": "Landesklasse West Brandenburg, 5. Spieltag",
+      "home": "Pritzwalker FHV 03",
+      "away": "SV Grün-Weiß Brieselang",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "Pritzwalker FHV 03"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/pritzwalker-fhv-03-m1-sv-gruen-weiss-brieselang-m1-261003",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "time": "09:27",
+      "competition": "A-Junioren Kreisliga Prignitz/Ruppin, 4. Spieltag",
+      "home": "SC Hertha Karstädt 1923",
+      "away": "SV Eiche 05 Weisen",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SC Hertha Karstädt 1923"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sc-hertha-karstaedt-1923-u19-1-sv-eiche-05-weisen-u19-1-261003",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "time": "09:27",
+      "competition": "C-Junioren Landesklasse Nord/West Brandenburg, 5. Spieltag",
+      "home": "SSV Einheit Perleberg",
+      "away": "MSV 1919 Neuruppin II",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-u15-1-msv-1919-neuruppin-u15-2-261003",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "time": "09:27",
+      "competition": "Landesklasse West Brandenburg, 5. Spieltag",
+      "home": "SSV Einheit Perleberg",
+      "away": "SG Saarmund",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-m1-sg-saarmund-m1-261003",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "time": "09:27",
+      "competition": "A-Junioren Brandenburgliga, 6. Spieltag",
+      "home": "SV Wacker 09 Ströbitz",
+      "away": "SpG Wittstock/Meyenburg",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "Meyenburger SV Wacker 1922",
+        "FK Hansa Wittstock 1919"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-wacker-09-stroebitz-u19-1-fk-hansa-wittstock-1919-u19-1-261003",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "time": "09:27",
+      "competition": "B-Junioren Kreisliga Staffel A Prignitz/Ruppin, 4. Spieltag",
+      "home": "SpG FHV/Einheit Pritzwalk",
+      "away": "SG Sieversdorf 1950",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "Pritzwalker FHV 03",
+        "SG Einheit Pritzwalk 1952"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/pritzwalker-fhv-03-u17-1-sg-sieversdorf-1950-u17-1-261003",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "time": "09:27",
+      "competition": "A-Junioren Kreisliga Prignitz/Ruppin, 4. Spieltag",
+      "home": "TSV Wustrau",
+      "away": "SpG Meyenburg/Freyenstein II",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "Meyenburger SV Wacker 1922"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/tsv-wustrau-u19-1-meyenburger-sv-wacker-1922-u19-2-261003",
+      "tracked_places": [
+        "Umgebung"
       ]
     }
   ]

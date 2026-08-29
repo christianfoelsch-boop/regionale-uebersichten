@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-28T16:35:46+00:00",
+  "updated": "2026-08-29T01:44:03+00:00",
   "region": "Wittenberge / Perleberg / Pritzwalk",
-  "status": "Keine neuen Live-Treffer – letzte gespeicherte Daten bleiben sichtbar",
+  "status": "Live-Abgleich: 3 Treffer",
   "errors": [
     "netto-wittenberge: HTTPError: HTTP Error 403: Forbidden",
     "netto-perleberg: HTTPError: HTTP Error 403: Forbidden",
