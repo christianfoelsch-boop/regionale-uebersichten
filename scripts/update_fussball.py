@@ -79,6 +79,16 @@ def parse_title(raw):
     if not m:return None
     return clean_name(m.group(1)),clean_name(m.group(2)),clean_name(m.group(3))
 
+def parse_kickoff_time(raw, txt):
+    for pattern in (
+        r'"kickoff"\s*:\s*"20\d{2}-\d{2}-\d{2}T([0-2]\d:[0-5]\d):\d{2}(?:[+-]\d{2}:\d{2}|Z)?"',
+        r'"startDate"\s*:\s*"20\d{2}-\d{2}-\d{2}T([0-2]\d:[0-5]\d):\d{2}(?:[+-]\d{2}:\d{2}|Z)?"',
+    ):
+        m=re.search(pattern,raw)
+        if m:return m.group(1)
+    m=re.search(r"(?:Ansto[ßs]|Spielbeginn|Beginn|Uhrzeit|Kickoff)\D{0,60}([0-2]?\d:[0-5]\d)",txt,re.I)
+    return m.group(1).zfill(5) if m else ""
+
 def parse_match(url):
     raw=fetch(url); txt=html_to_text(raw); title=parse_title(raw)
     d=date_from_match_url(url)
@@ -103,11 +113,29 @@ def parse_match(url):
     elif score is not None:status="finished"
     else:status="scheduled"
 
-    tm=re.search(r"(?<!\d)([0-2]?\d:[0-5]\d)(?!\d)",txt)
-    kick=tm.group(1) if tm else ""
+    kick=parse_kickoff_time(raw,txt)
     return {"date":d.isoformat(),"time":kick,"competition":competition,"home":home,"away":away,
             "home_score":score[0] if score else None,"away_score":score[1] if score else None,
             "status":status,"tracked_clubs":[],"scope":"umfeld","source":"FuPa","source_url":url}
+
+def suspicious_time(value):
+    value=str(value or "")
+    if re.match(r"0[0-6]:[0-5]\d$",value):return True
+    m=re.match(r"[0-2]?\d:([0-5]\d)$",value)
+    return bool(m and m.group(1) not in {"00","15","30","45"})
+
+def refresh_suspicious_game(g):
+    if not suspicious_time(g.get("time")) or not g.get("source_url"):
+        return g
+    try:
+        fresh=parse_match(g["source_url"])
+        for key in ("tracked_clubs","tracked_places","scope"):
+            if g.get(key):fresh[key]=g[key]
+        return fresh
+    except Exception:
+        if re.match(r"0[0-6]:[0-5]\d$",str(g.get("time") or "")):
+            g=dict(g); g["time"]=""
+        return g
 
 def key_game(g):
     return (g.get("date",""),re.sub(r"\W+","",g.get("home","").lower()),re.sub(r"\W+","",g.get("away","").lower()))
@@ -167,8 +195,14 @@ def update(verbose=True):
 
     merged={}
     for g in old_valid:merged[key_game(g)]=g
-    for g in fresh:merged[key_game(g)]=g
-    games=sorted(merged.values(),key=lambda g:(g.get("date",""),g.get("time","99:99"),g.get("home","")))
+    for g in fresh:
+        source_url=g.get("source_url")
+        if source_url:
+            for k,old_game in list(merged.items()):
+                if old_game.get("source_url")==source_url:
+                    merged.pop(k)
+        merged[key_game(g)]=g
+    games=sorted((refresh_suspicious_game(g) for g in merged.values()),key=lambda g:(g.get("date",""),g.get("time","99:99"),g.get("home","")))
 
     payload={"updated":datetime.now().astimezone().isoformat(timespec="seconds"),
              "status":f"Live-Abgleich erfolgreich: {len(fresh)} Spiele neu gelesen" if fresh else "Keine neuen Live-Daten – letzte gespeicherte Ergebnisse bleiben sichtbar",
