@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30T09:55:17+00:00",
+  "updated": "2026-08-30T18:03:26+00:00",
   "status": "Live-Abgleich erfolgreich: 175 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -727,9 +727,9 @@
       "competition": "A-Junioren Brandenburgliga, 2. Spieltag",
       "home": "SG Bornim",
       "away": "SpG Wittstock/Meyenburg",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 3,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "Meyenburger SV Wacker 1922",
         "FK Hansa Wittstock 1919"
@@ -747,9 +747,9 @@
       "competition": "B-Junioren Landesklasse Nord Brandenburg, 1. Spieltag",
       "home": "Oranienburger FC Eintracht 1901 II",
       "away": "SSV Einheit Perleberg",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 3,
+      "away_score": 7,
+      "status": "finished",
       "tracked_clubs": [
         "SSV Einheit Perleberg"
       ],
