@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-29T23:16:16+00:00",
+  "updated": "2026-08-30T09:13:56+00:00",
   "region": "Wittenberge / Perleberg / Pritzwalk",
   "status": "Live-Abgleich: 6 Treffer",
   "errors": [
@@ -63,20 +63,6 @@
       "source_url": "https://www.marktguru.de/b/krombacher",
       "note": "Automatisch aus der Angebotsseite gelesen.",
       "place": "Pritzwalk"
-    },
-    {
-      "retailer": "Netto Marken-Discount",
-      "product": "Krombacher Biere, verschiedene Sorten",
-      "pack": "20 × 0,5 l",
-      "price": 11.99,
-      "liter_price": 1.2,
-      "start": "2026-08-17",
-      "end": "2026-08-22",
-      "scope": "Netto-Wochenangebot; Wittenberger Prospekt 17.–22.08. ist veröffentlicht",
-      "source": "Netto Marken-Discount",
-      "source_url": "https://www.netto-online.de/filialen/wittenberge/perleberger-str-117/5192",
-      "note": "zzgl. 3,10 € Pfand; Startwert wird beim Live-Abgleich ersetzt/bestätigt",
-      "place": "Wittenberge"
     },
     {
       "retailer": "Netto Marken-Discount",
