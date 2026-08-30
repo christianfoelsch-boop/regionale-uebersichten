@@ -1,11 +1,11 @@
 {
-  "updated": "2026-08-30T18:03:26+00:00",
-  "status": "Live-Abgleich erfolgreich: 175 Spiele neu gelesen",
+  "updated": "2026-08-30T21:01:22+00:00",
+  "status": "Live-Abgleich erfolgreich: 176 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
-    "Match https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-osterburger-fc-m2-260816_2: ValueError: Datum nicht ermittelbar",
-    "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar"
+    "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar",
+    "Match https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-osterburger-fc-m2-260816_2: ValueError: Datum nicht ermittelbar"
   ],
   "games": [
     {
@@ -766,9 +766,9 @@
       "competition": "Unterer Kreispokal Prignitz/Ruppin, 1. Runde",
       "home": "FK Hansa Wittstock 1919 II",
       "away": "FC Blau-Weiß Wusterhausen 1919 II",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 0,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "FK Hansa Wittstock 1919"
       ],
@@ -785,9 +785,9 @@
       "competition": "Oberer Kreispokal Prignitz/Ruppin, 1. Runde",
       "home": "FSV Blau-Weiß 90 Rheinsberg",
       "away": "FSV Veritas Wittenberge/Breese II",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 3,
+      "away_score": 5,
+      "status": "finished",
       "tracked_clubs": [
         "FSV Veritas Wittenberge/Breese"
       ],
@@ -801,12 +801,31 @@
     {
       "date": "2026-08-30",
       "time": "14:00",
+      "competition": "Unterer Kreispokal Prignitz/Ruppin, 1. Runde",
+      "home": "Meyenburger SV Wacker 1922 II",
+      "away": "SpVgg Gühlen/Glienicke/Rägelin",
+      "home_score": 4,
+      "away_score": 3,
+      "status": "finished",
+      "tracked_clubs": [
+        "Meyenburger SV Wacker 1922"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/meyenburger-sv-wacker-1922-m2-spvgg-guehlenglienickeraegelin-m1-260830",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-08-30",
+      "time": "14:00",
       "competition": "Oberer Kreispokal Prignitz/Ruppin, 1. Runde",
       "home": "Pritzwalker FHV 03 II",
       "away": "SV Rot-Weiß Gülitz",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 2,
+      "away_score": 0,
+      "status": "finished",
       "tracked_clubs": [
         "Pritzwalker FHV 03"
       ],
@@ -823,9 +842,9 @@
       "competition": "Oberer Kreispokal Prignitz/Ruppin, 1. Runde",
       "home": "SC Hertha Karstädt 1923",
       "away": "Langener SV 02",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 3,
+      "away_score": 1,
+      "status": "finished",
       "tracked_clubs": [
         "SC Hertha Karstädt 1923"
       ],
@@ -842,9 +861,9 @@
       "competition": "Oberer Kreispokal Prignitz/Ruppin, 1. Runde",
       "home": "SG Stahl Wittstock",
       "away": "Putlitzer SV 1921",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 2,
+      "away_score": 5,
+      "status": "finished",
       "tracked_clubs": [
         "Putlitzer SV 1921"
       ],
@@ -861,9 +880,9 @@
       "competition": "Oberer Kreispokal Prignitz/Ruppin, 1. Runde",
       "home": "SSV Einheit Perleberg II",
       "away": "SV Blumenthal-Grabow",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 2,
+      "away_score": 5,
+      "status": "finished",
       "tracked_clubs": [
         "SSV Einheit Perleberg",
         "SV Blumenthal-Grabow"
@@ -882,9 +901,9 @@
       "competition": "Unterer Kreispokal Prignitz/Ruppin, 1. Runde",
       "home": "SV Blau-Weiß 1921 Dannenwalde",
       "away": "SG Aufbau Stepenitz",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 9,
+      "away_score": 1,
+      "status": "finished",
       "tracked_clubs": [
         "SG Aufbau Stepenitz"
       ],
@@ -901,9 +920,9 @@
       "competition": "Unterer Kreispokal Prignitz/Ruppin, 1. Runde",
       "home": "SV Blumenthal-Grabow II",
       "away": "SV Blau-Weiß 1924 Nackel",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 7,
+      "away_score": 0,
+      "status": "finished",
       "tracked_clubs": [
         "SV Blumenthal-Grabow"
       ],
@@ -920,9 +939,9 @@
       "competition": "Unterer Kreispokal Prignitz/Ruppin, 1. Runde",
       "home": "SV Rot-Weiß Gerdshagen",
       "away": "SpG Friesack/Paulinenaue II",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 6,
+      "away_score": 5,
+      "status": "finished",
       "tracked_clubs": [
         "SV Rot-Weiß Gerdshagen"
       ],
@@ -939,9 +958,9 @@
       "competition": "Unterer Kreispokal Prignitz/Ruppin, 1. Runde",
       "home": "SV Stüdenitz 1912",
       "away": "Putlitzer SV 1921 II",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 7,
+      "away_score": 0,
+      "status": "finished",
       "tracked_clubs": [
         "Putlitzer SV 1921"
       ],
@@ -958,9 +977,9 @@
       "competition": "Oberer Kreispokal Prignitz/Ruppin, 1. Runde",
       "home": "SV 90 Fehrbellin",
       "away": "FK Hansa Wittstock 1919",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 3,
+      "away_score": 0,
+      "status": "finished",
       "tracked_clubs": [
         "FK Hansa Wittstock 1919"
       ],
@@ -977,9 +996,9 @@
       "competition": "Oberer Kreispokal Prignitz/Ruppin, 1. Runde",
       "home": "SV Rot-Weiß Kyritz",
       "away": "Meyenburger SV Wacker 1922",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 2,
+      "away_score": 3,
+      "status": "finished",
       "tracked_clubs": [
         "Meyenburger SV Wacker 1922"
       ],
