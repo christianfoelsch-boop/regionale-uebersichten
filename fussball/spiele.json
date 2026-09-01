@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-01T21:00:07+00:00",
+  "updated": "2026-09-01T23:16:56+00:00",
   "status": "Live-Abgleich erfolgreich: 175 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -2793,25 +2793,6 @@
     },
     {
       "date": "2026-09-27",
-      "time": "12:00",
-      "competition": "Frauen Kreisliga Prignitz/Ruppin, 4. Spieltag",
-      "home": "SV Eintracht Alt Ruppin",
-      "away": "SV Blumenthal-Grabow",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "tracked_clubs": [
-        "SV Blumenthal-Grabow"
-      ],
-      "scope": "umfeld",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-eintracht-alt-ruppin-w1-sv-blumenthal-grabow-w1-260927",
-      "tracked_places": [
-        "Umgebung"
-      ]
-    },
-    {
-      "date": "2026-09-27",
       "time": "13:00",
       "competition": "Frauen Landesklasse West Brandenburg, 4. Spieltag",
       "home": "FSV Babelsberg 74 II",
@@ -2961,6 +2942,25 @@
       "source_url": "https://www.fupa.net/match/sg-aufbau-stepenitz-m1-bsv-schwarz-weiss-zaatzke-1949-m2-260927",
       "tracked_places": [
         "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "time": "14:00",
+      "competition": "Kreisoberliga Prignitz/Ruppin, 4. Spieltag",
+      "home": "SV Eintracht Alt Ruppin",
+      "away": "SV Blumenthal-Grabow",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SV Blumenthal-Grabow"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-eintracht-alt-ruppin-m1-sv-blumenthal-grabow-m1-260927",
+      "tracked_places": [
+        "Umgebung"
       ]
     },
     {
