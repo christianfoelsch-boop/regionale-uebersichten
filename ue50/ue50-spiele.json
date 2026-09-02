@@ -5,7 +5,7 @@
   "staffelId": "610639",
   "focusTeam": "wittenberge",
   "provisional": true,
-  "updated": "2026-08-17",
+  "updated": "2026-09-02",
   "source": {
     "label": "FUSSBALL.DE",
     "leagueUrl": "https://www.fussball.de/spielplan/altsenioren-ue50-staffel-a-kreis-prignitz-ruppin-herren-ue50-kreisliga-herren-ue50-saison2627-brandenburg/-/staffel/031NO685S4000007VS5489BUVT2M8LCU-G",
@@ -41,7 +41,7 @@
   "games": [
     {
       "nr": "610639001",
-      "date": "2026-09-02",
+      "date": "2026-10-14",
       "time": "19:00",
       "home": "pritzwalk",
       "away": "karstaedt"
@@ -51,7 +51,9 @@
       "date": "2026-09-02",
       "time": "18:30",
       "home": "wittenberge",
-      "away": "perleberg"
+      "away": "perleberg",
+      "result": "3:0",
+      "status": "finished"
     },
     {
       "nr": "610639005",
