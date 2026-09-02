@@ -44,7 +44,9 @@
       "date": "2026-10-14",
       "time": "19:00",
       "home": "pritzwalk",
-      "away": "karstaedt"
+      "away": "karstaedt",
+      "source_url": "https://www.fussball.de/spiel/pritzwalker-fhv-sc-hertha-karstaedt/-/spiel/031NPBPPRG000000VS5489BUVT2M8LCU",
+      "external_id": "031NPBPPRG000000VS5489BUVT2M8LCU"
     },
     {
       "nr": "610639002",
@@ -53,133 +55,173 @@
       "home": "wittenberge",
       "away": "perleberg",
       "result": "3:0",
-      "status": "finished"
+      "status": "finished",
+      "source_url": "https://www.fussball.de/spiel/spg-veritas-esv-wittenberge-ssv-einheit-perleberg/-/spiel/031NPBPPS4000000VS5489BUVT2M8LCU",
+      "external_id": "031NPBPPS4000000VS5489BUVT2M8LCU"
     },
     {
       "nr": "610639005",
       "date": "2026-09-09",
       "time": "19:00",
       "home": "blumenthal",
-      "away": "pritzwalk"
+      "away": "pritzwalk",
+      "source_url": "https://www.fussball.de/spiel/sv-blumenthal-grabow-ue50-pritzwalker-fhv/-/spiel/031NPBPPQ4000000VS5489BUVT2M8LCU",
+      "external_id": "031NPBPPQ4000000VS5489BUVT2M8LCU"
     },
     {
       "nr": "610639006",
       "date": "2026-09-09",
       "time": "18:30",
       "home": "karstaedt",
-      "away": "wittenberge"
+      "away": "wittenberge",
+      "source_url": "https://www.fussball.de/spiel/sc-hertha-karstaedt-spg-veritas-esv-wittenberge/-/spiel/031NPBPPQO000000VS5489BUVT2M8LCU",
+      "external_id": "031NPBPPQO000000VS5489BUVT2M8LCU"
     },
     {
       "nr": "610639007",
       "date": "2026-09-16",
       "time": "19:00",
       "home": "pritzwalk",
-      "away": "wittenberge"
+      "away": "wittenberge",
+      "source_url": "https://www.fussball.de/spiel/pritzwalker-fhv-spg-veritas-esv-wittenberge/-/spiel/031NPBPPMS000000VS5489BUVT2M8LCU",
+      "external_id": "031NPBPPMS000000VS5489BUVT2M8LCU"
     },
     {
       "nr": "610639008",
       "date": "2026-09-16",
       "time": "19:00",
       "home": "blumenthal",
-      "away": "perleberg"
+      "away": "perleberg",
+      "source_url": "https://www.fussball.de/spiel/sv-blumenthal-grabow-ue50-ssv-einheit-perleberg/-/spiel/031NPBPPO0000000VS5489BUVT2M8LCU",
+      "external_id": "031NPBPPO0000000VS5489BUVT2M8LCU"
     },
     {
       "nr": "610639010",
       "date": "2026-09-30",
       "time": "19:00",
       "home": "pritzwalk",
-      "away": "perleberg"
+      "away": "perleberg",
+      "source_url": "https://www.fussball.de/spiel/pritzwalker-fhv-ssv-einheit-perleberg/-/spiel/031NPBPPKS000000VS5489BUVT2M8LCU",
+      "external_id": "031NPBPPKS000000VS5489BUVT2M8LCU"
     },
     {
       "nr": "610639012",
       "date": "2026-09-30",
       "time": "18:30",
       "home": "karstaedt",
-      "away": "blumenthal"
+      "away": "blumenthal",
+      "source_url": "https://www.fussball.de/spiel/sc-hertha-karstaedt-sv-blumenthal-grabow-ue50/-/spiel/031NPBPPM4000000VS5489BUVT2M8LCU",
+      "external_id": "031NPBPPM4000000VS5489BUVT2M8LCU"
     },
     {
       "nr": "610639013",
       "date": "2026-10-07",
       "time": "19:00",
       "home": "perleberg",
-      "away": "karstaedt"
+      "away": "karstaedt",
+      "source_url": "https://www.fussball.de/spiel/ssv-einheit-perleberg-sc-hertha-karstaedt/-/spiel/031NPBPPI0000000VS5489BUVT2M8LCU",
+      "external_id": "031NPBPPI0000000VS5489BUVT2M8LCU"
     },
     {
       "nr": "610639014",
       "date": "2026-10-07",
       "time": "19:00",
       "home": "blumenthal",
-      "away": "wittenberge"
+      "away": "wittenberge",
+      "source_url": "https://www.fussball.de/spiel/sv-blumenthal-grabow-ue50-spg-veritas-esv-wittenberge/-/spiel/031NPBPPJC000000VS5489BUVT2M8LCU",
+      "external_id": "031NPBPPJC000000VS5489BUVT2M8LCU"
     },
     {
       "nr": "610639016",
       "date": "2027-04-21",
       "time": "18:30",
       "home": "karstaedt",
-      "away": "pritzwalk"
+      "away": "pritzwalk",
+      "source_url": "https://www.fussball.de/spiel/sc-hertha-karstaedt-pritzwalker-fhv/-/spiel/031NPBPQ7O000000VS5489BUVT2M8LCU",
+      "external_id": "031NPBPQ7O000000VS5489BUVT2M8LCU"
     },
     {
       "nr": "610639017",
       "date": "2027-04-21",
       "time": "19:00",
       "home": "perleberg",
-      "away": "wittenberge"
+      "away": "wittenberge",
+      "source_url": "https://www.fussball.de/spiel/ssv-einheit-perleberg-spg-veritas-esv-wittenberge/-/spiel/031NPBPQ94000000VS5489BUVT2M8LCU",
+      "external_id": "031NPBPQ94000000VS5489BUVT2M8LCU"
     },
     {
       "nr": "610639020",
       "date": "2027-04-28",
       "time": "19:00",
       "home": "pritzwalk",
-      "away": "blumenthal"
+      "away": "blumenthal",
+      "source_url": "https://www.fussball.de/spiel/pritzwalker-fhv-sv-blumenthal-grabow-ue50/-/spiel/031NPBPQ5O000000VS5489BUVT2M8LCU",
+      "external_id": "031NPBPQ5O000000VS5489BUVT2M8LCU"
     },
     {
       "nr": "610639021",
       "date": "2027-04-28",
       "time": "18:30",
       "home": "wittenberge",
-      "away": "karstaedt"
+      "away": "karstaedt",
+      "source_url": "https://www.fussball.de/spiel/spg-veritas-esv-wittenberge-sc-hertha-karstaedt/-/spiel/031NPBPQ6O000000VS5489BUVT2M8LCU",
+      "external_id": "031NPBPQ6O000000VS5489BUVT2M8LCU"
     },
     {
       "nr": "610639022",
       "date": "2027-05-19",
       "time": "18:30",
       "home": "wittenberge",
-      "away": "pritzwalk"
+      "away": "pritzwalk",
+      "source_url": "https://www.fussball.de/spiel/spg-veritas-esv-wittenberge-pritzwalker-fhv/-/spiel/031NPBPQ28000000VS5489BUVT2M8LCU",
+      "external_id": "031NPBPQ28000000VS5489BUVT2M8LCU"
     },
     {
       "nr": "610639023",
       "date": "2027-05-19",
       "time": "19:00",
       "home": "perleberg",
-      "away": "blumenthal"
+      "away": "blumenthal",
+      "source_url": "https://www.fussball.de/spiel/ssv-einheit-perleberg-sv-blumenthal-grabow-ue50/-/spiel/031NPBPQ38000000VS5489BUVT2M8LCU",
+      "external_id": "031NPBPQ38000000VS5489BUVT2M8LCU"
     },
     {
       "nr": "610639025",
       "date": "2027-05-26",
       "time": "19:00",
       "home": "perleberg",
-      "away": "pritzwalk"
+      "away": "pritzwalk",
+      "source_url": "https://www.fussball.de/spiel/ssv-einheit-perleberg-pritzwalker-fhv/-/spiel/031NPBPQ00000000VS5489BUVT2M8LCU",
+      "external_id": "031NPBPQ00000000VS5489BUVT2M8LCU"
     },
     {
       "nr": "610639027",
       "date": "2027-05-26",
       "time": "19:00",
       "home": "blumenthal",
-      "away": "karstaedt"
+      "away": "karstaedt",
+      "source_url": "https://www.fussball.de/spiel/sv-blumenthal-grabow-ue50-sc-hertha-karstaedt/-/spiel/031NPBPQ1G000000VS5489BUVT2M8LCU",
+      "external_id": "031NPBPQ1G000000VS5489BUVT2M8LCU"
     },
     {
       "nr": "610639028",
       "date": "2027-06-02",
       "time": "18:30",
       "home": "karstaedt",
-      "away": "perleberg"
+      "away": "perleberg",
+      "source_url": "https://www.fussball.de/spiel/sc-hertha-karstaedt-ssv-einheit-perleberg/-/spiel/031NPBPPTO000000VS5489BUVT2M8LCU",
+      "external_id": "031NPBPPTO000000VS5489BUVT2M8LCU"
     },
     {
       "nr": "610639029",
       "date": "2027-06-02",
       "time": "18:30",
       "home": "wittenberge",
-      "away": "blumenthal"
+      "away": "blumenthal",
+      "source_url": "https://www.fussball.de/spiel/spg-veritas-esv-wittenberge-sv-blumenthal-grabow-ue50/-/spiel/031NPBPPUK000000VS5489BUVT2M8LCU",
+      "external_id": "031NPBPPUK000000VS5489BUVT2M8LCU"
     }
-  ]
+  ],
+  "lastSourceCheck": "2026-09-02",
+  "sourceCheckStatus": "20 FUSSBALL.DE-Spielzeilen gelesen"
 }

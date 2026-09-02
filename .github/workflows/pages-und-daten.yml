@@ -41,11 +41,15 @@ jobs:
         continue-on-error: true
         run: python3 scripts/update_fussball.py
 
+      - name: Ü50-Daten aktualisieren
+        continue-on-error: true
+        run: python3 scripts/update_ue50.py
+
       - name: Aktualisierte JSON-Daten speichern
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add angebote/angebote.json fussball/spiele.json
+          git add angebote/angebote.json fussball/spiele.json ue50/ue50-spiele.json ue50/index.html ue50/druck.html
           if git diff --cached --quiet; then
             echo "Keine Datenänderungen."
           else

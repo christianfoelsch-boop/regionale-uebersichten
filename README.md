@@ -71,8 +71,9 @@ Dabei werden:
 
 1. Angebotsdaten aktualisiert,
 2. Fußballdaten aktualisiert,
-3. geänderte JSON-Dateien committed,
-4. GitHub Pages veröffentlicht.
+3. Ü50-Daten geprüft und Fallback-Daten synchronisiert,
+4. geänderte JSON-/Fallback-Dateien committed,
+5. GitHub Pages veröffentlicht.
 
 Die Datei `fussball/spiele.json` bleibt der stabile Datensatz für die
 Regionalfußballseite und externe Verbraucher wie TV-/Enigma2-Addons. Die
@@ -85,6 +86,7 @@ Für die Python-Dateien:
 ```bash
 python3 -m py_compile scripts/update_angebote.py
 python3 -m py_compile scripts/update_fussball.py
+python3 -m py_compile scripts/update_ue50.py
 ```
 
 JSON prüfen:
@@ -92,6 +94,7 @@ JSON prüfen:
 ```bash
 python3 -m json.tool angebote/angebote.json >/dev/null
 python3 -m json.tool fussball/spiele.json >/dev/null
+python3 -m json.tool ue50/ue50-spiele.json >/dev/null
 python3 -m json.tool scripts/vereine.json >/dev/null
 ```
 

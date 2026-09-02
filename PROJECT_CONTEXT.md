@@ -82,6 +82,7 @@ Aktuell soll zuerst die normale `github.io`-Adresse getestet werden.
 ├── scripts/
 │   ├── update_angebote.py
 │   ├── update_fussball.py
+│   ├── update_ue50.py
 │   └── vereine.json
 ├── AGENTS.md
 ├── PROJECT_CONTEXT.md
@@ -111,10 +112,11 @@ Der Workflow:
 3. richtet Python ein,
 4. startet `scripts/update_angebote.py`,
 5. startet `scripts/update_fussball.py`,
-6. committed geänderte JSON-Dateien,
-7. rebased den Datencommit auf den aktuellen Remote-Stand und bevorzugt dabei die frisch erzeugten JSON-Daten,
-8. baut den statischen Veröffentlichungsordner,
-9. veröffentlicht ihn über GitHub Pages.
+6. startet `scripts/update_ue50.py`,
+7. committed geänderte JSON-/Fallback-Dateien,
+8. rebased den Datencommit auf den aktuellen Remote-Stand und bevorzugt dabei die frisch erzeugten Daten,
+9. baut den statischen Veröffentlichungsordner,
+10. veröffentlicht ihn über GitHub Pages.
 
 Geplante Aktualisierungen:
 
@@ -217,6 +219,15 @@ Datei:
 Daten:
 
 `ue50/ue50-spiele.json`
+
+Updater:
+
+`scripts/update_ue50.py`
+
+Der Ü50-Updater liest die öffentliche FUSSBALL.DE-Staffelseite, ergänzt
+Spiel-Links und prüft die Zuordnung. Manuell geprüfte Termine und Ergebnisse
+bleiben erhalten; wegen der von FUSSBALL.DE verschleierten Zahlen werden Daten
+nicht blind überschrieben.
 
 Projektbeschreibung:
 
