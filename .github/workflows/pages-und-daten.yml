@@ -25,6 +25,9 @@ jobs:
       - name: Repository laden
         uses: actions/checkout@v6
 
+      - name: Aktuellen main-Stand holen
+        run: git pull --ff-only origin main
+
       - name: Python einrichten
         uses: actions/setup-python@v7
         with:
@@ -47,7 +50,8 @@ jobs:
             echo "Keine Datenänderungen."
           else
             git commit -m "Daten automatisch aktualisiert"
-            git pull --rebase origin main
+            git fetch origin main
+            git rebase -X theirs origin/main
             git push
           fi
 

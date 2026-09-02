@@ -107,12 +107,14 @@ Workflow:
 Der Workflow:
 
 1. lädt das Repository,
-2. richtet Python ein,
-3. startet `scripts/update_angebote.py`,
-4. startet `scripts/update_fussball.py`,
-5. committed geänderte JSON-Dateien,
-6. baut den statischen Veröffentlichungsordner,
-7. veröffentlicht ihn über GitHub Pages.
+2. synchronisiert den aktuellen `main`-Stand,
+3. richtet Python ein,
+4. startet `scripts/update_angebote.py`,
+5. startet `scripts/update_fussball.py`,
+6. committed geänderte JSON-Dateien,
+7. rebased den Datencommit auf den aktuellen Remote-Stand und bevorzugt dabei die frisch erzeugten JSON-Daten,
+8. baut den statischen Veröffentlichungsordner,
+9. veröffentlicht ihn über GitHub Pages.
 
 Geplante Aktualisierungen:
 
