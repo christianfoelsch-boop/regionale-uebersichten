@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-02T21:15:52+00:00",
+  "updated": "2026-09-02T21:33:48+00:00",
   "status": "Live-Abgleich erfolgreich: 174 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
-    "Match https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-osterburger-fc-m2-260816_2: ValueError: Datum nicht ermittelbar",
-    "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar"
+    "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar",
+    "Match https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-osterburger-fc-m2-260816_2: ValueError: Datum nicht ermittelbar"
   ],
   "games": [
     {
@@ -2774,6 +2774,25 @@
     },
     {
       "date": "2026-09-27",
+      "time": "12:00",
+      "competition": "Frauen Kreisliga Prignitz/Ruppin, 4. Spieltag",
+      "home": "SV Eintracht Alt Ruppin",
+      "away": "SV Blumenthal-Grabow",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SV Blumenthal-Grabow"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-eintracht-alt-ruppin-w1-sv-blumenthal-grabow-w1-260927",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-09-27",
       "time": "13:00",
       "competition": "Frauen Landesklasse West Brandenburg, 4. Spieltag",
       "home": "FSV Babelsberg 74 II",
@@ -2923,25 +2942,6 @@
       "source_url": "https://www.fupa.net/match/sg-aufbau-stepenitz-m1-bsv-schwarz-weiss-zaatzke-1949-m2-260927",
       "tracked_places": [
         "Pritzwalk"
-      ]
-    },
-    {
-      "date": "2026-09-27",
-      "time": "14:00",
-      "competition": "Kreisoberliga Prignitz/Ruppin, 4. Spieltag",
-      "home": "SV Eintracht Alt Ruppin",
-      "away": "SV Blumenthal-Grabow",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "tracked_clubs": [
-        "SV Blumenthal-Grabow"
-      ],
-      "scope": "umfeld",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-eintracht-alt-ruppin-m1-sv-blumenthal-grabow-m1-260927",
-      "tracked_places": [
-        "Umgebung"
       ]
     },
     {
