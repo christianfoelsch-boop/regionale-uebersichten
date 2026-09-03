@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-02T23:17:35+00:00",
-  "status": "Live-Abgleich erfolgreich: 174 Spiele neu gelesen",
+  "updated": "2026-09-03T08:54:28+00:00",
+  "status": "Live-Abgleich erfolgreich: 173 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
@@ -8,27 +8,6 @@
     "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar"
   ],
   "games": [
-    {
-      "date": "2026-08-12",
-      "time": "18:30",
-      "competition": "Testspiele",
-      "home": "Putlitzer SV 1921",
-      "away": "Pritzwalker FHV 03",
-      "home_score": 0,
-      "away_score": 2,
-      "status": "finished",
-      "tracked_clubs": [
-        "Pritzwalker FHV 03",
-        "Putlitzer SV 1921"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/putlitzer-sv-1921-m1-pritzwalker-fhv-03-m1-260812",
-      "tracked_places": [
-        "Pritzwalk",
-        "Umgebung"
-      ]
-    },
     {
       "date": "2026-08-14",
       "time": "17:00",
