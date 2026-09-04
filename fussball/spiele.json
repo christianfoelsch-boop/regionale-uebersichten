@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-03T23:15:55+00:00",
-  "status": "Live-Abgleich erfolgreich: 172 Spiele neu gelesen",
+  "updated": "2026-09-04T08:49:43+00:00",
+  "status": "Live-Abgleich erfolgreich: 173 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
-    "Match https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-osterburger-fc-m2-260816_2: ValueError: Datum nicht ermittelbar",
-    "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar"
+    "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar",
+    "Match https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-osterburger-fc-m2-260816_2: ValueError: Datum nicht ermittelbar"
   ],
   "games": [
     {
@@ -3470,6 +3470,26 @@
       "source_url": "https://www.fupa.net/match/pankower-sv-rot-weiss-1921-w1-ssv-einheit-perleberg-w1-261006",
       "tracked_places": [
         "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "time": "18:00",
+      "competition": "B-Junioren Kreisliga Staffel A Prignitz/Ruppin, 5. Spieltag",
+      "home": "Meyenburger SV Wacker 1922",
+      "away": "SC Hertha Karstädt 1923",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SC Hertha Karstädt 1923",
+        "Meyenburger SV Wacker 1922"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/meyenburger-sv-wacker-1922-u17-1-sc-hertha-karstaedt-1923-u17-1-261009",
+      "tracked_places": [
+        "Umgebung"
       ]
     }
   ]
