@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T20:43:53+00:00",
+  "updated": "2026-09-04T23:02:12+00:00",
   "status": "Live-Abgleich erfolgreich: 172 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -997,9 +997,9 @@
       "competition": "Frauen Landesklasse West Brandenburg, 1. Spieltag",
       "home": "FSV Forst Borgsdorf",
       "away": "SpG Veritas/Prignitz",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 6,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "FSV Veritas Wittenberge/Breese"
       ],
