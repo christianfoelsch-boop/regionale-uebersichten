@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-05T08:20:05+00:00",
+  "updated": "2026-09-05T12:40:10+00:00",
   "status": "Live-Abgleich erfolgreich: 181 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -978,9 +978,9 @@
       "competition": "C-Junioren Kreisliga Prignitz/Ruppin, 1. Spieltag",
       "home": "FK Hansa Wittstock 1919",
       "away": "FSV Blau-Weiß 90 Rheinsberg",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 8,
+      "away_score": 3,
+      "status": "finished",
       "tracked_clubs": [
         "FK Hansa Wittstock 1919"
       ],
@@ -1016,9 +1016,9 @@
       "competition": "C-Junioren Kreisliga Prignitz/Ruppin, 1. Spieltag",
       "home": "SpG Blumenthal-Grabow/Dannenwalde",
       "away": "BSV Schwarz-Weiß Zaatzke 1949",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 1,
+      "away_score": 16,
+      "status": "finished",
       "tracked_clubs": [
         "SV Blumenthal-Grabow"
       ],
@@ -1035,9 +1035,9 @@
       "competition": "A-Junioren Kreisliga Prignitz/Ruppin, 1. Spieltag",
       "home": "SV 1949 Protzen",
       "away": "SpG Meyenburg/Freyenstein II",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 5,
+      "away_score": 1,
+      "status": "finished",
       "tracked_clubs": [
         "Meyenburger SV Wacker 1922"
       ],
@@ -1054,9 +1054,9 @@
       "competition": "B-Junioren Landesklasse Nord Brandenburg, 2. Spieltag",
       "home": "SSV Einheit Perleberg",
       "away": "Potsdamer Kickers 94 II",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 2,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "SSV Einheit Perleberg"
       ],
@@ -1092,9 +1092,9 @@
       "competition": "Landesklasse West Brandenburg, 15. Spieltag",
       "home": "FSV Veritas Wittenberge/Breese",
       "away": "SV Blau-Gelb Falkensee",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 0,
+      "away_score": 1,
+      "status": "finished",
       "tracked_clubs": [
         "FSV Veritas Wittenberge/Breese"
       ],
@@ -1132,9 +1132,9 @@
       "competition": "Landesklasse West Brandenburg, 15. Spieltag",
       "home": "SV Empor Schenkenberg 1928",
       "away": "SSV Einheit Perleberg",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "finished",
       "tracked_clubs": [
         "SSV Einheit Perleberg"
       ],
@@ -2715,25 +2715,6 @@
     },
     {
       "date": "2026-09-27",
-      "time": "12:00",
-      "competition": "Frauen Kreisliga Prignitz/Ruppin, 4. Spieltag",
-      "home": "SV Eintracht Alt Ruppin",
-      "away": "SV Blumenthal-Grabow",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "tracked_clubs": [
-        "SV Blumenthal-Grabow"
-      ],
-      "scope": "umfeld",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-eintracht-alt-ruppin-w1-sv-blumenthal-grabow-w1-260927",
-      "tracked_places": [
-        "Umgebung"
-      ]
-    },
-    {
-      "date": "2026-09-27",
       "time": "13:00",
       "competition": "Frauen Landesklasse West Brandenburg, 4. Spieltag",
       "home": "FSV Babelsberg 74 II",
@@ -2883,6 +2864,25 @@
       "source_url": "https://www.fupa.net/match/sg-aufbau-stepenitz-m1-bsv-schwarz-weiss-zaatzke-1949-m2-260927",
       "tracked_places": [
         "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "time": "14:00",
+      "competition": "Kreisoberliga Prignitz/Ruppin, 4. Spieltag",
+      "home": "SV Eintracht Alt Ruppin",
+      "away": "SV Blumenthal-Grabow",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SV Blumenthal-Grabow"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-eintracht-alt-ruppin-m1-sv-blumenthal-grabow-m1-260927",
+      "tracked_places": [
+        "Umgebung"
       ]
     },
     {
