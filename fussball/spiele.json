@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-04T23:02:12+00:00",
-  "status": "Live-Abgleich erfolgreich: 172 Spiele neu gelesen",
+  "updated": "2026-09-05T08:20:05+00:00",
+  "status": "Live-Abgleich erfolgreich: 181 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
@@ -8,44 +8,6 @@
     "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar"
   ],
   "games": [
-    {
-      "date": "2026-08-14",
-      "time": "17:00",
-      "competition": "Testspiele",
-      "home": "SSV Einheit Perleberg",
-      "away": "1. FC Lok Stendal II",
-      "home_score": 6,
-      "away_score": 2,
-      "status": "finished",
-      "tracked_clubs": [
-        "SSV Einheit Perleberg"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-u15-1-1-fc-lok-stendal-u15-2-260814",
-      "tracked_places": [
-        "Perleberg"
-      ]
-    },
-    {
-      "date": "2026-08-14",
-      "time": "19:00",
-      "competition": "Testspiele",
-      "home": "PSV Röbel/Müritz",
-      "away": "FK Hansa Wittstock 1919",
-      "home_score": 0,
-      "away_score": 5,
-      "status": "finished",
-      "tracked_clubs": [
-        "FK Hansa Wittstock 1919"
-      ],
-      "scope": "umfeld",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/psv-roebelmueritz-m1-fk-hansa-wittstock-1919-m1-260814",
-      "tracked_places": [
-        "Umgebung"
-      ]
-    },
     {
       "date": "2026-08-15",
       "time": "11:00",
@@ -3490,6 +3452,217 @@
       "source_url": "https://www.fupa.net/match/meyenburger-sv-wacker-1922-u17-1-sc-hertha-karstaedt-1923-u17-1-261009",
       "tracked_places": [
         "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "time": "10:00",
+      "competition": "C-Junioren Kreisliga Prignitz/Ruppin, 5. Spieltag",
+      "home": "SC Hertha Karstädt 1923",
+      "away": "Boxsportverein Veritas Wittenberge",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SC Hertha Karstädt 1923"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sc-hertha-karstaedt-1923-u15-1-boxsportverein-veritas-wittenberge-u15-1-261010",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "time": "10:00",
+      "competition": "A-Junioren Kreisliga Prignitz/Ruppin, 5. Spieltag",
+      "home": "SC Hertha Karstädt 1923",
+      "away": "TSV Wustrau",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SC Hertha Karstädt 1923"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sc-hertha-karstaedt-1923-u19-1-tsv-wustrau-u19-1-261010",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "time": "10:00",
+      "competition": "Frauen Kreisliga Prignitz/Ruppin, 6. Spieltag",
+      "home": "SSV Einheit Perleberg",
+      "away": "SV Blumenthal-Grabow",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg",
+        "SV Blumenthal-Grabow"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-w1-sv-blumenthal-grabow-w1-261010",
+      "tracked_places": [
+        "Perleberg",
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "time": "10:00",
+      "competition": "A-Junioren Kreisliga Prignitz/Ruppin, 5. Spieltag",
+      "home": "SV Groß Buchholz 85",
+      "away": "SpG Meyenburg/Freyenstein II",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "Meyenburger SV Wacker 1922"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-gross-buchholz-85-u19-1-meyenburger-sv-wacker-1922-u19-2-261010",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "time": "11:00",
+      "competition": "C-Junioren Landesklasse Nord/West Brandenburg, 6. Spieltag",
+      "home": "SpG BSC Rathenow/Großwudicke",
+      "away": "SSV Einheit Perleberg",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/bsc-rathenow-1994-u15-1-ssv-einheit-perleberg-u15-1-261010",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "time": "12:00",
+      "competition": "B-Junioren Landesklasse Nord Brandenburg, 6. Spieltag",
+      "home": "SSV Einheit Perleberg",
+      "away": "FSV Babelsberg 74",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-u17-1-fsv-babelsberg-74-u17-1-261010",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "time": "12:00",
+      "competition": "Frauen Landesklasse West Brandenburg, 5. Spieltag",
+      "home": "SpG Veritas/Prignitz",
+      "away": "RSV Eintracht 1949",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-w1-rsv-eintracht-1949-w1-261010",
+      "tracked_places": [
+        "Wittenberge"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "time": "13:00",
+      "competition": "B-Junioren Kreisliga Staffel A Prignitz/Ruppin, 5. Spieltag",
+      "home": "SG Sieversdorf 1950",
+      "away": "FSV Veritas Wittenberge/Breese",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sg-sieversdorf-1950-u17-1-fsv-veritas-wittenbergebreese-u17-1-261010",
+      "tracked_places": [
+        "Wittenberge"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "time": "14:00",
+      "competition": "Landesklasse West Brandenburg, 6. Spieltag",
+      "home": "FSV Veritas Wittenberge/Breese",
+      "away": "TSV Chemie Premnitz",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m1-tsv-chemie-premnitz-m1-261010",
+      "tracked_places": [
+        "Wittenberge"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "time": "15:00",
+      "competition": "Landesklasse West Brandenburg, 6. Spieltag",
+      "home": "SG Saarmund",
+      "away": "Pritzwalker FHV 03",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "Pritzwalker FHV 03"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sg-saarmund-m1-pritzwalker-fhv-03-m1-261010",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "time": "15:00",
+      "competition": "Landesklasse West Brandenburg, 6. Spieltag",
+      "home": "TSV Wustrau",
+      "away": "SSV Einheit Perleberg",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/tsv-wustrau-m1-ssv-einheit-perleberg-m1-261010",
+      "tracked_places": [
+        "Perleberg"
       ]
     }
   ]
