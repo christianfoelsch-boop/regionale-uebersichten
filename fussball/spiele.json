@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T08:38:44+00:00",
+  "updated": "2026-09-06T12:52:42+00:00",
   "status": "Live-Abgleich erfolgreich: 189 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -1094,9 +1094,9 @@
       "competition": "C-Junioren Kreisliga Prignitz/Ruppin, 1. Spieltag",
       "home": "Pritzwalker FHV 03",
       "away": "SV Union Neuruppin 1990",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 4,
+      "away_score": 4,
+      "status": "finished",
       "tracked_clubs": [
         "Pritzwalker FHV 03"
       ],
@@ -1133,9 +1133,9 @@
       "competition": "A-Junioren Brandenburgliga, 3. Spieltag",
       "home": "SpG Wittstock/Meyenburg",
       "away": "SV 1908 Grün-Weiss Ahrensfelde",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 1,
+      "away_score": 0,
+      "status": "finished",
       "tracked_clubs": [
         "Meyenburger SV Wacker 1922",
         "FK Hansa Wittstock 1919"
@@ -1153,9 +1153,9 @@
       "competition": "Kreisklasse 2 Prignitz/Ruppin, 1. Spieltag",
       "home": "Putlitzer SV 1921 II",
       "away": "SV Rot-Weiß Gerdshagen",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 5,
+      "away_score": 3,
+      "status": "finished",
       "tracked_clubs": [
         "SV Rot-Weiß Gerdshagen",
         "Putlitzer SV 1921"
@@ -1193,9 +1193,9 @@
       "competition": "Frauen Kreisliga Prignitz/Ruppin, 1. Spieltag",
       "home": "SG Aufbau Stepenitz",
       "away": "SV Union Neuruppin 1990",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 3,
+      "away_score": 1,
+      "status": "finished",
       "tracked_clubs": [
         "SG Aufbau Stepenitz"
       ],
