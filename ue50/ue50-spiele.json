@@ -5,7 +5,7 @@
   "staffelId": "610639",
   "focusTeam": "wittenberge",
   "provisional": true,
-  "updated": "2026-09-02",
+  "updated": "2026-09-10",
   "source": {
     "label": "FUSSBALL.DE",
     "leagueUrl": "https://www.fussball.de/spielplan/altsenioren-ue50-staffel-a-kreis-prignitz-ruppin-herren-ue50-kreisliga-herren-ue50-saison2627-brandenburg/-/staffel/031NO685S4000007VS5489BUVT2M8LCU-G",
@@ -75,7 +75,9 @@
       "home": "karstaedt",
       "away": "wittenberge",
       "source_url": "https://www.fussball.de/spiel/sc-hertha-karstaedt-spg-veritas-esv-wittenberge/-/spiel/031NPBPPQO000000VS5489BUVT2M8LCU",
-      "external_id": "031NPBPPQO000000VS5489BUVT2M8LCU"
+      "external_id": "031NPBPPQO000000VS5489BUVT2M8LCU",
+      "result": "0:2",
+      "status": "finished"
     },
     {
       "nr": "610639007",

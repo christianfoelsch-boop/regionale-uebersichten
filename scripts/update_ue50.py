@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import annotations
 
+import ast
 import html as htmlmod
 import json
 import re
@@ -98,6 +99,24 @@ def extract_rows(raw: str, data: dict) -> tuple[list[dict], list[str]]:
     return games, errors
 
 
+def parse_verified_result(url: str) -> str | None:
+    raw = fetch(url)
+    events_match = re.search(r'data-match-events="(.*?)"', raw, flags=re.S)
+    if not events_match:
+        return None
+    events_text = htmlmod.unescape(events_match.group(1))
+    try:
+        events_data = ast.literal_eval(events_text)
+    except (ValueError, SyntaxError):
+        return None
+    score = {"home": 0, "away": 0}
+    for section in ("first-half", "second-half", "extra-time"):
+        for event in events_data.get(section, {}).get("events", []):
+            if event.get("type") == "goal" and event.get("team") in score:
+                score[event["team"]] += 1
+    return f"{score['home']}:{score['away']}"
+
+
 def merge_source_links(data: dict, source_games: list[dict]) -> tuple[dict, list[str]]:
     errors = []
     remaining = source_games[:]
@@ -119,9 +138,22 @@ def merge_source_links(data: dict, source_games: list[dict]) -> tuple[dict, list
             if game.get(key) != source_game[key]:
                 game[key] = source_game[key]
                 changed = True
-        if source_game["verified_result"] and game.get("result") and game.get("status") != "finished":
-            game["status"] = "finished"
-            changed = True
+        if source_game["verified_result"]:
+            try:
+                result = parse_verified_result(source_game["source_url"])
+            except Exception as exc:
+                errors.append(f"Ergebnis nicht gelesen: {source_game['home_name']} - {source_game['away_name']}: {exc}")
+                result = None
+            if result:
+                if game.get("result") != result:
+                    game["result"] = result
+                    changed = True
+                if game.get("status") != "finished":
+                    game["status"] = "finished"
+                    changed = True
+            elif game.get("result") and game.get("status") != "finished":
+                game["status"] = "finished"
+                changed = True
     for source_game in remaining:
         errors.append(f"Nicht im lokalen Datensatz: {source_game['home_name']} - {source_game['away_name']}")
     if changed:
