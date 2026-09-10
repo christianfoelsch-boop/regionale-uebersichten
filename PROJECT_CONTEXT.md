@@ -77,12 +77,14 @@ Aktuell soll zuerst die normale `github.io`-Adresse getestet werden.
 ├── ue50/
 │   ├── druck.html
 │   ├── index.html
+│   ├── statistik.json
 │   ├── ue50-spiele.json
 │   └── CODEX_PROJECT.md
 ├── scripts/
 │   ├── update_angebote.py
 │   ├── update_fussball.py
 │   ├── update_ue50.py
+│   ├── update_ue50_statistik.py
 │   └── vereine.json
 ├── AGENTS.md
 ├── PROJECT_CONTEXT.md
@@ -113,10 +115,11 @@ Der Workflow:
 4. startet `scripts/update_angebote.py`,
 5. startet `scripts/update_fussball.py`,
 6. startet `scripts/update_ue50.py`,
-7. committed geänderte JSON-/Fallback-Dateien,
-8. rebased den Datencommit auf den aktuellen Remote-Stand und bevorzugt dabei die frisch erzeugten Daten,
-9. baut den statischen Veröffentlichungsordner,
-10. veröffentlicht ihn über GitHub Pages.
+7. startet `scripts/update_ue50_statistik.py`,
+8. committed geänderte JSON-/Fallback-Dateien,
+9. rebased den Datencommit auf den aktuellen Remote-Stand und bevorzugt dabei die frisch erzeugten Daten,
+10. baut den statischen Veröffentlichungsordner,
+11. veröffentlicht ihn über GitHub Pages.
 
 Geplante Aktualisierungen:
 
@@ -219,6 +222,7 @@ Datei:
 Daten:
 
 `ue50/ue50-spiele.json`
+`ue50/statistik.json`
 
 Updater:
 
@@ -228,6 +232,10 @@ Der Ü50-Updater liest die öffentliche FUSSBALL.DE-Staffelseite, ergänzt
 Spiel-Links und prüft die Zuordnung. Manuell geprüfte Termine und Ergebnisse
 bleiben erhalten; wegen der von FUSSBALL.DE verschleierten Zahlen werden Daten
 nicht blind überschrieben.
+
+Die Statistik nutzt öffentlich verlinkte FUSSBALL.DE-Spielseiten der
+Wittenberger Ü50-Mannschaft. Ausgewertet werden nur verifizierte Spiele mit
+lesbaren Spielereignissen, keine personenbezogenen Spielerstatistiken.
 
 Projektbeschreibung:
 

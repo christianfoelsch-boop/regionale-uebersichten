@@ -1,0 +1,217 @@
+{
+  "team": "SpG Veritas/ESV Wittenberge",
+  "updated": "2026-09-10",
+  "source": {
+    "label": "FUSSBALL.DE",
+    "teamUrl": "https://www.fussball.de/mannschaft/spg-veritas-esv-wittenberge-fsv-veritas-wittenberge-breese-brandenburg/-/saison/2627/team-id/02PGHIM4A4000000VS5489B1VSCT0UPQ"
+  },
+  "status": "8 verifizierte Spiele aus 12 offiziellen Spielseiten ausgewertet",
+  "totals": {
+    "played": 8,
+    "wins": 8,
+    "draws": 0,
+    "losses": 0,
+    "goalsFor": 31,
+    "goalsAgainst": 9,
+    "goalDiff": 22,
+    "points": 24
+  },
+  "home": {
+    "played": 4,
+    "wins": 4,
+    "draws": 0,
+    "losses": 0,
+    "goalsFor": 18,
+    "goalsAgainst": 5,
+    "goalDiff": 13,
+    "points": 12
+  },
+  "away": {
+    "played": 4,
+    "wins": 4,
+    "draws": 0,
+    "losses": 0,
+    "goalsFor": 13,
+    "goalsAgainst": 4,
+    "goalDiff": 9,
+    "points": 12
+  },
+  "seasons": [
+    {
+      "season": "2026/2027",
+      "played": 2,
+      "wins": 2,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 5,
+      "goalsAgainst": 0,
+      "goalDiff": 5,
+      "points": 6
+    },
+    {
+      "season": "2025/2026",
+      "played": 4,
+      "wins": 4,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 18,
+      "goalsAgainst": 6,
+      "goalDiff": 12,
+      "points": 12
+    },
+    {
+      "season": "2024/2025",
+      "played": 2,
+      "wins": 2,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 8,
+      "goalsAgainst": 3,
+      "goalDiff": 5,
+      "points": 6
+    }
+  ],
+  "opponents": [
+    {
+      "opponent": "SSV Einheit Perleberg",
+      "played": 4,
+      "wins": 4,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 14,
+      "goalsAgainst": 5,
+      "goalDiff": 9,
+      "points": 12
+    },
+    {
+      "opponent": "SC Hertha Karstädt",
+      "played": 2,
+      "wins": 2,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 7,
+      "goalsAgainst": 3,
+      "goalDiff": 4,
+      "points": 6
+    },
+    {
+      "opponent": "SV Blumenthal-Grabow",
+      "played": 2,
+      "wins": 2,
+      "draws": 0,
+      "losses": 0,
+      "goalsFor": 10,
+      "goalsAgainst": 1,
+      "goalDiff": 9,
+      "points": 6
+    }
+  ],
+  "recent": [
+    {
+      "date": "2026-09-09",
+      "season": "2026/2027",
+      "competition": "Herren Ü50 Kreisliga",
+      "home": "SC Hertha Karstädt",
+      "away": "SpG Veritas/ESV Wittenberge",
+      "source_url": "https://www.fussball.de/spiel/sc-hertha-karstaedt-spg-veritas-esv-wittenberge/-/spiel/031NPBPPQO000000VS5489BUVT2M8LCU",
+      "result": "0:2"
+    },
+    {
+      "date": "2026-09-02",
+      "season": "2026/2027",
+      "competition": "Herren Ü50 Kreisliga",
+      "home": "SpG Veritas/ESV Wittenberge",
+      "away": "SSV Einheit Perleberg",
+      "source_url": "https://www.fussball.de/spiel/spg-veritas-esv-wittenberge-ssv-einheit-perleberg/-/spiel/031NPBPPS4000000VS5489BUVT2M8LCU",
+      "result": "3:0"
+    },
+    {
+      "date": "2026-06-03",
+      "season": "2025/2026",
+      "competition": "Herren Ü50 Kreisliga",
+      "home": "SpG Veritas/ESV Wittenberge",
+      "away": "SV Blumenthal-Grabow",
+      "source_url": "https://www.fussball.de/spiel/spg-veritas-esv-wittenberge-sv-blumenthal-grabow/-/spiel/02U4GHIJ4S000000VS5489BTVV378D77",
+      "result": "6:1"
+    },
+    {
+      "date": "2026-05-27",
+      "season": "2025/2026",
+      "competition": "Herren Ü50 Kreisliga",
+      "home": "SpG Veritas/ESV Wittenberge",
+      "away": "SC Hertha Karstädt",
+      "source_url": "https://www.fussball.de/spiel/spg-veritas-esv-wittenberge-sc-hertha-karstaedt/-/spiel/02U4GHIJ6O000000VS5489BTVV378D77",
+      "result": "5:3"
+    },
+    {
+      "date": "2026-04-15",
+      "season": "2025/2026",
+      "competition": "Herren Ü50 Kreisliga",
+      "home": "SpG Veritas/ESV Wittenberge",
+      "away": "SSV Einheit Perleberg",
+      "source_url": "https://www.fussball.de/spiel/spg-veritas-esv-wittenberge-ssv-einheit-perleberg/-/spiel/02U4GHIJAS000000VS5489BTVV378D77",
+      "result": "4:1"
+    },
+    {
+      "date": "2025-09-10",
+      "season": "2025/2026",
+      "competition": "Herren Ü50 Kreisliga",
+      "home": "SSV Einheit Perleberg",
+      "away": "SpG Veritas/ESV Wittenberge",
+      "source_url": "https://www.fussball.de/spiel/ssv-einheit-perleberg-spg-veritas-esv-wittenberge/-/spiel/02U4GHIJM0000000VS5489BTVV378D77",
+      "result": "1:3"
+    },
+    {
+      "date": "2025-04-09",
+      "season": "2024/2025",
+      "competition": "Herren Ü50 Kreisliga",
+      "home": "SSV Einheit Perleberg",
+      "away": "SpG Veritas/ESV Wittenberge",
+      "source_url": "https://www.fussball.de/spiel/ssv-einheit-perleberg-spg-veritas-esv-wittenberge/-/spiel/02QFK70OQC000000VS5489B3VUP1MFB7",
+      "result": "3:4"
+    },
+    {
+      "date": "2024-09-25",
+      "season": "2024/2025",
+      "competition": "Herren Ü50 Kreisliga",
+      "home": "SV Blumenthal/Grabow",
+      "away": "SpG Veritas/ESV Wittenberge",
+      "source_url": "https://www.fussball.de/spiel/sv-blumenthal-grabow-spg-veritas-esv-wittenberge/-/spiel/02QFK70OAS000000VS5489B3VUP1MFB7",
+      "result": "0:4"
+    }
+  ],
+  "scheduled": [
+    {
+      "date": "2025-04-04",
+      "season": "2024/2025",
+      "competition": "Herren Ü50 Kreisliga",
+      "home": "SpG Veritas/ESV Wittenberge",
+      "away": "SpG SV 69 Schönberg/SG Gumtow",
+      "source_url": "https://www.fussball.de/spiel/spg-veritas-esv-wittenberge-spg-sv-69-schoenberg-sg-gumtow/-/spiel/02QFK70O5G000000VS5489B3VUP1MFB7"
+    },
+    {
+      "date": "2025-05-16",
+      "season": "2024/2025",
+      "competition": "Herren Ü50 Kreisliga",
+      "home": "SpG Veritas/ESV Wittenberge",
+      "away": "SpG SV 69 Schönberg/SG Gumtow",
+      "source_url": "https://www.fussball.de/spiel/spg-veritas-esv-wittenberge-spg-sv-69-schoenberg-sg-gumtow/-/spiel/02QFK70OHO000000VS5489B3VUP1MFB7"
+    },
+    {
+      "date": "2026-09-16",
+      "season": "2026/2027",
+      "competition": "Herren Ü50 Kreisliga",
+      "home": "Pritzwalker FHV",
+      "away": "SpG Veritas/ESV Wittenberge",
+      "source_url": "https://www.fussball.de/spiel/pritzwalker-fhv-spg-veritas-esv-wittenberge/-/spiel/031NPBPPMS000000VS5489BUVT2M8LCU"
+    },
+    {
+      "date": "2026-10-07",
+      "season": "2026/2027",
+      "competition": "Herren Ü50 Kreisliga",
+      "home": "SV Blumenthal-Grabow (Ü50)",
+      "away": "SpG Veritas/ESV Wittenberge",
+      "source_url": "https://www.fussball.de/spiel/sv-blumenthal-grabow-ue50-spg-veritas-esv-wittenberge/-/spiel/031NPBPPJC000000VS5489BUVT2M8LCU"
+    }
+  ]
+}
