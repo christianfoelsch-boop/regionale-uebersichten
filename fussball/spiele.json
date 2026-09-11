@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-10T23:08:10+00:00",
-  "status": "Live-Abgleich erfolgreich: 181 Spiele neu gelesen",
+  "updated": "2026-09-11T08:53:54+00:00",
+  "status": "Live-Abgleich erfolgreich: 179 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
@@ -8,63 +8,6 @@
     "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar"
   ],
   "games": [
-    {
-      "date": "2026-08-20",
-      "time": "16:00",
-      "competition": "Kreisturnier Perleberg, Gruppe A",
-      "home": "Delay Sports Berlin",
-      "away": "SSV Einheit Perleberg",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "tracked_clubs": [
-        "SSV Einheit Perleberg"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/delay-sports-berlin-u17-1-ssv-einheit-perleberg-u17-1-260820",
-      "tracked_places": [
-        "Perleberg"
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "time": "16:58",
-      "competition": "Testspiele",
-      "home": "FC Mecklenburg Schwerin U14",
-      "away": "SSV Einheit Perleberg",
-      "home_score": 3,
-      "away_score": 0,
-      "status": "finished",
-      "tracked_clubs": [
-        "SSV Einheit Perleberg"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/fc-mecklenburg-schwerin-u14-1-ssv-einheit-perleberg-u15-1-260820",
-      "tracked_places": [
-        "Perleberg"
-      ]
-    },
-    {
-      "date": "2026-08-20",
-      "time": "19:20",
-      "competition": "Kreisturnier Perleberg, Gruppe A",
-      "home": "SSV Einheit Perleberg",
-      "away": "FC Mecklenburg Schwerin",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "tracked_clubs": [
-        "SSV Einheit Perleberg"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-u17-1-fc-mecklenburg-schwerin-u17-1-260820",
-      "tracked_places": [
-        "Perleberg"
-      ]
-    },
     {
       "date": "2026-08-23",
       "time": "10:00",
@@ -3190,25 +3133,6 @@
     {
       "date": "2026-10-10",
       "time": "10:00",
-      "competition": "A-Junioren Kreisliga Prignitz/Ruppin, 5. Spieltag",
-      "home": "SC Hertha Karstädt 1923",
-      "away": "TSV Wustrau",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "tracked_clubs": [
-        "SC Hertha Karstädt 1923"
-      ],
-      "scope": "umfeld",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sc-hertha-karstaedt-1923-u19-1-tsv-wustrau-u19-1-261010",
-      "tracked_places": [
-        "Umgebung"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "time": "10:00",
       "competition": "C-Junioren Kreisliga Prignitz/Ruppin, 5. Spieltag",
       "home": "SC Hertha Karstädt 1923",
       "away": "Boxsportverein Veritas Wittenberge",
@@ -3221,6 +3145,25 @@
       "scope": "umfeld",
       "source": "FuPa",
       "source_url": "https://www.fupa.net/match/sc-hertha-karstaedt-1923-u15-1-boxsportverein-veritas-wittenberge-u15-1-261010",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "time": "10:00",
+      "competition": "A-Junioren Kreisliga Prignitz/Ruppin, 5. Spieltag",
+      "home": "SC Hertha Karstädt 1923",
+      "away": "TSV Wustrau",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SC Hertha Karstädt 1923"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sc-hertha-karstaedt-1923-u19-1-tsv-wustrau-u19-1-261010",
       "tracked_places": [
         "Umgebung"
       ]
@@ -3692,6 +3635,28 @@
       "source": "FuPa",
       "source_url": "https://www.fupa.net/match/sv-90-fehrbellin-m1-putlitzer-sv-1921-m1-261011",
       "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "time": "18:00",
+      "competition": "B-Junioren Kreisliga Staffel A Prignitz/Ruppin, 1. Spieltag",
+      "home": "Meyenburger SV Wacker 1922",
+      "away": "SpG FHV/Einheit Pritzwalk",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "Pritzwalker FHV 03",
+        "SG Einheit Pritzwalk 1952",
+        "Meyenburger SV Wacker 1922"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/meyenburger-sv-wacker-1922-u17-1-pritzwalker-fhv-03-u17-1-261016",
+      "tracked_places": [
+        "Pritzwalk",
         "Umgebung"
       ]
     }
