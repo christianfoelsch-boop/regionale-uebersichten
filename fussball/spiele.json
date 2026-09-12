@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-11T23:14:41+00:00",
-  "status": "Live-Abgleich erfolgreich: 179 Spiele neu gelesen",
+  "updated": "2026-09-12T08:37:29+00:00",
+  "status": "Live-Abgleich erfolgreich: 184 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
@@ -3658,6 +3658,101 @@
       "tracked_places": [
         "Pritzwalk",
         "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "time": "11:00",
+      "competition": "A-Junioren Kreisliga Prignitz/Ruppin, 1. Spieltag",
+      "home": "SV Rot-Weiß Kyritz",
+      "away": "SC Hertha Karstädt 1923",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SC Hertha Karstädt 1923"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-rot-weiss-kyritz-u19-1-sc-hertha-karstaedt-1923-u19-1-261017",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "time": "14:00",
+      "competition": "Landesklasse West Brandenburg, 7. Spieltag",
+      "home": "SSV Einheit Perleberg",
+      "away": "FC Borussia Brandenburg",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-m1-fc-borussia-brandenburg-m1-261017",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "time": "14:00",
+      "competition": "Frauen Kreisliga Prignitz/Ruppin, 3. Spieltag",
+      "home": "SV Blumenthal-Grabow",
+      "away": "SG Sieversdorf 1950",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SV Blumenthal-Grabow"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-blumenthal-grabow-w1-sg-sieversdorf-1950-w1-261017",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "time": "14:00",
+      "competition": "Landesklasse West Brandenburg, 7. Spieltag",
+      "home": "SV Empor Schenkenberg 1928",
+      "away": "FSV Veritas Wittenberge/Breese",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-empor-schenkenberg-1928-m1-fsv-veritas-wittenbergebreese-m1-261017",
+      "tracked_places": [
+        "Wittenberge"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "time": "15:00",
+      "competition": "Landesklasse West Brandenburg, 7. Spieltag",
+      "home": "Pritzwalker FHV 03",
+      "away": "TSV Wustrau",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "Pritzwalker FHV 03"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/pritzwalker-fhv-03-m1-tsv-wustrau-m1-261017",
+      "tracked_places": [
+        "Pritzwalk"
       ]
     }
   ]
