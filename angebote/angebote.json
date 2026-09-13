@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T23:02:02+00:00",
+  "updated": "2026-09-13T17:23:43+00:00",
   "region": "Wittenberge / Perleberg / Pritzwalk",
   "status": "Keine neuen Live-Treffer – letzte gespeicherte Daten bleiben sichtbar",
   "errors": [
@@ -7,48 +7,5 @@
     "netto-perleberg: HTTPError: HTTP Error 403: Forbidden",
     "netto-pritzwalk: HTTPError: HTTP Error 403: Forbidden"
   ],
-  "offers": [
-    {
-      "retailer": "Netto Marken-Discount",
-      "product": "Krombacher Pils / alkoholfrei",
-      "pack": "20 × 0.5 Liter",
-      "price": 10.99,
-      "liter_price": 1.1,
-      "start": "2026-08-30",
-      "end": "2026-09-05",
-      "scope": "Kontrollquelle; Filialgültigkeit regional prüfen",
-      "source": "Marktguru",
-      "source_url": "https://www.marktguru.de/b/krombacher",
-      "note": "Automatisch aus der Angebotsseite gelesen.",
-      "place": "Perleberg"
-    },
-    {
-      "retailer": "Netto Marken-Discount",
-      "product": "Krombacher Pils / alkoholfrei",
-      "pack": "20 × 0.5 Liter",
-      "price": 10.99,
-      "liter_price": 1.1,
-      "start": "2026-08-30",
-      "end": "2026-09-05",
-      "scope": "Kontrollquelle; Filialgültigkeit regional prüfen",
-      "source": "Marktguru",
-      "source_url": "https://www.marktguru.de/b/krombacher",
-      "note": "Automatisch aus der Angebotsseite gelesen.",
-      "place": "Pritzwalk"
-    },
-    {
-      "retailer": "Netto Marken-Discount",
-      "product": "Krombacher Pils / alkoholfrei",
-      "pack": "20 × 0.5 Liter",
-      "price": 10.99,
-      "liter_price": 1.1,
-      "start": "2026-08-30",
-      "end": "2026-09-05",
-      "scope": "Kontrollquelle; Filialgültigkeit regional prüfen",
-      "source": "Marktguru",
-      "source_url": "https://www.marktguru.de/b/krombacher",
-      "note": "Automatisch aus der Angebotsseite gelesen.",
-      "place": "Wittenberge"
-    }
-  ]
+  "offers": []
 }
