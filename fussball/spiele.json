@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-14T09:48:54+00:00",
-  "status": "Live-Abgleich erfolgreich: 185 Spiele neu gelesen",
+  "updated": "2026-09-14T19:20:02+00:00",
+  "status": "Live-Abgleich erfolgreich: 187 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
@@ -2198,6 +2198,25 @@
     },
     {
       "date": "2026-09-27",
+      "time": "12:00",
+      "competition": "Frauen Kreisliga Prignitz/Ruppin, 4. Spieltag",
+      "home": "SV Eintracht Alt Ruppin",
+      "away": "SV Blumenthal-Grabow",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SV Blumenthal-Grabow"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-eintracht-alt-ruppin-w1-sv-blumenthal-grabow-w1-260927",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-09-27",
       "time": "13:00",
       "competition": "Frauen Landesklasse West Brandenburg, 4. Spieltag",
       "home": "FSV Babelsberg 74 II",
@@ -2347,25 +2366,6 @@
       "source_url": "https://www.fupa.net/match/sg-aufbau-stepenitz-m1-bsv-schwarz-weiss-zaatzke-1949-m2-260927",
       "tracked_places": [
         "Pritzwalk"
-      ]
-    },
-    {
-      "date": "2026-09-27",
-      "time": "14:00",
-      "competition": "Kreisoberliga Prignitz/Ruppin, 4. Spieltag",
-      "home": "SV Eintracht Alt Ruppin",
-      "away": "SV Blumenthal-Grabow",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "tracked_clubs": [
-        "SV Blumenthal-Grabow"
-      ],
-      "scope": "umfeld",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-eintracht-alt-ruppin-m1-sv-blumenthal-grabow-m1-260927",
-      "tracked_places": [
-        "Umgebung"
       ]
     },
     {
@@ -3468,17 +3468,58 @@
       "date": "2026-10-15",
       "time": "14:00",
       "competition": "Oberer Kreispokal Prignitz/Ruppin, Achtelfinale",
+      "home": "Pritzwalker FHV 03 II",
+      "away": "SV Union Neuruppin 1990",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "Pritzwalker FHV 03"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/pritzwalker-fhv-03-m2-sv-union-neuruppin-1990-m1-261015",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "time": "14:00",
+      "competition": "Oberer Kreispokal Prignitz/Ruppin, Achtelfinale",
       "home": "SC Hertha Karstädt 1923",
       "away": "FSV Veritas Wittenberge/Breese II",
       "home_score": null,
       "away_score": null,
       "status": "scheduled",
       "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese",
         "SC Hertha Karstädt 1923"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sc-hertha-karstaedt-1923-m1-fsv-veritas-wittenbergebreese-m2-261015",
+      "tracked_places": [
+        "Wittenberge",
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "time": "14:00",
+      "competition": "Oberer Kreispokal Prignitz/Ruppin, Achtelfinale",
+      "home": "SV Blumenthal-Grabow",
+      "away": "Putlitzer SV 1921",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "Putlitzer SV 1921",
+        "SV Blumenthal-Grabow"
       ],
       "scope": "umfeld",
       "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sc-hertha-karstaedt-1923-m1-fsv-veritas-wittenbergebreese-m2-261015",
+      "source_url": "https://www.fupa.net/match/sv-blumenthal-grabow-m1-putlitzer-sv-1921-m1-261015",
       "tracked_places": [
         "Umgebung"
       ]
