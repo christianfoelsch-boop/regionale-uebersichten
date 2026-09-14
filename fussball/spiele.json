@@ -1,206 +1,13 @@
 {
-  "updated": "2026-09-13T23:07:14+00:00",
-  "status": "Live-Abgleich erfolgreich: 193 Spiele neu gelesen",
+  "updated": "2026-09-14T09:48:54+00:00",
+  "status": "Live-Abgleich erfolgreich: 185 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
-    "Match https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-osterburger-fc-m2-260816_2: ValueError: Datum nicht ermittelbar",
-    "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar"
+    "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar",
+    "Match https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-osterburger-fc-m2-260816_2: ValueError: Datum nicht ermittelbar"
   ],
   "games": [
-    {
-      "date": "2026-08-23",
-      "time": "10:00",
-      "competition": "Testspiele",
-      "home": "SSV Einheit Perleberg",
-      "away": "SG 03 Ludwigslust/Grabow",
-      "home_score": 1,
-      "away_score": 5,
-      "status": "finished",
-      "tracked_clubs": [
-        "SSV Einheit Perleberg"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-w1-sg-03-ludwigslustgrabow-w1-260823",
-      "tracked_places": [
-        "Perleberg"
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "time": "11:00",
-      "competition": "Testspiele",
-      "home": "PSV Röbel/Müritz",
-      "away": "Pritzwalker FHV 03 II",
-      "home_score": 0,
-      "away_score": 8,
-      "status": "finished",
-      "tracked_clubs": [
-        "Pritzwalker FHV 03"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/psv-roebelmueritz-u13-1-pritzwalker-fhv-03-u13-2-260823",
-      "tracked_places": [
-        "Pritzwalk"
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "time": "11:00",
-      "competition": "A-Junioren Brandenburgliga, 1. Spieltag",
-      "home": "SpG Wittstock/Meyenburg",
-      "away": "BSG Stahl Brandenburg",
-      "home_score": 1,
-      "away_score": 1,
-      "status": "finished",
-      "tracked_clubs": [
-        "Meyenburger SV Wacker 1922",
-        "FK Hansa Wittstock 1919"
-      ],
-      "scope": "umfeld",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/fk-hansa-wittstock-1919-u19-1-bsg-stahl-brandenburg-u19-1-260823",
-      "tracked_places": [
-        "Umgebung"
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "time": "14:00",
-      "competition": "Unterer Kreispokal Prignitz/Ruppin, Qualifikation",
-      "home": "Berger SV",
-      "away": "Meyenburger SV Wacker 1922 II",
-      "home_score": 1,
-      "away_score": 5,
-      "status": "finished",
-      "tracked_clubs": [
-        "Meyenburger SV Wacker 1922"
-      ],
-      "scope": "umfeld",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/berger-sv-m1-meyenburger-sv-wacker-1922-m2-260823",
-      "tracked_places": [
-        "Umgebung"
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "time": "14:00",
-      "competition": "Testspiele",
-      "home": "Pankower SV Rot-Weiß 1921 II",
-      "away": "SSV Einheit Perleberg II",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "tracked_clubs": [
-        "SSV Einheit Perleberg"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/pankower-sv-rot-weiss-1921-m2-ssv-einheit-perleberg-m2-260823",
-      "tracked_places": [
-        "Perleberg"
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "time": "14:00",
-      "competition": "Testspiele",
-      "home": "Putlitzer SV 1921",
-      "away": "FSV Veritas Wittenberge/Breese II",
-      "home_score": 1,
-      "away_score": 0,
-      "status": "finished",
-      "tracked_clubs": [
-        "FSV Veritas Wittenberge/Breese",
-        "Putlitzer SV 1921"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/putlitzer-sv-1921-m1-fsv-veritas-wittenbergebreese-m2-260823",
-      "tracked_places": [
-        "Wittenberge",
-        "Umgebung"
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "time": "14:00",
-      "competition": "Testspiele",
-      "home": "SV 04 Groß Laasch",
-      "away": "SV Blumenthal-Grabow",
-      "home_score": 2,
-      "away_score": 7,
-      "status": "finished",
-      "tracked_clubs": [
-        "SV Blumenthal-Grabow"
-      ],
-      "scope": "umfeld",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-04-gross-laasch-m1-sv-blumenthal-grabow-m1-260823",
-      "tracked_places": [
-        "Umgebung"
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "time": "14:00",
-      "competition": "Testspiele",
-      "home": "SV Blumenthal-Grabow II",
-      "away": "MTV 1863 Freyenstein",
-      "home_score": 2,
-      "away_score": 6,
-      "status": "finished",
-      "tracked_clubs": [
-        "SV Blumenthal-Grabow"
-      ],
-      "scope": "umfeld",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-blumenthal-grabow-m2-mtv-1863-freyenstein-m1-260823",
-      "tracked_places": [
-        "Umgebung"
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "time": "14:00",
-      "competition": "Testspiele",
-      "home": "SV Rot-Weiß Gerdshagen",
-      "away": "SV Garz/Hoppenrade",
-      "home_score": 1,
-      "away_score": 3,
-      "status": "finished",
-      "tracked_clubs": [
-        "SV Rot-Weiß Gerdshagen"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-rot-weiss-gerdshagen-m1-sv-garzhoppenrade-m1-260823",
-      "tracked_places": [
-        "Pritzwalk"
-      ]
-    },
-    {
-      "date": "2026-08-23",
-      "time": "14:00",
-      "competition": "Frauen Landespokal Brandenburg, Qualifikation",
-      "home": "SpG Veritas/Prignitz",
-      "away": "MSV Zossen 07",
-      "home_score": 4,
-      "away_score": 0,
-      "status": "finished",
-      "tracked_clubs": [
-        "FSV Veritas Wittenberge/Breese"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-w1-msv-zossen-07-w1-260823",
-      "tracked_places": [
-        "Wittenberge"
-      ]
-    },
     {
       "date": "2026-08-28",
       "time": "19:00",
@@ -3639,6 +3446,44 @@
       ]
     },
     {
+      "date": "2026-10-15",
+      "time": "14:00",
+      "competition": "Oberer Kreispokal Prignitz/Ruppin, Achtelfinale",
+      "home": "Meyenburger SV Wacker 1922",
+      "away": "SV Schwarz-Rot Neustadt/Dosse II",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "Meyenburger SV Wacker 1922"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/meyenburger-sv-wacker-1922-m1-sv-schwarz-rot-neustadtdosse-m2-261015",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "time": "14:00",
+      "competition": "Oberer Kreispokal Prignitz/Ruppin, Achtelfinale",
+      "home": "SC Hertha Karstädt 1923",
+      "away": "FSV Veritas Wittenberge/Breese II",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SC Hertha Karstädt 1923"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sc-hertha-karstaedt-1923-m1-fsv-veritas-wittenbergebreese-m2-261015",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
       "date": "2026-10-16",
       "time": "18:00",
       "competition": "B-Junioren Kreisliga Staffel A Prignitz/Ruppin, 1. Spieltag",
@@ -3657,6 +3502,26 @@
       "source_url": "https://www.fupa.net/match/meyenburger-sv-wacker-1922-u17-1-pritzwalker-fhv-03-u17-1-261016",
       "tracked_places": [
         "Pritzwalk",
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "time": "10:00",
+      "competition": "B-Junioren Kreisliga Staffel A Prignitz/Ruppin, 1. Spieltag",
+      "home": "SC Hertha Karstädt 1923",
+      "away": "SpG Wittstock/Zaatzke",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SC Hertha Karstädt 1923",
+        "FK Hansa Wittstock 1919"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sc-hertha-karstaedt-1923-u17-1-fk-hansa-wittstock-1919-u17-1-261017",
+      "tracked_places": [
         "Umgebung"
       ]
     },
