@@ -5,7 +5,7 @@
   "staffelId": "610639",
   "focusTeam": "wittenberge",
   "provisional": true,
-  "updated": "2026-09-10",
+  "updated": "2026-09-16",
   "source": {
     "label": "FUSSBALL.DE",
     "leagueUrl": "https://www.fussball.de/spielplan/altsenioren-ue50-staffel-a-kreis-prignitz-ruppin-herren-ue50-kreisliga-herren-ue50-saison2627-brandenburg/-/staffel/031NO685S4000007VS5489BUVT2M8LCU-G",
@@ -86,7 +86,9 @@
       "home": "pritzwalk",
       "away": "wittenberge",
       "source_url": "https://www.fussball.de/spiel/pritzwalker-fhv-spg-veritas-esv-wittenberge/-/spiel/031NPBPPMS000000VS5489BUVT2M8LCU",
-      "external_id": "031NPBPPMS000000VS5489BUVT2M8LCU"
+      "external_id": "031NPBPPMS000000VS5489BUVT2M8LCU",
+      "result": "1:2",
+      "status": "finished"
     },
     {
       "nr": "610639008",
@@ -95,7 +97,9 @@
       "home": "blumenthal",
       "away": "perleberg",
       "source_url": "https://www.fussball.de/spiel/sv-blumenthal-grabow-ue50-ssv-einheit-perleberg/-/spiel/031NPBPPO0000000VS5489BUVT2M8LCU",
-      "external_id": "031NPBPPO0000000VS5489BUVT2M8LCU"
+      "external_id": "031NPBPPO0000000VS5489BUVT2M8LCU",
+      "result": "0:5",
+      "status": "finished"
     },
     {
       "nr": "610639010",
