@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-16T23:39:44+00:00",
+  "updated": "2026-09-17T09:25:04+00:00",
   "status": "Live-Abgleich erfolgreich: 187 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
-    "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar",
-    "Match https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-osterburger-fc-m2-260816_2: ValueError: Datum nicht ermittelbar"
+    "Match https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-osterburger-fc-m2-260816_2: ValueError: Datum nicht ermittelbar",
+    "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar"
   ],
   "games": [
     {
