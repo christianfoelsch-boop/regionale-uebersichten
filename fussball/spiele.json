@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T13:07:31+00:00",
+  "updated": "2026-09-19T17:15:41+00:00",
   "status": "Live-Abgleich erfolgreich: 189 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -1645,8 +1645,8 @@
       "competition": "Landesklasse West Brandenburg, 3. Spieltag",
       "home": "SSV Einheit Perleberg",
       "away": "VfL Nauen",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": 1,
+      "away_score": 4,
       "status": "finished",
       "tracked_clubs": [
         "SSV Einheit Perleberg"
@@ -1664,7 +1664,7 @@
       "competition": "Landesklasse West Brandenburg, 3. Spieltag",
       "home": "SV Germania 90 Berge",
       "away": "FSV Veritas Wittenberge/Breese",
-      "home_score": 0,
+      "home_score": 1,
       "away_score": 3,
       "status": "finished",
       "tracked_clubs": [
@@ -1683,9 +1683,9 @@
       "competition": "Landesklasse West Brandenburg, 3. Spieltag",
       "home": "Pritzwalker FHV 03",
       "away": "Pankower SV Rot-Weiß 1921",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 1,
+      "away_score": 1,
+      "status": "finished",
       "tracked_clubs": [
         "Pritzwalker FHV 03"
       ],
