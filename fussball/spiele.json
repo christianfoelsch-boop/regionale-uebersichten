@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-18T23:16:42+00:00",
-  "status": "Live-Abgleich erfolgreich: 186 Spiele neu gelesen",
+  "updated": "2026-09-19T08:46:58+00:00",
+  "status": "Live-Abgleich erfolgreich: 189 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
@@ -8,25 +8,6 @@
     "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar"
   ],
   "games": [
-    {
-      "date": "2026-08-28",
-      "time": "19:00",
-      "competition": "Testspiele",
-      "home": "SV Warsow",
-      "away": "SV Blumenthal-Grabow",
-      "home_score": 2,
-      "away_score": 2,
-      "status": "finished",
-      "tracked_clubs": [
-        "SV Blumenthal-Grabow"
-      ],
-      "scope": "umfeld",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-warsow-m1-sv-blumenthal-grabow-m1-260828",
-      "tracked_places": [
-        "Umgebung"
-      ]
-    },
     {
       "date": "2026-08-29",
       "time": "10:00",
@@ -2198,6 +2179,25 @@
     },
     {
       "date": "2026-09-27",
+      "time": "12:00",
+      "competition": "Frauen Kreisliga Prignitz/Ruppin, 4. Spieltag",
+      "home": "SV Eintracht Alt Ruppin",
+      "away": "SV Blumenthal-Grabow",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SV Blumenthal-Grabow"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-eintracht-alt-ruppin-w1-sv-blumenthal-grabow-w1-260927",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-09-27",
       "time": "13:00",
       "competition": "Frauen Landesklasse West Brandenburg, 4. Spieltag",
       "home": "FSV Babelsberg 74 II",
@@ -2347,25 +2347,6 @@
       "source_url": "https://www.fupa.net/match/sg-aufbau-stepenitz-m1-bsv-schwarz-weiss-zaatzke-1949-m2-260927",
       "tracked_places": [
         "Pritzwalk"
-      ]
-    },
-    {
-      "date": "2026-09-27",
-      "time": "14:00",
-      "competition": "Kreisoberliga Prignitz/Ruppin, 4. Spieltag",
-      "home": "SV Eintracht Alt Ruppin",
-      "away": "SV Blumenthal-Grabow",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "tracked_clubs": [
-        "SV Blumenthal-Grabow"
-      ],
-      "scope": "umfeld",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-eintracht-alt-ruppin-m1-sv-blumenthal-grabow-m1-260927",
-      "tracked_places": [
-        "Umgebung"
       ]
     },
     {
@@ -3853,6 +3834,84 @@
       "source_url": "https://www.fupa.net/match/sv-blumenthal-grabow-m1-sv-90-fehrbellin-m1-261018",
       "tracked_places": [
         "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "time": "13:00",
+      "competition": "Landesklasse West Brandenburg, 8. Spieltag",
+      "home": "SV Blau-Gelb Falkensee",
+      "away": "SSV Einheit Perleberg",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-blau-gelb-falkensee-m1-ssv-einheit-perleberg-m1-261024",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "time": "14:00",
+      "competition": "Landesklasse West Brandenburg, 8. Spieltag",
+      "home": "FSV Veritas Wittenberge/Breese",
+      "away": "SG Grün-Weiß Golm",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m1-sg-gruen-weiss-golm-m1-261024",
+      "tracked_places": [
+        "Wittenberge"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "time": "14:00",
+      "competition": "Frauen Kreisliga Prignitz/Ruppin, 1. Spieltag",
+      "home": "SV Blumenthal-Grabow",
+      "away": "SpG Veritas/Prignitz II",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese",
+        "SV Blumenthal-Grabow"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-blumenthal-grabow-w1-fsv-veritas-wittenbergebreese-w2-261024",
+      "tracked_places": [
+        "Wittenberge",
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "time": "15:00",
+      "competition": "Landesklasse West Brandenburg, 8. Spieltag",
+      "home": "FC Borussia Brandenburg",
+      "away": "Pritzwalker FHV 03",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "Pritzwalker FHV 03"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fc-borussia-brandenburg-m1-pritzwalker-fhv-03-m1-261024",
+      "tracked_places": [
+        "Pritzwalk"
       ]
     }
   ]
