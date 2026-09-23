@@ -5,7 +5,7 @@
   "staffelId": "610639",
   "focusTeam": "wittenberge",
   "provisional": true,
-  "updated": "2026-09-16",
+  "updated": "2026-09-23",
   "source": {
     "label": "FUSSBALL.DE",
     "leagueUrl": "https://www.fussball.de/spielplan/altsenioren-ue50-staffel-a-kreis-prignitz-ruppin-herren-ue50-kreisliga-herren-ue50-saison2627-brandenburg/-/staffel/031NO685S4000007VS5489BUVT2M8LCU-G",
@@ -66,7 +66,9 @@
       "home": "blumenthal",
       "away": "pritzwalk",
       "source_url": "https://www.fussball.de/spiel/sv-blumenthal-grabow-ue50-pritzwalker-fhv/-/spiel/031NPBPPQ4000000VS5489BUVT2M8LCU",
-      "external_id": "031NPBPPQ4000000VS5489BUVT2M8LCU"
+      "external_id": "031NPBPPQ4000000VS5489BUVT2M8LCU",
+      "result": "4:1",
+      "status": "finished"
     },
     {
       "nr": "610639006",
