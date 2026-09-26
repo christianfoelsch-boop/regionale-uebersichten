@@ -1,54 +1,13 @@
 {
-  "updated": "2026-09-25T23:56:28+00:00",
-  "status": "Live-Abgleich erfolgreich: 170 Spiele neu gelesen",
+  "updated": "2026-09-26T09:19:49+00:00",
+  "status": "Live-Abgleich erfolgreich: 173 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
-    "Match https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-osterburger-fc-m2-260816_2: ValueError: Datum nicht ermittelbar",
-    "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar"
+    "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar",
+    "Match https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-osterburger-fc-m2-260816_2: ValueError: Datum nicht ermittelbar"
   ],
   "games": [
-    {
-      "date": "2026-09-04",
-      "time": "18:00",
-      "competition": "B-Junioren Kreisliga Staffel A Prignitz/Ruppin, 1. Spieltag",
-      "home": "Meyenburger SV Wacker 1922",
-      "away": "SpG FHV/Einheit Pritzwalk",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "tracked_clubs": [
-        "Pritzwalker FHV 03",
-        "SG Einheit Pritzwalk 1952",
-        "Meyenburger SV Wacker 1922"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/meyenburger-sv-wacker-1922-u17-1-pritzwalker-fhv-03-u17-1-260904",
-      "tracked_places": [
-        "Pritzwalk",
-        "Umgebung"
-      ]
-    },
-    {
-      "date": "2026-09-04",
-      "time": "19:30",
-      "competition": "Frauen Landesklasse West Brandenburg, 1. Spieltag",
-      "home": "FSV Forst Borgsdorf",
-      "away": "SpG Veritas/Prignitz",
-      "home_score": 6,
-      "away_score": 2,
-      "status": "finished",
-      "tracked_clubs": [
-        "FSV Veritas Wittenberge/Breese"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/fsv-forst-borgsdorf-w1-fsv-veritas-wittenbergebreese-w1-260904",
-      "tracked_places": [
-        "Wittenberge"
-      ]
-    },
     {
       "date": "2026-09-05",
       "time": "10:00",
@@ -3583,6 +3542,82 @@
       "source_url": "https://www.fupa.net/match/sv-blumenthal-grabow-m2-meyenburger-sv-wacker-1922-m2-261025",
       "tracked_places": [
         "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "time": "10:00",
+      "competition": "Frauen Kreisliga Prignitz/Ruppin, 3. Spieltag",
+      "home": "SSV Einheit Perleberg",
+      "away": "SV Union Neuruppin 1990",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-w1-sv-union-neuruppin-1990-w1-261031",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "time": "14:00",
+      "competition": "Landesklasse West Brandenburg, 9. Spieltag",
+      "home": "FSV Veritas Wittenberge/Breese",
+      "away": "Pankower SV Rot-Weiß 1921",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m1-pankower-sv-rot-weiss-1921-m1-261031",
+      "tracked_places": [
+        "Wittenberge"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "time": "14:00",
+      "competition": "Landesklasse West Brandenburg, 9. Spieltag",
+      "home": "Pritzwalker FHV 03",
+      "away": "SV Blau-Gelb Falkensee",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "Pritzwalker FHV 03"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/pritzwalker-fhv-03-m1-sv-blau-gelb-falkensee-m1-261031",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "time": "14:00",
+      "competition": "Landesklasse West Brandenburg, 9. Spieltag",
+      "home": "SG Grün-Weiß Golm",
+      "away": "SSV Einheit Perleberg",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sg-gruen-weiss-golm-m1-ssv-einheit-perleberg-m1-261031",
+      "tracked_places": [
+        "Perleberg"
       ]
     }
   ]
