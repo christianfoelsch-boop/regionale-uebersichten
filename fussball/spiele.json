@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-26T09:19:49+00:00",
+  "updated": "2026-09-26T17:44:34+00:00",
   "status": "Live-Abgleich erfolgreich: 173 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
-    "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar",
-    "Match https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-osterburger-fc-m2-260816_2: ValueError: Datum nicht ermittelbar"
+    "Match https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-osterburger-fc-m2-260816_2: ValueError: Datum nicht ermittelbar",
+    "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar"
   ],
   "games": [
     {
@@ -1641,9 +1641,9 @@
       "competition": "Frauen Kreisliga Prignitz/Ruppin, 4. Spieltag",
       "home": "SSV Einheit Perleberg",
       "away": "TSV Wustrau",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 5,
+      "away_score": 0,
+      "status": "finished",
       "tracked_clubs": [
         "SSV Einheit Perleberg"
       ],
@@ -1660,9 +1660,9 @@
       "competition": "B-Junioren Unterer Landespokal Brandenburg, 1. Runde",
       "home": "FSV Bernau",
       "away": "SSV Einheit Perleberg",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 1,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "SSV Einheit Perleberg"
       ],
@@ -1679,9 +1679,9 @@
       "competition": "Landesklasse West Brandenburg, 4. Spieltag",
       "home": "FSV Veritas Wittenberge/Breese",
       "away": "SG Michendorf",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 4,
+      "away_score": 0,
+      "status": "finished",
       "tracked_clubs": [
         "FSV Veritas Wittenberge/Breese"
       ],
@@ -1698,9 +1698,9 @@
       "competition": "Landesklasse West Brandenburg, 4. Spieltag",
       "home": "VfL Nauen",
       "away": "Pritzwalker FHV 03",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 2,
+      "away_score": 0,
+      "status": "finished",
       "tracked_clubs": [
         "Pritzwalker FHV 03"
       ],
@@ -1717,9 +1717,9 @@
       "competition": "Landesklasse West Brandenburg, 4. Spieltag",
       "home": "SV Grün-Weiß Brieselang",
       "away": "SSV Einheit Perleberg",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 3,
+      "away_score": 0,
+      "status": "finished",
       "tracked_clubs": [
         "SSV Einheit Perleberg"
       ],
