@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-30T00:24:04+00:00",
+  "updated": "2026-09-30T10:27:25+00:00",
   "status": "Live-Abgleich erfolgreich: 158 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
-    "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar",
-    "Match https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-osterburger-fc-m2-260816_2: ValueError: Datum nicht ermittelbar"
+    "Match https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-osterburger-fc-m2-260816_2: ValueError: Datum nicht ermittelbar",
+    "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar"
   ],
   "games": [
     {
@@ -1770,6 +1770,25 @@
       "source_url": "https://www.fupa.net/match/fk-hansa-wittstock-1919-u17-1-meyenburger-sv-wacker-1922-u17-1-261004",
       "tracked_places": [
         "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "time": "11:00",
+      "competition": "C-Junioren Landesklasse Nord/West Brandenburg, 5. Spieltag",
+      "home": "MSV 1919 Neuruppin II",
+      "away": "SSV Einheit Perleberg",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/msv-1919-neuruppin-u15-2-ssv-einheit-perleberg-u15-1-261004",
+      "tracked_places": [
+        "Perleberg"
       ]
     },
     {
