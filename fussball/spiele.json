@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T19:15:58+00:00",
+  "updated": "2026-10-01T00:32:28+00:00",
   "status": "Live-Abgleich erfolgreich: 157 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -1633,6 +1633,25 @@
       "source_url": "https://www.fupa.net/match/bsv-schwarz-weiss-zaatzke-1949-u15-1-sc-hertha-karstaedt-1923-u15-1-261003",
       "tracked_places": [
         "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "time": "12:00",
+      "competition": "C-Junioren Landesklasse Nord/West Brandenburg, 5. Spieltag",
+      "home": "MSV 1919 Neuruppin II",
+      "away": "SSV Einheit Perleberg",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/msv-1919-neuruppin-u15-2-ssv-einheit-perleberg-u15-1-261003",
+      "tracked_places": [
+        "Perleberg"
       ]
     },
     {

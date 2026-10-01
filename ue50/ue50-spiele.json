@@ -234,6 +234,15 @@
       "external_id": "031NPBPPUK000000VS5489BUVT2M8LCU"
     }
   ],
-  "lastSourceCheck": "2026-09-30",
-  "sourceCheckStatus": "20 FUSSBALL.DE-Spielzeilen gelesen"
+  "lastSourceCheck": "2026-10-01",
+  "sourceCheckStatus": "13 FUSSBALL.DE-Spielzeilen gelesen",
+  "sourceCheckErrors": [
+    "Keine passende FUSSBALL.DE-Zeile gefunden: wittenberge - perleberg",
+    "Keine passende FUSSBALL.DE-Zeile gefunden: blumenthal - pritzwalk",
+    "Keine passende FUSSBALL.DE-Zeile gefunden: karstaedt - wittenberge",
+    "Keine passende FUSSBALL.DE-Zeile gefunden: pritzwalk - wittenberge",
+    "Keine passende FUSSBALL.DE-Zeile gefunden: blumenthal - perleberg",
+    "Keine passende FUSSBALL.DE-Zeile gefunden: pritzwalk - perleberg",
+    "Keine passende FUSSBALL.DE-Zeile gefunden: karstaedt - blumenthal"
+  ]
 }
