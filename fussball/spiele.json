@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-01T19:30:50+00:00",
-  "status": "Live-Abgleich erfolgreich: 157 Spiele neu gelesen",
+  "updated": "2026-10-02T00:44:50+00:00",
+  "status": "Live-Abgleich erfolgreich: 159 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
-    "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar",
-    "Match https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-osterburger-fc-m2-260816_2: ValueError: Datum nicht ermittelbar"
+    "Match https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-osterburger-fc-m2-260816_2: ValueError: Datum nicht ermittelbar",
+    "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar"
   ],
   "games": [
     {
@@ -2012,25 +2012,6 @@
     {
       "date": "2026-10-10",
       "time": "10:00",
-      "competition": "A-Junioren Kreisliga Prignitz/Ruppin, 5. Spieltag",
-      "home": "SC Hertha Karstädt 1923",
-      "away": "TSV Wustrau",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "tracked_clubs": [
-        "SC Hertha Karstädt 1923"
-      ],
-      "scope": "umfeld",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sc-hertha-karstaedt-1923-u19-1-tsv-wustrau-u19-1-261010",
-      "tracked_places": [
-        "Umgebung"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "time": "10:00",
       "competition": "C-Junioren Kreisliga Prignitz/Ruppin, 5. Spieltag",
       "home": "SC Hertha Karstädt 1923",
       "away": "Boxsportverein Veritas Wittenberge",
@@ -2043,6 +2024,25 @@
       "scope": "umfeld",
       "source": "FuPa",
       "source_url": "https://www.fupa.net/match/sc-hertha-karstaedt-1923-u15-1-boxsportverein-veritas-wittenberge-u15-1-261010",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "time": "10:00",
+      "competition": "A-Junioren Kreisliga Prignitz/Ruppin, 5. Spieltag",
+      "home": "SC Hertha Karstädt 1923",
+      "away": "TSV Wustrau",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SC Hertha Karstädt 1923"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sc-hertha-karstaedt-1923-u19-1-tsv-wustrau-u19-1-261010",
       "tracked_places": [
         "Umgebung"
       ]
@@ -3289,6 +3289,46 @@
       "source_url": "https://www.fupa.net/match/meyenburger-sv-wacker-1922-m1-sv-schwarz-rot-neustadtdosse-m2-261101",
       "tracked_places": [
         "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "time": "18:30",
+      "competition": "Frauen Kreisliga Prignitz/Ruppin, 7. Spieltag",
+      "home": "SV Garz/Hoppenrade",
+      "away": "SG Aufbau Stepenitz",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SG Aufbau Stepenitz"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-garzhoppenrade-w1-sg-aufbau-stepenitz-w1-261106",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "time": "19:00",
+      "competition": "Frauen Kreisliga Prignitz/Ruppin, 7. Spieltag",
+      "home": "SpG Veritas/Prignitz II",
+      "away": "SSV Einheit Perleberg",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese",
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-w2-ssv-einheit-perleberg-w1-261106",
+      "tracked_places": [
+        "Wittenberge",
+        "Perleberg"
       ]
     }
   ]
