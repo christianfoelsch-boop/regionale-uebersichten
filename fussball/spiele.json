@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-03T09:50:22+00:00",
+  "updated": "2026-10-03T17:56:19+00:00",
   "status": "Live-Abgleich erfolgreich: 166 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
-    "Match https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-osterburger-fc-m2-260816_2: ValueError: Datum nicht ermittelbar",
-    "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar"
+    "Match https://www.fupa.net/match/sc-parchim-m2-fsv-veritas-wittenbergebreese-m2-260809_2: ValueError: Datum nicht ermittelbar",
+    "Match https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-osterburger-fc-m2-260816_2: ValueError: Datum nicht ermittelbar"
   ],
   "games": [
     {
@@ -1213,25 +1213,6 @@
     },
     {
       "date": "2026-09-27",
-      "time": "12:00",
-      "competition": "Frauen Kreisliga Prignitz/Ruppin, 4. Spieltag",
-      "home": "SV Eintracht Alt Ruppin",
-      "away": "SV Blumenthal-Grabow",
-      "home_score": 4,
-      "away_score": 4,
-      "status": "finished",
-      "tracked_clubs": [
-        "SV Blumenthal-Grabow"
-      ],
-      "scope": "umfeld",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-eintracht-alt-ruppin-w1-sv-blumenthal-grabow-w1-260927",
-      "tracked_places": [
-        "Umgebung"
-      ]
-    },
-    {
-      "date": "2026-09-27",
       "time": "13:00",
       "competition": "Frauen Landesklasse West Brandenburg, 4. Spieltag",
       "home": "FSV Babelsberg 74 II",
@@ -1386,6 +1367,25 @@
     {
       "date": "2026-09-27",
       "time": "14:00",
+      "competition": "Kreisoberliga Prignitz/Ruppin, 4. Spieltag",
+      "home": "SV Eintracht Alt Ruppin",
+      "away": "SV Blumenthal-Grabow",
+      "home_score": 1,
+      "away_score": 6,
+      "status": "finished",
+      "tracked_clubs": [
+        "SV Blumenthal-Grabow"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-eintracht-alt-ruppin-m1-sv-blumenthal-grabow-m1-260927",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "time": "14:00",
       "competition": "Kreisliga West Prignitz/Ruppin, 4. Spieltag",
       "home": "SV Garz/Hoppenrade",
       "away": "SSV Einheit Perleberg II",
@@ -1485,9 +1485,9 @@
       "competition": "B-Junioren Kreisliga Staffel A Prignitz/Ruppin, 4. Spieltag",
       "home": "FSV Veritas Wittenberge/Breese",
       "away": "SC Hertha Karstädt 1923",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 4,
+      "away_score": 3,
+      "status": "finished",
       "tracked_clubs": [
         "FSV Veritas Wittenberge/Breese",
         "SC Hertha Karstädt 1923"
@@ -1506,9 +1506,9 @@
       "competition": "A-Junioren Kreisliga Prignitz/Ruppin, 4. Spieltag",
       "home": "SC Hertha Karstädt 1923",
       "away": "SV Eiche 05 Weisen",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 1,
+      "away_score": 4,
+      "status": "finished",
       "tracked_clubs": [
         "SC Hertha Karstädt 1923"
       ],
@@ -1545,9 +1545,9 @@
       "competition": "C-Junioren Kreisliga Prignitz/Ruppin, 4. Spieltag",
       "home": "Boxsportverein Veritas Wittenberge",
       "away": "Pritzwalker FHV 03",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 3,
+      "away_score": 3,
+      "status": "finished",
       "tracked_clubs": [
         "Pritzwalker FHV 03"
       ],
@@ -1564,9 +1564,9 @@
       "competition": "B-Junioren Landesklasse Nord Brandenburg, 5. Spieltag",
       "home": "SV Falkensee-Finkenkrug",
       "away": "SSV Einheit Perleberg",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 4,
+      "away_score": 1,
+      "status": "finished",
       "tracked_clubs": [
         "SSV Einheit Perleberg"
       ],
@@ -1583,9 +1583,9 @@
       "competition": "B-Junioren Kreisliga Staffel A Prignitz/Ruppin, 4. Spieltag",
       "home": "SpG FHV/Einheit Pritzwalk",
       "away": "SG Sieversdorf 1950",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 3,
+      "away_score": 4,
+      "status": "finished",
       "tracked_clubs": [
         "Pritzwalker FHV 03",
         "SG Einheit Pritzwalk 1952"
@@ -1603,9 +1603,9 @@
       "competition": "C-Junioren Kreisliga Prignitz/Ruppin, 4. Spieltag",
       "home": "BSV Schwarz-Weiß Zaatzke 1949",
       "away": "SC Hertha Karstädt 1923",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 2,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "SC Hertha Karstädt 1923"
       ],
@@ -1622,9 +1622,9 @@
       "competition": "C-Junioren Landesklasse Nord/West Brandenburg, 5. Spieltag",
       "home": "MSV 1919 Neuruppin II",
       "away": "SSV Einheit Perleberg",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 2,
+      "away_score": 4,
+      "status": "finished",
       "tracked_clubs": [
         "SSV Einheit Perleberg"
       ],
@@ -1660,9 +1660,9 @@
       "competition": "A-Junioren Brandenburgliga, 6. Spieltag",
       "home": "SV Wacker 09 Ströbitz",
       "away": "SpG Wittstock/Meyenburg",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 5,
+      "away_score": 0,
+      "status": "finished",
       "tracked_clubs": [
         "Meyenburger SV Wacker 1922",
         "FK Hansa Wittstock 1919"
@@ -1680,9 +1680,9 @@
       "competition": "Landesklasse West Brandenburg, 5. Spieltag",
       "home": "SSV Einheit Perleberg",
       "away": "SG Saarmund",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 1,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "SSV Einheit Perleberg"
       ],
@@ -1739,9 +1739,9 @@
       "competition": "Landesklasse West Brandenburg, 5. Spieltag",
       "home": "Pritzwalker FHV 03",
       "away": "SV Grün-Weiß Brieselang",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 0,
+      "away_score": 4,
+      "status": "finished",
       "tracked_clubs": [
         "Pritzwalker FHV 03"
       ],
@@ -1993,25 +1993,6 @@
     {
       "date": "2026-10-10",
       "time": "10:00",
-      "competition": "C-Junioren Kreisliga Prignitz/Ruppin, 5. Spieltag",
-      "home": "SC Hertha Karstädt 1923",
-      "away": "Boxsportverein Veritas Wittenberge",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "tracked_clubs": [
-        "SC Hertha Karstädt 1923"
-      ],
-      "scope": "umfeld",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sc-hertha-karstaedt-1923-u15-1-boxsportverein-veritas-wittenberge-u15-1-261010",
-      "tracked_places": [
-        "Umgebung"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "time": "10:00",
       "competition": "A-Junioren Kreisliga Prignitz/Ruppin, 5. Spieltag",
       "home": "SC Hertha Karstädt 1923",
       "away": "TSV Wustrau",
@@ -2024,6 +2005,25 @@
       "scope": "umfeld",
       "source": "FuPa",
       "source_url": "https://www.fupa.net/match/sc-hertha-karstaedt-1923-u19-1-tsv-wustrau-u19-1-261010",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "time": "10:00",
+      "competition": "C-Junioren Kreisliga Prignitz/Ruppin, 5. Spieltag",
+      "home": "SC Hertha Karstädt 1923",
+      "away": "Boxsportverein Veritas Wittenberge",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SC Hertha Karstädt 1923"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sc-hertha-karstaedt-1923-u15-1-boxsportverein-veritas-wittenberge-u15-1-261010",
       "tracked_places": [
         "Umgebung"
       ]
