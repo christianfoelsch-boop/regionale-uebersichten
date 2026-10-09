@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-08T19:54:55+00:00",
-  "status": "Live-Abgleich erfolgreich: 156 Spiele neu gelesen",
+  "updated": "2026-10-09T01:11:56+00:00",
+  "status": "Live-Abgleich erfolgreich: 157 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
@@ -3243,6 +3243,25 @@
       "scope": "umfeld",
       "source": "FuPa",
       "source_url": "https://www.fupa.net/match/sv-blumenthal-grabow-m1-bsv-schwarz-weiss-zaatzke-1949-m1-261108",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "time": "18:30",
+      "competition": "Frauen Kreisliga Prignitz/Ruppin, 8. Spieltag",
+      "home": "Pankower SV Rot-Weiß 1921",
+      "away": "SV Blumenthal-Grabow",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SV Blumenthal-Grabow"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/pankower-sv-rot-weiss-1921-w1-sv-blumenthal-grabow-w1-261113",
       "tracked_places": [
         "Umgebung"
       ]
