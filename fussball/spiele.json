@@ -1,52 +1,12 @@
 {
-  "updated": "2026-10-09T19:31:40+00:00",
-  "status": "Live-Abgleich erfolgreich: 157 Spiele neu gelesen",
+  "updated": "2026-10-10T00:47:12+00:00",
+  "status": "Live-Abgleich erfolgreich: 167 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [
     "Match https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m2-osterburger-fc-m2-260816_2: ValueError: Datum nicht ermittelbar"
   ],
   "games": [
-    {
-      "date": "2026-09-18",
-      "time": "17:30",
-      "competition": "B-Junioren Kreisliga Staffel A Prignitz/Ruppin, 3. Spieltag",
-      "home": "Meyenburger SV Wacker 1922",
-      "away": "FSV Veritas Wittenberge/Breese",
-      "home_score": 8,
-      "away_score": 0,
-      "status": "finished",
-      "tracked_clubs": [
-        "FSV Veritas Wittenberge/Breese",
-        "Meyenburger SV Wacker 1922"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/meyenburger-sv-wacker-1922-u17-1-fsv-veritas-wittenbergebreese-u17-1-260918",
-      "tracked_places": [
-        "Wittenberge",
-        "Umgebung"
-      ]
-    },
-    {
-      "date": "2026-09-18",
-      "time": "19:00",
-      "competition": "Frauen Kreisliga Prignitz/Ruppin, 3. Spieltag",
-      "home": "SpG Veritas/Prignitz II",
-      "away": "SV Garz/Hoppenrade",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "tracked_clubs": [
-        "FSV Veritas Wittenberge/Breese"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-w2-sv-garzhoppenrade-w1-260918",
-      "tracked_places": [
-        "Wittenberge"
-      ]
-    },
     {
       "date": "2026-09-19",
       "time": "10:00",
@@ -683,6 +643,25 @@
     },
     {
       "date": "2026-09-27",
+      "time": "12:00",
+      "competition": "Frauen Kreisliga Prignitz/Ruppin, 4. Spieltag",
+      "home": "SV Eintracht Alt Ruppin",
+      "away": "SV Blumenthal-Grabow",
+      "home_score": 4,
+      "away_score": 4,
+      "status": "finished",
+      "tracked_clubs": [
+        "SV Blumenthal-Grabow"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-eintracht-alt-ruppin-w1-sv-blumenthal-grabow-w1-260927",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-09-27",
       "time": "13:00",
       "competition": "Frauen Landesklasse West Brandenburg, 4. Spieltag",
       "home": "FSV Babelsberg 74 II",
@@ -832,25 +811,6 @@
       "source_url": "https://www.fupa.net/match/sg-aufbau-stepenitz-m1-bsv-schwarz-weiss-zaatzke-1949-m2-260927",
       "tracked_places": [
         "Pritzwalk"
-      ]
-    },
-    {
-      "date": "2026-09-27",
-      "time": "14:00",
-      "competition": "Kreisoberliga Prignitz/Ruppin, 4. Spieltag",
-      "home": "SV Eintracht Alt Ruppin",
-      "away": "SV Blumenthal-Grabow",
-      "home_score": 1,
-      "away_score": 6,
-      "status": "finished",
-      "tracked_clubs": [
-        "SV Blumenthal-Grabow"
-      ],
-      "scope": "umfeld",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-eintracht-alt-ruppin-m1-sv-blumenthal-grabow-m1-260927",
-      "tracked_places": [
-        "Umgebung"
       ]
     },
     {
@@ -1463,25 +1423,6 @@
     {
       "date": "2026-10-10",
       "time": "10:00",
-      "competition": "A-Junioren Kreisliga Prignitz/Ruppin, 5. Spieltag",
-      "home": "SC Hertha Karstädt 1923",
-      "away": "TSV Wustrau",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "tracked_clubs": [
-        "SC Hertha Karstädt 1923"
-      ],
-      "scope": "umfeld",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sc-hertha-karstaedt-1923-u19-1-tsv-wustrau-u19-1-261010",
-      "tracked_places": [
-        "Umgebung"
-      ]
-    },
-    {
-      "date": "2026-10-10",
-      "time": "10:00",
       "competition": "C-Junioren Kreisliga Prignitz/Ruppin, 5. Spieltag",
       "home": "SC Hertha Karstädt 1923",
       "away": "Boxsportverein Veritas Wittenberge",
@@ -1494,6 +1435,25 @@
       "scope": "umfeld",
       "source": "FuPa",
       "source_url": "https://www.fupa.net/match/sc-hertha-karstaedt-1923-u15-1-boxsportverein-veritas-wittenberge-u15-1-261010",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-10-10",
+      "time": "10:00",
+      "competition": "A-Junioren Kreisliga Prignitz/Ruppin, 5. Spieltag",
+      "home": "SC Hertha Karstädt 1923",
+      "away": "TSV Wustrau",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SC Hertha Karstädt 1923"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sc-hertha-karstaedt-1923-u19-1-tsv-wustrau-u19-1-261010",
       "tracked_places": [
         "Umgebung"
       ]
@@ -3264,6 +3224,216 @@
       "source_url": "https://www.fupa.net/match/pankower-sv-rot-weiss-1921-w1-sv-blumenthal-grabow-w1-261113",
       "tracked_places": [
         "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "time": "10:00",
+      "competition": "C-Junioren Kreisliga Prignitz/Ruppin, 7. Spieltag",
+      "home": "SC Hertha Karstädt 1923",
+      "away": "FK Hansa Wittstock 1919",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SC Hertha Karstädt 1923",
+        "FK Hansa Wittstock 1919"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sc-hertha-karstaedt-1923-u15-1-fk-hansa-wittstock-1919-u15-1-261114",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "time": "10:00",
+      "competition": "Frauen Kreisliga Prignitz/Ruppin, 8. Spieltag",
+      "home": "SSV Einheit Perleberg",
+      "away": "SV Garz/Hoppenrade",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-w1-sv-garzhoppenrade-w1-261114",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "time": "10:30",
+      "competition": "A-Junioren Kreisliga Prignitz/Ruppin, 7. Spieltag",
+      "home": "SpG Meyenburg/Freyenstein II",
+      "away": "SV Rot-Weiß Kyritz",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "Meyenburger SV Wacker 1922"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/meyenburger-sv-wacker-1922-u19-2-sv-rot-weiss-kyritz-u19-1-261114",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "time": "12:00",
+      "competition": "B-Junioren Landesklasse Nord Brandenburg, 8. Spieltag",
+      "home": "SSV Einheit Perleberg",
+      "away": "SV Viktoria Potsdam",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-u17-1-sv-viktoria-potsdam-u17-1-261114",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "time": "12:00",
+      "competition": "C-Junioren Landesklasse Nord/West Brandenburg, 8. Spieltag",
+      "home": "SV Falkensee-Finkenkrug II",
+      "away": "SSV Einheit Perleberg",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-falkensee-finkenkrug-u15-2-ssv-einheit-perleberg-u15-1-261114",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "time": "13:00",
+      "competition": "Landesklasse West Brandenburg, 11. Spieltag",
+      "home": "FSV Veritas Wittenberge/Breese",
+      "away": "SV Grün-Weiß Brieselang",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-m1-sv-gruen-weiss-brieselang-m1-261114",
+      "tracked_places": [
+        "Wittenberge"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "time": "13:00",
+      "competition": "Landesklasse West Brandenburg, 11. Spieltag",
+      "home": "SG Grün-Weiß Golm",
+      "away": "Pritzwalker FHV 03",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "Pritzwalker FHV 03"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sg-gruen-weiss-golm-m1-pritzwalker-fhv-03-m1-261114",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "time": "13:00",
+      "competition": "B-Junioren Kreisliga Staffel A Prignitz/Ruppin, 7. Spieltag",
+      "home": "SG Sieversdorf 1950",
+      "away": "Meyenburger SV Wacker 1922",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "Meyenburger SV Wacker 1922"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sg-sieversdorf-1950-u17-1-meyenburger-sv-wacker-1922-u17-1-261114",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "time": "13:00",
+      "competition": "Landesklasse West Brandenburg, 11. Spieltag",
+      "home": "SV Germania 90 Berge",
+      "away": "SSV Einheit Perleberg",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-germania-90-berge-m1-ssv-einheit-perleberg-m1-261114",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "time": "13:00",
+      "competition": "C-Junioren Kreisliga Prignitz/Ruppin, 7. Spieltag",
+      "home": "SV Rot-Weiß Kyritz",
+      "away": "SpG Blumenthal-Grabow/Dannenwalde",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SV Blumenthal-Grabow"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-rot-weiss-kyritz-u15-1-sv-blumenthal-grabow-u15-1-261114",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "time": "16:15",
+      "competition": "Frauen Landesklasse West Brandenburg, 7. Spieltag",
+      "home": "SV Babelsberg 03 II",
+      "away": "SpG Veritas/Prignitz",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-babelsberg-03-w2-fsv-veritas-wittenbergebreese-w1-261114",
+      "tracked_places": [
+        "Wittenberge"
       ]
     }
   ]
