@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11T10:47:20+00:00",
+  "updated": "2026-10-11T18:51:12+00:00",
   "status": "Live-Abgleich erfolgreich: 173 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -488,25 +488,6 @@
     },
     {
       "date": "2026-09-27",
-      "time": "12:00",
-      "competition": "Frauen Kreisliga Prignitz/Ruppin, 4. Spieltag",
-      "home": "SV Eintracht Alt Ruppin",
-      "away": "SV Blumenthal-Grabow",
-      "home_score": 4,
-      "away_score": 4,
-      "status": "finished",
-      "tracked_clubs": [
-        "SV Blumenthal-Grabow"
-      ],
-      "scope": "umfeld",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-eintracht-alt-ruppin-w1-sv-blumenthal-grabow-w1-260927",
-      "tracked_places": [
-        "Umgebung"
-      ]
-    },
-    {
-      "date": "2026-09-27",
       "time": "13:00",
       "competition": "Frauen Landesklasse West Brandenburg, 4. Spieltag",
       "home": "FSV Babelsberg 74 II",
@@ -656,6 +637,25 @@
       "source_url": "https://www.fupa.net/match/sg-aufbau-stepenitz-m1-bsv-schwarz-weiss-zaatzke-1949-m2-260927",
       "tracked_places": [
         "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "time": "14:00",
+      "competition": "Kreisoberliga Prignitz/Ruppin, 4. Spieltag",
+      "home": "SV Eintracht Alt Ruppin",
+      "away": "SV Blumenthal-Grabow",
+      "home_score": 1,
+      "away_score": 6,
+      "status": "finished",
+      "tracked_clubs": [
+        "SV Blumenthal-Grabow"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-eintracht-alt-ruppin-m1-sv-blumenthal-grabow-m1-260927",
+      "tracked_places": [
+        "Umgebung"
       ]
     },
     {
@@ -1522,9 +1522,9 @@
       "competition": "B-Junioren Kreisliga Staffel A Prignitz/Ruppin, 5. Spieltag",
       "home": "SV Eiche 05 Weisen",
       "away": "SpG FHV/Einheit Pritzwalk",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 5,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "Pritzwalker FHV 03",
         "SG Einheit Pritzwalk 1952"
@@ -1542,9 +1542,9 @@
       "competition": "A-Junioren Brandenburgliga, 7. Spieltag",
       "home": "SpG Wittstock/Meyenburg",
       "away": "FSV Bernau",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 0,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "Meyenburger SV Wacker 1922",
         "FK Hansa Wittstock 1919"
@@ -1600,9 +1600,9 @@
       "competition": "Frauen Kreisliga Prignitz/Ruppin, 6. Spieltag",
       "home": "SG Aufbau Stepenitz",
       "away": "SpG Veritas/Prignitz II",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 2,
+      "away_score": 1,
+      "status": "finished",
       "tracked_clubs": [
         "FSV Veritas Wittenberge/Breese",
         "SG Aufbau Stepenitz"
@@ -1621,9 +1621,9 @@
       "competition": "Kreisklasse 2 Prignitz/Ruppin, 6. Spieltag",
       "home": "FC Dossow 01",
       "away": "SV Rot-Weiß Gerdshagen",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 1,
+      "away_score": 1,
+      "status": "finished",
       "tracked_clubs": [
         "SV Rot-Weiß Gerdshagen"
       ],
@@ -1640,9 +1640,9 @@
       "competition": "Kreisoberliga Prignitz/Ruppin, 6. Spieltag",
       "home": "FK Hansa Wittstock 1919",
       "away": "SV Schwarz-Rot Neustadt/Dosse II",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 5,
+      "away_score": 1,
+      "status": "finished",
       "tracked_clubs": [
         "FK Hansa Wittstock 1919"
       ],
@@ -1659,9 +1659,9 @@
       "competition": "Kreisoberliga Prignitz/Ruppin, 6. Spieltag",
       "home": "FSV Veritas Wittenberge/Breese II",
       "away": "SV Blumenthal-Grabow",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 4,
+      "away_score": 5,
+      "status": "finished",
       "tracked_clubs": [
         "FSV Veritas Wittenberge/Breese",
         "SV Blumenthal-Grabow"
@@ -1680,9 +1680,9 @@
       "competition": "Kreisliga West Prignitz/Ruppin, 6. Spieltag",
       "home": "Pritzwalker FHV 03 II",
       "away": "SV Prignitz Bad Wilsnack/Legde 2001",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 3,
+      "away_score": 1,
+      "status": "finished",
       "tracked_clubs": [
         "Pritzwalker FHV 03"
       ],
@@ -1699,9 +1699,9 @@
       "competition": "Kreisliga West Prignitz/Ruppin, 6. Spieltag",
       "home": "SC Hertha Karstädt 1923",
       "away": "SSV Einheit Perleberg II",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 2,
+      "away_score": 0,
+      "status": "finished",
       "tracked_clubs": [
         "SSV Einheit Perleberg",
         "SC Hertha Karstädt 1923"
@@ -1720,9 +1720,9 @@
       "competition": "Kreisklasse 2 Prignitz/Ruppin, 6. Spieltag",
       "home": "SG Aufbau Stepenitz",
       "away": "SV Blumenthal-Grabow II",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 1,
+      "away_score": 4,
+      "status": "finished",
       "tracked_clubs": [
         "SG Aufbau Stepenitz",
         "SV Blumenthal-Grabow"
@@ -1741,9 +1741,9 @@
       "competition": "Kreisoberliga Prignitz/Ruppin, 6. Spieltag",
       "home": "Meyenburger SV Wacker 1922",
       "away": "SV Union Neuruppin 1990",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 4,
+      "away_score": 4,
+      "status": "finished",
       "tracked_clubs": [
         "Meyenburger SV Wacker 1922"
       ],
@@ -1760,9 +1760,9 @@
       "competition": "Kreisoberliga Prignitz/Ruppin, 6. Spieltag",
       "home": "SV 90 Fehrbellin",
       "away": "Putlitzer SV 1921",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 2,
+      "away_score": 0,
+      "status": "finished",
       "tracked_clubs": [
         "Putlitzer SV 1921"
       ],
