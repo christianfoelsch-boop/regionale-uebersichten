@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-13T11:43:18+00:00",
-  "status": "Live-Abgleich erfolgreich: 158 Spiele neu gelesen",
+  "updated": "2026-10-13T20:14:39+00:00",
+  "status": "Live-Abgleich erfolgreich: 159 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [],
@@ -136,6 +136,25 @@
       "source_url": "https://www.fupa.net/match/sg-aufbau-stepenitz-w1-pankower-sv-rot-weiss-1921-w1-260927",
       "tracked_places": [
         "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "time": "12:00",
+      "competition": "Frauen Kreisliga Prignitz/Ruppin, 4. Spieltag",
+      "home": "SV Eintracht Alt Ruppin",
+      "away": "SV Blumenthal-Grabow",
+      "home_score": 4,
+      "away_score": 4,
+      "status": "finished",
+      "tracked_clubs": [
+        "SV Blumenthal-Grabow"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-eintracht-alt-ruppin-w1-sv-blumenthal-grabow-w1-260927",
+      "tracked_places": [
+        "Umgebung"
       ]
     },
     {
@@ -289,25 +308,6 @@
       "source_url": "https://www.fupa.net/match/sg-aufbau-stepenitz-m1-bsv-schwarz-weiss-zaatzke-1949-m2-260927",
       "tracked_places": [
         "Pritzwalk"
-      ]
-    },
-    {
-      "date": "2026-09-27",
-      "time": "14:00",
-      "competition": "Kreisoberliga Prignitz/Ruppin, 4. Spieltag",
-      "home": "SV Eintracht Alt Ruppin",
-      "away": "SV Blumenthal-Grabow",
-      "home_score": 1,
-      "away_score": 6,
-      "status": "finished",
-      "tracked_clubs": [
-        "SV Blumenthal-Grabow"
-      ],
-      "scope": "umfeld",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-eintracht-alt-ruppin-m1-sv-blumenthal-grabow-m1-260927",
-      "tracked_places": [
-        "Umgebung"
       ]
     },
     {
@@ -1967,6 +1967,25 @@
       "scope": "kern",
       "source": "FuPa",
       "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-w1-sv-union-neuruppin-1990-w1-261031",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "time": "10:30",
+      "competition": "B-Junioren Unterer Landespokal Brandenburg, 2. Runde",
+      "home": "SpG Zepernick/Schwanebeck",
+      "away": "SSV Einheit Perleberg",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sg-einheit-zepernick-1925-u17-1-ssv-einheit-perleberg-u17-1-261031",
       "tracked_places": [
         "Perleberg"
       ]
