@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T12:56:47+00:00",
+  "updated": "2026-10-17T17:07:00+00:00",
   "status": "Live-Abgleich erfolgreich: 167 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -1571,7 +1571,7 @@
       "competition": "Landesklasse West Brandenburg, 7. Spieltag",
       "home": "SSV Einheit Perleberg",
       "away": "FC Borussia Brandenburg",
-      "home_score": 2,
+      "home_score": 4,
       "away_score": 0,
       "status": "finished",
       "tracked_clubs": [
@@ -1590,9 +1590,9 @@
       "competition": "Frauen Kreisliga Prignitz/Ruppin, 3. Spieltag",
       "home": "SV Blumenthal-Grabow",
       "away": "SG Sieversdorf 1950",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 0,
+      "away_score": 13,
+      "status": "finished",
       "tracked_clubs": [
         "SV Blumenthal-Grabow"
       ],
@@ -1609,8 +1609,8 @@
       "competition": "Landesklasse West Brandenburg, 7. Spieltag",
       "home": "SV Empor Schenkenberg 1928",
       "away": "FSV Veritas Wittenberge/Breese",
-      "home_score": 0,
-      "away_score": 0,
+      "home_score": 2,
+      "away_score": 1,
       "status": "finished",
       "tracked_clubs": [
         "FSV Veritas Wittenberge/Breese"
@@ -1628,9 +1628,9 @@
       "competition": "Landesklasse West Brandenburg, 7. Spieltag",
       "home": "Pritzwalker FHV 03",
       "away": "TSV Wustrau",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 3,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "Pritzwalker FHV 03"
       ],
