@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T13:14:11+00:00",
+  "updated": "2026-10-18T17:19:34+00:00",
   "status": "Live-Abgleich erfolgreich: 171 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -1590,9 +1590,9 @@
       "competition": "Kreisoberliga Prignitz/Ruppin, 7. Spieltag",
       "home": "Putlitzer SV 1921",
       "away": "MSV 1919 Neuruppin II",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 2,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "Putlitzer SV 1921"
       ],
@@ -1609,9 +1609,9 @@
       "competition": "Kreisliga West Prignitz/Ruppin, 7. Spieltag",
       "home": "SG Stahl Wittstock",
       "away": "SC Hertha Karstädt 1923",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 3,
+      "away_score": 1,
+      "status": "finished",
       "tracked_clubs": [
         "SC Hertha Karstädt 1923"
       ],
@@ -1628,9 +1628,9 @@
       "competition": "Kreisliga West Prignitz/Ruppin, 7. Spieltag",
       "home": "SSV Einheit Perleberg II",
       "away": "Pritzwalker FHV 03 II",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 0,
+      "away_score": 1,
+      "status": "finished",
       "tracked_clubs": [
         "Pritzwalker FHV 03",
         "SSV Einheit Perleberg"
@@ -1649,9 +1649,9 @@
       "competition": "Kreisoberliga Prignitz/Ruppin, 7. Spieltag",
       "home": "SV Prignitz-Maulbeerwalde",
       "away": "FK Hansa Wittstock 1919",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 3,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "FK Hansa Wittstock 1919"
       ],
@@ -1668,9 +1668,9 @@
       "competition": "Kreisklasse 2 Prignitz/Ruppin, 7. Spieltag",
       "home": "SV Rot-Weiß Gerdshagen",
       "away": "Meyenburger SV Wacker 1922 II",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 1,
+      "away_score": 0,
+      "status": "finished",
       "tracked_clubs": [
         "SV Rot-Weiß Gerdshagen",
         "Meyenburger SV Wacker 1922"
@@ -1689,9 +1689,9 @@
       "competition": "Kreisoberliga Prignitz/Ruppin, 7. Spieltag",
       "home": "SV Union Neuruppin 1990",
       "away": "FSV Veritas Wittenberge/Breese II",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 9,
+      "away_score": 0,
+      "status": "finished",
       "tracked_clubs": [
         "FSV Veritas Wittenberge/Breese"
       ],
@@ -1708,9 +1708,9 @@
       "competition": "Kreisoberliga Prignitz/Ruppin, 7. Spieltag",
       "home": "Zernitzer SV 1951",
       "away": "Meyenburger SV Wacker 1922",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 5,
+      "away_score": 9,
+      "status": "finished",
       "tracked_clubs": [
         "Meyenburger SV Wacker 1922"
       ],
@@ -1727,9 +1727,9 @@
       "competition": "Kreisoberliga Prignitz/Ruppin, 7. Spieltag",
       "home": "SV Blumenthal-Grabow",
       "away": "SV 90 Fehrbellin",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 2,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "SV Blumenthal-Grabow"
       ],
