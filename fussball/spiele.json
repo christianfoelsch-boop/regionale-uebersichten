@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T08:50:42+00:00",
+  "updated": "2026-10-24T13:17:57+00:00",
   "status": "Live-Abgleich erfolgreich: 166 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -1440,9 +1440,9 @@
       "competition": "Landesklasse West Brandenburg, 8. Spieltag",
       "home": "SV Blau-Gelb Falkensee",
       "away": "SSV Einheit Perleberg",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 1,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "SSV Einheit Perleberg"
       ],
@@ -1459,9 +1459,9 @@
       "competition": "Landesklasse West Brandenburg, 8. Spieltag",
       "home": "FSV Veritas Wittenberge/Breese",
       "away": "SG Grün-Weiß Golm",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 0,
+      "away_score": 1,
+      "status": "finished",
       "tracked_clubs": [
         "FSV Veritas Wittenberge/Breese"
       ],
