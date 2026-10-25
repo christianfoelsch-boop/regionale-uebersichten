@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T18:23:39+00:00",
+  "updated": "2026-10-25T21:43:46+00:00",
   "status": "Live-Abgleich erfolgreich: 166 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -1264,9 +1264,9 @@
       "competition": "Oberer Kreispokal Prignitz/Ruppin, Achtelfinale",
       "home": "Meyenburger SV Wacker 1922",
       "away": "SV Schwarz-Rot Neustadt/Dosse II",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 6,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "Meyenburger SV Wacker 1922"
       ],
