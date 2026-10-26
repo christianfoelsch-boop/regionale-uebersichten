@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T00:18:30+00:00",
+  "updated": "2026-10-26T11:02:45+00:00",
   "status": "Live-Abgleich erfolgreich: 158 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -1857,6 +1857,25 @@
     {
       "date": "2026-11-08",
       "time": "14:00",
+      "competition": "Kreisoberliga Prignitz/Ruppin, 9. Spieltag",
+      "home": "SV Blumenthal-Grabow",
+      "away": "BSV Schwarz-Weiß Zaatzke 1949",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SV Blumenthal-Grabow"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-blumenthal-grabow-m1-bsv-schwarz-weiss-zaatzke-1949-m1-261108",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "time": "14:00",
       "competition": "Kreisliga West Prignitz/Ruppin, 8. Spieltag",
       "home": "SV Demerthin",
       "away": "SSV Einheit Perleberg II",
@@ -1928,25 +1947,6 @@
       "source_url": "https://www.fupa.net/match/sv-schwarz-rot-neustadtdosse-m2-fsv-veritas-wittenbergebreese-m2-261108",
       "tracked_places": [
         "Wittenberge"
-      ]
-    },
-    {
-      "date": "2026-11-08",
-      "time": "15:00",
-      "competition": "Kreisoberliga Prignitz/Ruppin, 9. Spieltag",
-      "home": "SV Blumenthal-Grabow",
-      "away": "BSV Schwarz-Weiß Zaatzke 1949",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "tracked_clubs": [
-        "SV Blumenthal-Grabow"
-      ],
-      "scope": "umfeld",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-blumenthal-grabow-m1-bsv-schwarz-weiss-zaatzke-1949-m1-261108",
-      "tracked_places": [
-        "Umgebung"
       ]
     },
     {
