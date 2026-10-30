@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T20:15:29+00:00",
+  "updated": "2026-10-30T01:55:41+00:00",
   "region": "Wittenberge / Perleberg / Pritzwalk",
   "status": "Live-Abgleich: 9 Treffer",
   "errors": [
@@ -27,7 +27,7 @@
       "product": "Krombacher Pils / alkoholfrei",
       "pack": "20 × 0.5 Liter",
       "price": 10.99,
-      "liter_price": 2.02,
+      "liter_price": 1.1,
       "start": "2026-10-25",
       "end": "2026-10-31",
       "scope": "Kontrollquelle; Filialgültigkeit regional prüfen",
@@ -69,7 +69,7 @@
       "product": "Krombacher Pils / alkoholfrei",
       "pack": "20 × 0.5 Liter",
       "price": 10.99,
-      "liter_price": 2.02,
+      "liter_price": 1.1,
       "start": "2026-10-25",
       "end": "2026-10-31",
       "scope": "Kontrollquelle; Filialgültigkeit regional prüfen",
@@ -111,7 +111,7 @@
       "product": "Krombacher Pils / alkoholfrei",
       "pack": "20 × 0.5 Liter",
       "price": 10.99,
-      "liter_price": 2.02,
+      "liter_price": 1.1,
       "start": "2026-10-25",
       "end": "2026-10-31",
       "scope": "Kontrollquelle; Filialgültigkeit regional prüfen",
