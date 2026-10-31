@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T10:53:54+00:00",
+  "updated": "2026-10-31T19:15:43+00:00",
   "status": "Live-Abgleich erfolgreich: 164 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -1125,9 +1125,9 @@
       "competition": "Frauen Kreisliga Prignitz/Ruppin, 3. Spieltag",
       "home": "SSV Einheit Perleberg",
       "away": "SV Union Neuruppin 1990",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 6,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "SSV Einheit Perleberg"
       ],
@@ -1182,9 +1182,9 @@
       "competition": "Landesklasse West Brandenburg, 9. Spieltag",
       "home": "FSV Veritas Wittenberge/Breese",
       "away": "Pankower SV Rot-Weiß 1921",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 2,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "FSV Veritas Wittenberge/Breese"
       ],
@@ -1201,9 +1201,9 @@
       "competition": "Landesklasse West Brandenburg, 9. Spieltag",
       "home": "Pritzwalker FHV 03",
       "away": "SV Blau-Gelb Falkensee",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 2,
+      "away_score": 4,
+      "status": "finished",
       "tracked_clubs": [
         "Pritzwalker FHV 03"
       ],
@@ -1220,9 +1220,9 @@
       "competition": "Landesklasse West Brandenburg, 9. Spieltag",
       "home": "SG Grün-Weiß Golm",
       "away": "SSV Einheit Perleberg",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 11,
+      "away_score": 0,
+      "status": "finished",
       "tracked_clubs": [
         "SSV Einheit Perleberg"
       ],
