@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T01:29:36+00:00",
+  "updated": "2026-11-02T13:27:12+00:00",
   "status": "Live-Abgleich erfolgreich: 145 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -632,25 +632,6 @@
     },
     {
       "date": "2026-10-31",
-      "time": "10:30",
-      "competition": "B-Junioren Unterer Landespokal Brandenburg, 2. Runde",
-      "home": "SpG Zepernick/Schwanebeck",
-      "away": "SSV Einheit Perleberg",
-      "home_score": 3,
-      "away_score": 4,
-      "status": "finished",
-      "tracked_clubs": [
-        "SSV Einheit Perleberg"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sg-einheit-zepernick-1925-u17-1-ssv-einheit-perleberg-u17-1-261031",
-      "tracked_places": [
-        "Perleberg"
-      ]
-    },
-    {
-      "date": "2026-10-31",
       "time": "11:00",
       "competition": "Frauen Landespokal Brandenburg, Achtelfinale",
       "home": "SpG Veritas/Prignitz",
@@ -666,6 +647,25 @@
       "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-w1-sv-gruen-weiss-brieselang-w1-261031",
       "tracked_places": [
         "Wittenberge"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "time": "11:00",
+      "competition": "B-Junioren Unterer Landespokal Brandenburg, 2. Runde",
+      "home": "SpG Zepernick/Schwanebeck",
+      "away": "SSV Einheit Perleberg",
+      "home_score": 3,
+      "away_score": 4,
+      "status": "finished",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sg-einheit-zepernick-1925-u17-1-ssv-einheit-perleberg-u17-1-261031",
+      "tracked_places": [
+        "Perleberg"
       ]
     },
     {
