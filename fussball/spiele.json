@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T13:08:38+00:00",
+  "updated": "2026-11-05T21:27:49+00:00",
   "status": "Live-Abgleich erfolgreich: 145 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -2082,25 +2082,6 @@
     {
       "date": "2026-11-21",
       "time": "13:00",
-      "competition": "B-Junioren Landesklasse Nord Brandenburg, 9. Spieltag",
-      "home": "SG Bornim II",
-      "away": "SSV Einheit Perleberg",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "tracked_clubs": [
-        "SSV Einheit Perleberg"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sg-bornim-u17-2-ssv-einheit-perleberg-u17-1-261121",
-      "tracked_places": [
-        "Perleberg"
-      ]
-    },
-    {
-      "date": "2026-11-21",
-      "time": "13:00",
       "competition": "Landesklasse West Brandenburg, 12. Spieltag",
       "home": "SG Saarmund",
       "away": "FSV Veritas Wittenberge/Breese",
@@ -2132,6 +2113,25 @@
       "scope": "kern",
       "source": "FuPa",
       "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-m1-sg-michendorf-m1-261121",
+      "tracked_places": [
+        "Perleberg"
+      ]
+    },
+    {
+      "date": "2026-11-21",
+      "time": "13:30",
+      "competition": "B-Junioren Landesklasse Nord Brandenburg, 9. Spieltag",
+      "home": "SG Bornim II",
+      "away": "SSV Einheit Perleberg",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sg-bornim-u17-2-ssv-einheit-perleberg-u17-1-261121",
       "tracked_places": [
         "Perleberg"
       ]
