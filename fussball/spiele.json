@@ -1,32 +1,10 @@
 {
-  "updated": "2026-11-06T20:51:34+00:00",
+  "updated": "2026-11-07T01:53:26+00:00",
   "status": "Live-Abgleich erfolgreich: 144 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [],
   "games": [
-    {
-      "date": "2026-10-16",
-      "time": "18:00",
-      "competition": "B-Junioren Kreisliga Staffel A Prignitz/Ruppin, 1. Spieltag",
-      "home": "Meyenburger SV Wacker 1922",
-      "away": "SpG FHV/Einheit Pritzwalk",
-      "home_score": 5,
-      "away_score": 4,
-      "status": "finished",
-      "tracked_clubs": [
-        "Pritzwalker FHV 03",
-        "SG Einheit Pritzwalk 1952",
-        "Meyenburger SV Wacker 1922"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/meyenburger-sv-wacker-1922-u17-1-pritzwalker-fhv-03-u17-1-261016",
-      "tracked_places": [
-        "Pritzwalk",
-        "Umgebung"
-      ]
-    },
     {
       "date": "2026-10-17",
       "time": "10:00",
@@ -2861,6 +2839,26 @@
       "scope": "umfeld",
       "source": "FuPa",
       "source_url": "https://www.fupa.net/match/zernitzer-sv-1951-m1-sv-blumenthal-grabow-m1-261206",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-12-12",
+      "time": "11:00",
+      "competition": "A-Junioren Brandenburgliga, 13. Spieltag",
+      "home": "FSV 63 Luckenwalde",
+      "away": "SpG Wittstock/Meyenburg",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "Meyenburger SV Wacker 1922",
+        "FK Hansa Wittstock 1919"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-63-luckenwalde-u19-1-fk-hansa-wittstock-1919-u19-1-261212",
       "tracked_places": [
         "Umgebung"
       ]
