@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T01:24:10+00:00",
+  "updated": "2026-11-08T11:54:45+00:00",
   "status": "Live-Abgleich erfolgreich: 137 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -944,9 +944,9 @@
       "competition": "B-Junioren Kreisliga Staffel A Prignitz/Ruppin, 6. Spieltag",
       "home": "SC Hertha Karstädt 1923",
       "away": "SG Sieversdorf 1950",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 3,
+      "away_score": 7,
+      "status": "finished",
       "tracked_clubs": [
         "SC Hertha Karstädt 1923"
       ],
