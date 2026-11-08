@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T11:54:45+00:00",
+  "updated": "2026-11-08T19:38:33+00:00",
   "status": "Live-Abgleich erfolgreich: 137 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -963,9 +963,9 @@
       "competition": "B-Junioren Landesklasse Nord Brandenburg, 7. Spieltag",
       "home": "MSV 1919 Neuruppin II",
       "away": "SSV Einheit Perleberg",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 2,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "SSV Einheit Perleberg"
       ],
@@ -982,9 +982,9 @@
       "competition": "A-Junioren Brandenburgliga, 8. Spieltag",
       "home": "SpG Wittstock/Meyenburg",
       "away": "SV Germania 90 Schöneiche",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 2,
+      "away_score": 1,
+      "status": "finished",
       "tracked_clubs": [
         "Meyenburger SV Wacker 1922",
         "FK Hansa Wittstock 1919"
@@ -1002,9 +1002,9 @@
       "competition": "Kreisklasse 2 Prignitz/Ruppin, 7. Spieltag",
       "home": "SV Blumenthal-Grabow II",
       "away": "BSV Schwarz-Weiß Zaatzke 1949 II",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 1,
+      "away_score": 3,
+      "status": "finished",
       "tracked_clubs": [
         "SV Blumenthal-Grabow"
       ],
@@ -1021,9 +1021,9 @@
       "competition": "Kreisklasse 2 Prignitz/Ruppin, 9. Spieltag",
       "home": "FC Dossow 01",
       "away": "Meyenburger SV Wacker 1922 II",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 6,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "Meyenburger SV Wacker 1922"
       ],
@@ -1040,9 +1040,9 @@
       "competition": "Kreisoberliga Prignitz/Ruppin, 9. Spieltag",
       "home": "FK Hansa Wittstock 1919",
       "away": "SV Eintracht Alt Ruppin",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 5,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "FK Hansa Wittstock 1919"
       ],
@@ -1059,9 +1059,9 @@
       "competition": "Kreisliga West Prignitz/Ruppin, 8. Spieltag",
       "home": "Pritzwalker FHV 03 II",
       "away": "SG Stahl Wittstock",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 1,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "Pritzwalker FHV 03"
       ],
@@ -1078,9 +1078,9 @@
       "competition": "Kreisliga West Prignitz/Ruppin, 8. Spieltag",
       "home": "SC Hertha Karstädt 1923",
       "away": "KSV Prignitz",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 6,
+      "away_score": 0,
+      "status": "finished",
       "tracked_clubs": [
         "SC Hertha Karstädt 1923"
       ],
@@ -1116,9 +1116,9 @@
       "competition": "Kreisoberliga Prignitz/Ruppin, 9. Spieltag",
       "home": "SV Blumenthal-Grabow",
       "away": "BSV Schwarz-Weiß Zaatzke 1949",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 2,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "SV Blumenthal-Grabow"
       ],
@@ -1135,9 +1135,9 @@
       "competition": "Kreisliga West Prignitz/Ruppin, 8. Spieltag",
       "home": "SV Demerthin",
       "away": "SSV Einheit Perleberg II",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 2,
+      "away_score": 1,
+      "status": "finished",
       "tracked_clubs": [
         "SSV Einheit Perleberg"
       ],
@@ -1154,9 +1154,9 @@
       "competition": "Kreisoberliga Prignitz/Ruppin, 9. Spieltag",
       "home": "SV Eiche 05 Weisen",
       "away": "Putlitzer SV 1921",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 3,
+      "away_score": 0,
+      "status": "finished",
       "tracked_clubs": [
         "Putlitzer SV 1921"
       ],
@@ -1173,9 +1173,9 @@
       "competition": "Kreisoberliga Prignitz/Ruppin, 9. Spieltag",
       "home": "SV Prignitz-Maulbeerwalde",
       "away": "Meyenburger SV Wacker 1922",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 1,
+      "away_score": 1,
+      "status": "finished",
       "tracked_clubs": [
         "Meyenburger SV Wacker 1922"
       ],
@@ -1192,9 +1192,9 @@
       "competition": "Kreisoberliga Prignitz/Ruppin, 9. Spieltag",
       "home": "SV Schwarz-Rot Neustadt/Dosse II",
       "away": "FSV Veritas Wittenberge/Breese II",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 1,
+      "away_score": 3,
+      "status": "finished",
       "tracked_clubs": [
         "FSV Veritas Wittenberge/Breese"
       ],
