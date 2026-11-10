@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T13:26:13+00:00",
+  "updated": "2026-11-10T21:16:36+00:00",
   "status": "Live-Abgleich erfolgreich: 126 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -1899,6 +1899,25 @@
       "source_url": "https://www.fupa.net/match/sv-union-neuruppin-1990-m1-putlitzer-sv-1921-m1-261122",
       "tracked_places": [
         "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-11-27",
+      "time": "18:30",
+      "competition": "Kreisliga West Prignitz/Ruppin, 11. Spieltag",
+      "home": "SV Garz/Hoppenrade",
+      "away": "Pritzwalker FHV 03 II",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "Pritzwalker FHV 03"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-garzhoppenrade-m1-pritzwalker-fhv-03-m2-261127",
+      "tracked_places": [
+        "Pritzwalk"
       ]
     },
     {
