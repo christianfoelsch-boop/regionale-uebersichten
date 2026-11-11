@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T12:41:00+00:00",
+  "updated": "2026-11-11T21:54:11+00:00",
   "status": "Live-Abgleich erfolgreich: 126 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -1478,26 +1478,6 @@
     {
       "date": "2026-11-15",
       "time": "13:30",
-      "competition": "Kreisklasse 2 Prignitz/Ruppin, 8. Spieltag",
-      "home": "SG Aufbau Stepenitz",
-      "away": "SV Rot-Weiß Gerdshagen",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "tracked_clubs": [
-        "SV Rot-Weiß Gerdshagen",
-        "SG Aufbau Stepenitz"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sg-aufbau-stepenitz-m1-sv-rot-weiss-gerdshagen-m1-261115",
-      "tracked_places": [
-        "Pritzwalk"
-      ]
-    },
-    {
-      "date": "2026-11-15",
-      "time": "13:30",
       "competition": "Kreisliga West Prignitz/Ruppin, 9. Spieltag",
       "home": "SSV Einheit Perleberg II",
       "away": "SpG Lenzen/Lanz",
@@ -1531,6 +1511,45 @@
       "source_url": "https://www.fupa.net/match/sv-rot-weiss-kyritz-m1-sc-hertha-karstaedt-1923-m1-261115",
       "tracked_places": [
         "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "time": "14:00",
+      "competition": "Kreisliga West Prignitz/Ruppin, 9. Spieltag",
+      "home": "Pritzwalker FHV 03 II",
+      "away": "KSV Prignitz",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "Pritzwalker FHV 03"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/pritzwalker-fhv-03-m2-ksv-prignitz-m1-261115",
+      "tracked_places": [
+        "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "time": "14:00",
+      "competition": "Kreisklasse 2 Prignitz/Ruppin, 8. Spieltag",
+      "home": "SG Aufbau Stepenitz",
+      "away": "SV Rot-Weiß Gerdshagen",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SV Rot-Weiß Gerdshagen",
+        "SG Aufbau Stepenitz"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sg-aufbau-stepenitz-m1-sv-rot-weiss-gerdshagen-m1-261115",
+      "tracked_places": [
+        "Pritzwalk"
       ]
     },
     {
@@ -2358,6 +2377,25 @@
       "source_url": "https://www.fupa.net/match/sc-hertha-karstaedt-1923-u15-1-sv-rot-weiss-kyritz-u15-1-261205",
       "tracked_places": [
         "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-12-05",
+      "time": "11:00",
+      "competition": "B-Junioren Landesklasse Nord Brandenburg, 11. Spieltag",
+      "home": "Werderaner FC Viktoria 1920",
+      "away": "SSV Einheit Perleberg",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/werderaner-fc-viktoria-1920-u17-1-ssv-einheit-perleberg-u17-1-261205",
+      "tracked_places": [
+        "Perleberg"
       ]
     },
     {
