@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T02:36:19+00:00",
+  "updated": "2026-11-13T13:03:20+00:00",
   "status": "Live-Abgleich erfolgreich: 126 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -2017,6 +2017,25 @@
     },
     {
       "date": "2026-11-28",
+      "time": "11:00",
+      "competition": "Frauen Landesklasse West Brandenburg, 9. Spieltag",
+      "home": "SpG Veritas/Prignitz",
+      "away": "FSV Babelsberg 74 II",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "FSV Veritas Wittenberge/Breese"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-w1-fsv-babelsberg-74-w2-261128",
+      "tracked_places": [
+        "Wittenberge"
+      ]
+    },
+    {
+      "date": "2026-11-28",
       "time": "12:00",
       "competition": "B-Junioren Landesklasse Nord Brandenburg, 10. Spieltag",
       "home": "SSV Einheit Perleberg",
@@ -2032,25 +2051,6 @@
       "source_url": "https://www.fupa.net/match/ssv-einheit-perleberg-u17-1-sv-90-fehrbellin-u17-1-261128",
       "tracked_places": [
         "Perleberg"
-      ]
-    },
-    {
-      "date": "2026-11-28",
-      "time": "12:00",
-      "competition": "Frauen Landesklasse West Brandenburg, 9. Spieltag",
-      "home": "SpG Veritas/Prignitz",
-      "away": "FSV Babelsberg 74 II",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "tracked_clubs": [
-        "FSV Veritas Wittenberge/Breese"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-w1-fsv-babelsberg-74-w2-261128",
-      "tracked_places": [
-        "Wittenberge"
       ]
     },
     {
