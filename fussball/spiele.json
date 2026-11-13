@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T13:03:20+00:00",
+  "updated": "2026-11-13T21:24:27+00:00",
   "status": "Live-Abgleich erfolgreich: 126 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -1017,9 +1017,9 @@
       "competition": "Frauen Kreisliga Prignitz/Ruppin, 8. Spieltag",
       "home": "Pankower SV Rot-Weiß 1921",
       "away": "SV Blumenthal-Grabow",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 4,
+      "away_score": 1,
+      "status": "finished",
       "tracked_clubs": [
         "SV Blumenthal-Grabow"
       ],
