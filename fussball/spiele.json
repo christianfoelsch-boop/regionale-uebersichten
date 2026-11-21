@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-21T03:13:23+00:00",
-  "status": "Live-Abgleich erfolgreich: 114 Spiele neu gelesen",
+  "updated": "2026-11-21T13:25:55+00:00",
+  "status": "Live-Abgleich erfolgreich: 113 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [],
@@ -1402,9 +1402,9 @@
       "competition": "C-Junioren Kreisliga Prignitz/Ruppin, 8. Spieltag",
       "home": "SpG Blumenthal-Grabow/Dannenwalde",
       "away": "SV Union Neuruppin 1990",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 0,
+      "away_score": 26,
+      "status": "finished",
       "tracked_clubs": [
         "SV Blumenthal-Grabow"
       ],
@@ -1421,9 +1421,9 @@
       "competition": "C-Junioren Landesklasse Nord/West Brandenburg, 9. Spieltag",
       "home": "SSV Einheit Perleberg",
       "away": "Oranienburger FC Eintracht 1901 II",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 4,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "SSV Einheit Perleberg"
       ],
@@ -1440,9 +1440,9 @@
       "competition": "A-Junioren Brandenburgliga, 10. Spieltag",
       "home": "SV Dallgow 47",
       "away": "SpG Wittstock/Meyenburg",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 8,
+      "away_score": 1,
+      "status": "finished",
       "tracked_clubs": [
         "Meyenburger SV Wacker 1922",
         "FK Hansa Wittstock 1919"
@@ -1479,9 +1479,9 @@
       "competition": "Landesklasse West Brandenburg, 12. Spieltag",
       "home": "Pritzwalker FHV 03",
       "away": "SV Germania 90 Berge",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "finished",
       "tracked_clubs": [
         "Pritzwalker FHV 03"
       ],
@@ -1517,9 +1517,9 @@
       "competition": "Landesklasse West Brandenburg, 12. Spieltag",
       "home": "SSV Einheit Perleberg",
       "away": "SG Michendorf",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 0,
+      "away_score": 1,
+      "status": "finished",
       "tracked_clubs": [
         "SSV Einheit Perleberg"
       ],
