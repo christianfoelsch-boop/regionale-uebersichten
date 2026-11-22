@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T02:10:42+00:00",
+  "updated": "2026-11-22T13:17:35+00:00",
   "status": "Live-Abgleich erfolgreich: 107 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -1441,9 +1441,9 @@
       "competition": "C-Junioren Kreisliga Prignitz/Ruppin, 8. Spieltag",
       "home": "Pritzwalker FHV 03",
       "away": "SC Hertha Karstädt 1923",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 9,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "Pritzwalker FHV 03",
         "SC Hertha Karstädt 1923"
