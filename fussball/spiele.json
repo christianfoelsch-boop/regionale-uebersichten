@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-24T04:16:14+00:00",
-  "status": "Live-Abgleich erfolgreich: 99 Spiele neu gelesen",
+  "updated": "2026-11-24T15:48:18+00:00",
+  "status": "Live-Abgleich erfolgreich: 98 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [],
@@ -1684,6 +1684,25 @@
       "scope": "umfeld",
       "source": "FuPa",
       "source_url": "https://www.fupa.net/match/fsv-blau-weiss-90-rheinsberg-u15-1-sv-blumenthal-grabow-u15-1-261129",
+      "tracked_places": [
+        "Umgebung"
+      ]
+    },
+    {
+      "date": "2026-11-29",
+      "time": "10:00",
+      "competition": "C-Junioren Kreisliga Prignitz/Ruppin, 9. Spieltag",
+      "home": "SC Hertha Karstädt 1923",
+      "away": "Berger SV",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SC Hertha Karstädt 1923"
+      ],
+      "scope": "umfeld",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sc-hertha-karstaedt-1923-u15-1-berger-sv-u15-1-261129",
       "tracked_places": [
         "Umgebung"
       ]
