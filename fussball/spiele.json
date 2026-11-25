@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T03:01:33+00:00",
+  "updated": "2026-11-25T15:32:12+00:00",
   "status": "Live-Abgleich erfolgreich: 98 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
@@ -1594,25 +1594,6 @@
     {
       "date": "2026-11-28",
       "time": "13:00",
-      "competition": "Landesklasse West Brandenburg, 13. Spieltag",
-      "home": "SV Babelsberg 03 II",
-      "away": "SSV Einheit Perleberg",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
-      "tracked_clubs": [
-        "SSV Einheit Perleberg"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-babelsberg-03-m2-ssv-einheit-perleberg-m1-261128",
-      "tracked_places": [
-        "Perleberg"
-      ]
-    },
-    {
-      "date": "2026-11-28",
-      "time": "13:00",
       "competition": "C-Junioren Kreisliga Prignitz/Ruppin, 9. Spieltag",
       "home": "SV Rot-Weiß Kyritz",
       "away": "Pritzwalker FHV 03",
@@ -1627,6 +1608,25 @@
       "source_url": "https://www.fupa.net/match/sv-rot-weiss-kyritz-u15-1-pritzwalker-fhv-03-u15-1-261128",
       "tracked_places": [
         "Pritzwalk"
+      ]
+    },
+    {
+      "date": "2026-11-28",
+      "time": "13:30",
+      "competition": "Landesklasse West Brandenburg, 13. Spieltag",
+      "home": "SV Babelsberg 03 II",
+      "away": "SSV Einheit Perleberg",
+      "home_score": null,
+      "away_score": null,
+      "status": "scheduled",
+      "tracked_clubs": [
+        "SSV Einheit Perleberg"
+      ],
+      "scope": "kern",
+      "source": "FuPa",
+      "source_url": "https://www.fupa.net/match/sv-babelsberg-03-m2-ssv-einheit-perleberg-m1-261128",
+      "tracked_places": [
+        "Perleberg"
       ]
     },
     {
