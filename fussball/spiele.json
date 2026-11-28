@@ -1,50 +1,10 @@
 {
-  "updated": "2026-11-27T23:24:37+00:00",
-  "status": "Live-Abgleich erfolgreich: 97 Spiele neu gelesen",
+  "updated": "2026-11-28T14:08:06+00:00",
+  "status": "Live-Abgleich erfolgreich: 95 Spiele neu gelesen",
   "region": "Pritzwalk / Wittenberge / Perleberg",
   "season": "2026/2027",
   "errors": [],
   "games": [
-    {
-      "date": "2026-11-06",
-      "time": "18:30",
-      "competition": "Frauen Kreisliga Prignitz/Ruppin, 7. Spieltag",
-      "home": "SV Garz/Hoppenrade",
-      "away": "SG Aufbau Stepenitz",
-      "home_score": 4,
-      "away_score": 0,
-      "status": "finished",
-      "tracked_clubs": [
-        "SG Aufbau Stepenitz"
-      ],
-      "scope": "umfeld",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/sv-garzhoppenrade-w1-sg-aufbau-stepenitz-w1-261106",
-      "tracked_places": [
-        "Pritzwalk"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "time": "19:00",
-      "competition": "Frauen Kreisliga Prignitz/Ruppin, 7. Spieltag",
-      "home": "SpG Veritas/Prignitz II",
-      "away": "SSV Einheit Perleberg",
-      "home_score": 0,
-      "away_score": 3,
-      "status": "finished",
-      "tracked_clubs": [
-        "FSV Veritas Wittenberge/Breese",
-        "SSV Einheit Perleberg"
-      ],
-      "scope": "kern",
-      "source": "FuPa",
-      "source_url": "https://www.fupa.net/match/fsv-veritas-wittenbergebreese-w2-ssv-einheit-perleberg-w1-261106",
-      "tracked_places": [
-        "Wittenberge",
-        "Perleberg"
-      ]
-    },
     {
       "date": "2026-11-07",
       "time": "10:00",
@@ -1501,9 +1461,9 @@
       "competition": "C-Junioren Landesklasse Nord/West Brandenburg, 10. Spieltag",
       "home": "Potsdamer Kickers 94",
       "away": "SSV Einheit Perleberg",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 1,
+      "away_score": 0,
+      "status": "finished",
       "tracked_clubs": [
         "SSV Einheit Perleberg"
       ],
@@ -1520,9 +1480,9 @@
       "competition": "Frauen Landesklasse West Brandenburg, 9. Spieltag",
       "home": "SpG Veritas/Prignitz",
       "away": "FSV Babelsberg 74 II",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 6,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "FSV Veritas Wittenberge/Breese"
       ],
@@ -1539,9 +1499,9 @@
       "competition": "B-Junioren Landesklasse Nord Brandenburg, 10. Spieltag",
       "home": "SSV Einheit Perleberg",
       "away": "SpG Fehrbellin/Langen",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 5,
+      "away_score": 1,
+      "status": "finished",
       "tracked_clubs": [
         "SSV Einheit Perleberg"
       ],
@@ -1558,9 +1518,9 @@
       "competition": "Landesklasse West Brandenburg, 13. Spieltag",
       "home": "FSV Veritas Wittenberge/Breese",
       "away": "TSV Wustrau",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 1,
+      "away_score": 0,
+      "status": "finished",
       "tracked_clubs": [
         "FSV Veritas Wittenberge/Breese"
       ],
@@ -1596,9 +1556,9 @@
       "competition": "Landesklasse West Brandenburg, 13. Spieltag",
       "home": "SV Babelsberg 03 II",
       "away": "SSV Einheit Perleberg",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 1,
+      "away_score": 2,
+      "status": "finished",
       "tracked_clubs": [
         "SSV Einheit Perleberg"
       ],
@@ -1636,9 +1596,9 @@
       "competition": "Landesklasse West Brandenburg, 13. Spieltag",
       "home": "SG Michendorf",
       "away": "Pritzwalker FHV 03",
-      "home_score": null,
-      "away_score": null,
-      "status": "scheduled",
+      "home_score": 0,
+      "away_score": 0,
+      "status": "finished",
       "tracked_clubs": [
         "Pritzwalker FHV 03"
       ],
